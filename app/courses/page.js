@@ -3,7 +3,7 @@ import Image from "next/image"
 import support from '@/public/objectives/support.jpg'
 import challenge from '@/public/objectives/challenge.jpg'
 import financial from '@/public/objectives/financial.jpg'
-export default function objectives() {
+export default function Courses() {
 
 
     return (

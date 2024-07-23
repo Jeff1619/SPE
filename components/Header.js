@@ -26,13 +26,13 @@ export default function Header() {
                 <ul className='hidden lg:flex gap-10 items-center'>
                     <Link href='/' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Home</Link>
                     <Link href='/about_us' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>About Us</Link>
-                    <Link href='/objectives' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Objectives</Link>
+                    <Link href='/courses' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Courses</Link>
                     <Link href='' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
                     <Link href='' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
                     <Link href='/contact' className='group hover:border-yellow-400 ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border border-black  text-black tracking-widest'><span className='group-hover:text-yellow-400 ease duration-150'>Contact</span></Link>
                 </ul>
                 <div className='flex gap-4'>
-                    <Link href='#' className='hidden lg:flex py-2 px-10 shadow-lg rounded-md font-medium bg-black text-yellow-400 tracking-widest'>Join Us</Link>
+                    <Link href='/join_us' className='hidden lg:flex py-2 px-10 shadow-lg rounded-md font-medium bg-black text-yellow-400 tracking-widest'>Join Us</Link>
                 </div>
 
 
@@ -60,7 +60,7 @@ export default function Header() {
                             <ul className='flex mb-5 flex-col text-center gap-4'>
                                 <Link onClick={() => setActive(!active)} href='/' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Home</Link>
                                 <Link onClick={() => setActive(!active)} href='/about_us' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>About Us</Link>
-                                <Link onClick={() => setActive(!active)} href='/objectives' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Objectives</Link>
+                                <Link onClick={() => setActive(!active)} href='/courses' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Courses</Link>
                                 <Link onClick={() => setActive(!active)} href='' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
                                 <Link onClick={() => setActive(!active)} href='' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
                                 <Link onClick={() => setActive(!active)} href='/contact' className='block lg:flex py-2 px-5  rounded-md text-sm md:text-base font-medium border border-black  text-black tracking-widest'>Contact</Link>

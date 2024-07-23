@@ -74,7 +74,7 @@ export default function Home() {
               </svg>
 
               </i>
-              <h1 className="text-center p-2 text-xl font-semibold sm:p-4 md:p-4 sm:text-3xl md:text-3xl josefin">Personal Development</h1>
+              <h1 className="text-center p-2 text-xl font-semibold sm:p-4 md:p-4 sm:text-3xl md:text-3xl josefin">Professional Development</h1>
             </div>
 
             <div>
