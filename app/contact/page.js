@@ -17,14 +17,11 @@ export default function Contact() {
                     <input type="submit" value="Submit" className="py-2 px-6 text-xs font-medium tracking-wide shadow-md cursor-pointer bg-yellow-400 text-black rounded sm:text-lg sm:py-3 sm:px-10 md:text-base md:py-2 lg:text-lg" />
                 </form>
             </div>
-            <div className="mt-5 bg-yellow-400 pt-16 rounded-t-full   md:rounded-l-full shadow-2xl   lg:mt-0 md:w-1/2 ">
-                <h1 className="px-10 text-xl  text-black  font-semibold text-center sm:text-3xl   md:mt-10 lg:text-2xl">Don't be a stranger just say hello !</h1>
-                <p className="text-xs mt-2 px-5 text-black text-center sm:text-lg md:text-sm md:mt-10 lg:text-base lg:mt-3">Thank you for your interest in contacting us.</p>
-
-
-
+            <div className="mt-5 bg-yellow-400 pt-16 rounded-t-full md:rounded-l-full shadow-2xl lg:mt-0 md:w-1/2">
+                <h1 className="px-10 text-xl  text-black  font-semibold text-center sm:text-3xl md:mt-10 lg:text-2xl">Don't be a stranger just say hello !</h1>
+                <p className="text-xs mt-2 px-5 text-black text-center sm:text-lg md:text-sm md:mt-10 lg:text-base lg:mt-3">Thank you for your interest in contacting us</p>
             </div>
 
         </section>
-    )
+    );
 }
