@@ -6,9 +6,9 @@ import professional from '@/public/home/professional.jpg'
 export default function Home() {
   return (
     <>
-
       <section className="h-max lg:h-screen bg-center bg-cover bg-[url('../public/home/people.jpeg')]">
-        <div className="bg-gradient-to-r w-full h-max lg:h-screen from-black to-black/50 p-4 sm:p-6">
+        <div
+          className="bg-gradient-to-r w-full h-max lg:h-screen from-black to-black/50 p-4 sm:p-6">
 
           <h1 className="text-xs pt-5 lg:text-base  uppercase   text-center tracking-widest mb-4">Welcome to  </h1>
           <p className="text-yellow-400 font-extralight uppercase  text-center text-2xl sm:text-5xl md:text-5xl lg:text-7xl tracking-wide">Surging Phoeix</p>
@@ -39,7 +39,7 @@ export default function Home() {
               </svg>
 
               </i>
-              <h1 className="text-center p-2 text-xl font-semibold sm:p-4 md:p-4 sm:text-3xl md:text-3xl josefin">Personal Development</h1>
+              <h1 className="text-center p-2 text-xl md:px-11 font-semibold sm:p-4 md:p-4 sm:text-3xl md:text-3xl josefin">Personal Development</h1>
             </div>
 
             <div>

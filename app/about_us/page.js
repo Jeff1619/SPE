@@ -23,14 +23,14 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className="h-1/2">
+                <div>
                     <div className="px-5 sm:px-12 md:px-12 lg:px-28">
                         <div className="grid grid-cols-1 gap-10 md:gap-0 md:grid-cols-3 place-items-center pt-8">
                             <div className="bg-blue-100 w-64 sm:w-96 md:w-5/6 lg:w-5/6 h-48 sm:h-80 md:h-64 lg:h-80 border-0 border-b-8 border-blue-300 text-center p-4 lg:pb-6 flex flex-col justify-center shadow-xl rounded-lg">
 
                                 <Image src={vision} className=" w-36 sm:w-56 md:w-52 lg:w-52 flex mx-auto" alt="vision.logo" />
                                 <h1 className="text-lg md:text-xl lg:text-2xl text-blue-400 font-light uppercase">Our Vision</h1>
-                                <p className="pt-2 text-xs md:text-sm lg:text-lg">Inspire a Billion
+                                <p className="pt-2 text-xs md:text-sm lg:text-lg text-blue-400">Inspire a Billion
                                     by Leading with Wisdom.</p>
 
 
@@ -39,7 +39,7 @@ export default function About() {
 
                                 <Image src={belive} className="w-20 sm:w-36 md:w-28 lg:w-32 flex mx-auto" alt="belive.logo" />
                                 <h1 className="text-lg md:text-xl lg:text-2xl text-green-600 font-light uppercase">Our Beliefs</h1>
-                                <p className="pt-2 text-xs md:text-sm lg:text-lg">
+                                <p className="pt-2 text-xs md:text-sm lg:text-lg text-green-600">
                                     We believe that we are all divided by boundaries but are United by Wisdom.
                                 </p>
 
@@ -47,7 +47,7 @@ export default function About() {
                             <div className="bg-red-100 w-64 sm:w-96 md:w-5/6 lg:w-5/6 h-48 sm:h-80 md:h-64 lg:h-80 border-0 border-b-8  border-red-500 text-center px-4 pb-4 lg:pb-6 flex flex-col justify-center shadow-xl rounded-lg">
                                 <Image src={mission} className="w-24 sm:w-44 md:w-28 lg:w-36 flex mx-auto" alt="misson.logo" />
                                 <h1 className="text-lg md:text-xl lg:text-2xl text-red-600 font-light uppercase">Our Mission</h1>
-                                <p className="pt-2 text-xs md:text-sm lg:text-lg">Co-Creating Leadership and Wellbeing Journeys for Individuals & Organizations.</p>
+                                <p className="pt-2 text-xs md:text-sm lg:text-lg text-red-600">Co-Creating Leadership and Wellbeing Journeys for Individuals & Organizations.</p>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ export default function About() {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-8  w-52 text-black">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13" />
                             </svg>
-                            <p className="pr-3 md:pr-0 text-xs sm:text-base lg:text-lg text-center mt-5">
+                            <p className="pr-3 text-black md:pr-0 text-xs sm:text-base lg:text-lg text-center mt-5">
                                 Our services extend beyond personal growth. We also provide expert placement and recruiting services to help businesses and job seekers find their perfect match. By combining our expertise in personality development with strategic recruitment solutions, <span className="text-xs md:text-lg lg:text-xl font-semibold italic">Surging Phoenix Enterprises</span> is your trusted partner in building a brighter future.
                             </p>
                         </div>
