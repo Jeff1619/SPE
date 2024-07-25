@@ -11,12 +11,12 @@ export default function Courses() {
         <>
             <section className="bg-cover bg-center bg-[url('../public/objectives/banner.jpg')] w-full h-44 sm:h-72 md:h-60">
                 <div className="bg-gradient-to-r w-full h-44 sm:h-72 md:h-60 from-black/70 to-black/40">
-                    <p className="sm:text-2xl text-white text-center josefin uppercase pt-14 sm:pt-32 tracking-widest md:pt-24 ">Turning setbacks into success</p>
+                    <p className="sm:text-2xl text-white text-center josefin uppercase pt-14 sm:pt-32 tracking-widest md:pt-24 ">"Turning setbacks into success"</p>
                 </div>
             </section>
             <div className="p-4 sm:p-6 border-b-2">
-                <h1 className="caveat text-3xl sm:text-5xl text-center text-yellow-400 tracking-wider">Surging Phoenix</h1>
-                <h1 className="text-center  text-lg sm:text-2xl font-bold uppercase tracking-wider">would likely focus on several key objectives
+                <h1 className="caveat text-3xl sm:text-5xl text-center text-yellow-400 tracking-wider">"Surging Phoenix"</h1>
+                <h1 className="text-center  text-lg sm:text-2xl font-bold uppercase tracking-wider">would likely focus on several key objectives:
                 </h1>
             </div>
 
@@ -26,7 +26,7 @@ export default function Courses() {
                         <div className="border border-yellow-100 rounded-lg">
                             <h1 className="border-y-4 border-yellow-300 text-yellow-400 rounded-lg  text-center p-2 text-xl font-semibold sm:p-4 md:p-4 sm:text-3xl md:text-3xl josefin">Student Employment</h1>
 
-                            <p className="text-justify p-3 sm:p-5 italic md:mb-6 lg:mb-0  sm:text-xl md:text-base">Facilitating opportunities for students to gain meaningful employment internships or career development support</p>
+                            <p className="text-justify p-3 sm:p-5 italic md:mb-6 lg:mb-0  sm:text-xl md:text-base">Facilitating opportunities for students to gain meaningful employment, internships, or career development support.</p>
                             <div>
 
 
@@ -39,7 +39,7 @@ export default function Courses() {
                         <div className=" border border-yellow-100 rounded-lg">
                             <h1 className="border-y-4 border-yellow-300 text-yellow-400 rounded-lg  text-center p-2 text-xl font-semibold sm:p-4 md:p-4 sm:text-3xl md:text-3xl josefin">Overcoming Failure</h1>
 
-                            <p className="text-justify p-3 sm:p-5 italic  sm:text-xl md:text-base">Providing resources mentorship or programs that help individuals bounce back from setbacks failures or challenges in their academic or personal lives</p>
+                            <p className="text-justify p-3 sm:p-5 italic  sm:text-xl md:text-base">Providing resources, mentorship, or programs that help individuals bounce back from setbacks, failures, or challenges in their academic or personal lives.</p>
                             <div>
 
 
@@ -53,7 +53,7 @@ export default function Courses() {
                     <div className=" border border-yellow-100 rounded-lg">
                         <h1 className="border-y-4 border-yellow-300 text-yellow-400 rounded-lg  text-center p-2 text-xl font-semibold sm:p-4 md:p-4 sm:text-3xl md:text-3xl josefin">Financial Independence</h1>
 
-                        <p className="text-justify p-3 sm:p-5 italic  sm:text-xl md:text-base">Equipping individuals with the skills knowledge and support needed to achieve financial stability and independence possibly through financial literacy programs job readiness training or entrepreneurship initiatives</p>
+                        <p className="text-justify p-3 sm:p-5 italic  sm:text-xl md:text-base">Equipping individuals with the skills, knowledge, and support needed to achieve financial stability and independence, possibly through financial literacy programs, job readiness training, or entrepreneurship initiatives.</p>
                         <div>
 
 
