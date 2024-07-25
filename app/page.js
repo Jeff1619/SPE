@@ -36,7 +36,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
 
-            className="text-slate-100  text-lg font-normal uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5 italic tracking-widest">Enterprises !</motion.p>
+            className="text-slate-100  text-lg font-normal uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5 italic tracking-widest">Enterprises &#33;</motion.p>
 
 
 
@@ -46,14 +46,14 @@ export default function Home() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.4, type: "tween", duration: 1 }}
 
-              className="josefin sm:text-2xl lg:text-2xl">We promise ,We deliver !</motion.p>
+              className="josefin sm:text-2xl lg:text-2xl">We promise &#44;We deliver &#33;</motion.p>
             <motion.p
 
               initial={{ x: '-30vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.6, type: "tween", duration: 1 }}
 
-              className="text-sm mt-2 md:mt-5 lg:mt-10 sm:text-2xl md:text-2xl lg:text-3xl italic">Your skills to nail the professional Career,</motion.p>
+              className="text-sm mt-2 md:mt-5 lg:mt-10 sm:text-2xl md:text-2xl lg:text-3xl italic">Your skills to nail the professional Career&#44;</motion.p>
             <motion.p
 
               initial={{ x: '-30vw', opacity: 0 }}
@@ -61,7 +61,7 @@ export default function Home() {
               transition={{ delay: 0.7, type: "tween", duration: 1 }}
 
               className="sm:text-2xl md:mt-2 text-yellow-400 italic md:text-2xl lg:text-3xl">We are providing high quality courses
-              for our students.</motion.p>
+              for our students&#46;</motion.p>
             <motion.button
               initial={{ x: '30vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -80,7 +80,7 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
 
-          className="p-4 sm:p-8 text-yellow-100 uppercase josefin text-sm text-center sm:text-base">What we do ?</motion.h1>
+          className="p-4 sm:p-8 text-yellow-100 uppercase josefin text-sm text-center sm:text-base">What we do 	&#63;</motion.h1>
 
         <div className="md:flex md:gap-7 md:justify-center">
           <motion.div

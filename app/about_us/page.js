@@ -46,7 +46,7 @@ export default function About() {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.5 }}
 
-                            className="text-slate-50 text-center px-2 sm:px-5 md:px-16 lg:px-20  text-xs md:text-lg  mt-5 md:mt-10 font-medium">Welcome to <span className="text-yellow-400 font-bold italic text-sm md:text-lg">Surging Phoenix Enterprises</span>, a dynamic and innovative company dedicated to unlocking the potential within every individual. At Surging Phoenix, we specialise in comprehensive personality development programs designed for all ages and stages of life. Our mission is to empower individuals to achieve their personal and professional goals through tailored training and development initiatives.
+                            className="text-slate-50 text-center px-2 sm:px-5 md:px-16 lg:px-20  text-xs md:text-lg  mt-5 md:mt-10 font-medium">Welcome to <span className="text-yellow-400 font-bold italic text-sm md:text-lg">Surging Phoenix Enterprises</span>	&#44; a dynamic and innovative company dedicated to unlocking the potential within every individual&#46; At Surging Phoenix&#44; we specialise in comprehensive personality development programs designed for all ages and stages of life&#46; Our mission is to empower individuals to achieve their personal and professional goals through tailored training and development initiatives&#46;
                         </motion.p>
                     </div>
                 </motion.div>
@@ -65,7 +65,7 @@ export default function About() {
                                 <Image src={vision} className=" w-36 sm:w-56 md:w-52 lg:w-52 flex mx-auto" alt="vision.logo" />
                                 <h1 className="text-lg md:text-xl lg:text-2xl text-blue-400 font-light uppercase">Our Vision</h1>
                                 <p className="pt-2 text-xs md:text-sm lg:text-lg text-blue-400">Inspire a Billion
-                                    by Leading with Wisdom.</p>
+                                    by Leading with Wisdom&#46;</p>
 
 
                             </motion.div>
@@ -79,7 +79,7 @@ export default function About() {
                                 <Image src={belive} className="w-20 sm:w-36 md:w-28 lg:w-32 flex mx-auto" alt="belive.logo" />
                                 <h1 className="text-lg md:text-xl lg:text-2xl text-green-600 font-light uppercase">Our Beliefs</h1>
                                 <p className="pt-2 text-xs md:text-sm lg:text-lg text-green-600">
-                                    We believe that we are all divided by boundaries but are United by Wisdom.
+                                    We believe that we are all divided by boundaries but are United by Wisdom&#46;
                                 </p>
 
                             </motion.div>
@@ -92,7 +92,7 @@ export default function About() {
                                 className="bg-red-100 w-64 sm:w-96 md:w-5/6 lg:w-5/6 h-48 sm:h-80 md:h-64 lg:h-80 border-0 border-b-8  border-red-500 text-center px-4 pb-4 lg:pb-6 flex flex-col justify-center shadow-xl rounded-lg">
                                 <Image src={mission} className="w-24 sm:w-44 md:w-28 lg:w-36 flex mx-auto" alt="misson.logo" />
                                 <h1 className="text-lg md:text-xl lg:text-2xl text-red-600 font-light uppercase">Our Mission</h1>
-                                <p className="pt-2 text-xs md:text-sm lg:text-lg text-red-600">Co-Creating Leadership and Wellbeing Journeys for Individuals & Organizations.</p>
+                                <p className="pt-2 text-xs md:text-sm lg:text-lg text-red-600">Co-Creating Leadership and Wellbeing Journeys for Individuals & Organizations&#46;</p>
                             </motion.div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ export default function About() {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13" />
                             </svg>
                             <p className="pr-3 text-black md:pr-0 text-xs sm:text-base lg:text-lg text-center mt-5">
-                                Our services extend beyond personal growth. We also provide expert placement and recruiting services to help businesses and job seekers find their perfect match. By combining our expertise in personality development with strategic recruitment solutions, <span className="text-xs md:text-lg lg:text-xl font-semibold italic">Surging Phoenix Enterprises</span> is your trusted partner in building a brighter future.
+                                Our services extend beyond personal growth&#46; We also provide expert placement and recruiting services to help businesses and job seekers find their perfect match&#46; By combining our expertise in personality development with strategic recruitment solutions&#44; <span className="text-xs md:text-lg lg:text-xl font-semibold italic">Surging Phoenix Enterprises</span> is your trusted partner in building a brighter future&#46;
                             </p>
                         </div>
                     </div>
@@ -280,7 +280,7 @@ export default function About() {
 
 
                         <p className="pr-3 md:pr-0 text-yellow-400 text-xs sm:text-base lg:text-lg text-center mt-5">
-                            At <span className="text-xs md:text-lg lg:text-xl font-semibold italic">Surging Phoenix Enterprises</span>, we understand these challenges and are committed to providing the support, guidance, and resources necessary to overcome them. Our personalised programs are designed to help individuals navigate these obstacles and achieve their full potential.
+                            At <span className="text-xs md:text-lg lg:text-xl font-semibold italic">Surging Phoenix Enterprises</span>&#44; we understand these challenges and are committed to providing the support&#44; guidance&#44; and resources necessary to overcome them&#46; Our personalised programs are designed to help individuals navigate these obstacles and achieve their full potential&#46;
                         </p>
 
                     </div>
@@ -296,7 +296,7 @@ export default function About() {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.1, type: 'tween', stiffness: 120, duration: 1 }}
                 className="mt-10 mb-10 px-5">
-                <p className="text-center text-white caveat text-xl sm:text-2xl lg:text-3xl font-semibold border-b-4 pb-5 border-black tracking-wide rounded-lg">Join us on a journey of transformation and success. Discover the Surging Phoenix difference today!</p>
+                <p className="text-center text-white caveat text-xl sm:text-2xl lg:text-3xl font-semibold border-b-4 pb-5 border-black tracking-wide rounded-lg">Join us on a journey of transformation and success&#46; Discover the Surging Phoenix difference today &#33;</p>
             </motion.div>
 
         </>
