@@ -124,7 +124,7 @@ export default function Home() {
       <div className="container mx-auto">
         <section className="mx-5 sm:mx-8 md:mx-8 md:flex md:items-center md:gap-5">
 
-          <div className="mb-2 sm:mb-4 md:w-1/2">
+          <div className="mb-2 sm:mb-4 border-t-4 border-b-8 border-yellow-400 md:w-1/2 py-3 md:py-5">
             <p className="text-justify sm:text-lg">Individual counselling is a supportive and confidential process where a trained therapist works one&#45;on&#45;one with a client to explore and address personal challenges&#44; emotions&#44; and goals&#46; It&#39;s a collaborative effort aimed at fostering insight&#44; coping skills&#44; and overall well&#45;being&#46;</p>
           </div>
           <div className="md:w-1/2">
