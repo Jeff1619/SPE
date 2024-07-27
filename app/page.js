@@ -2,9 +2,8 @@
 "use client"
 
 import Image from "next/image";
-import personal from '@/public/home/personal.jpg'
-import professional from '@/public/home/professional.jpg'
 import offer from '@/public/home/offer.png'
+import conseling from '@/public/home/conseling.jpg'
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -121,6 +120,17 @@ export default function Home() {
         <div className="flex sm:h-32 md:h-44 lg:h-60 justify-center items-center h-24 bg-gradient-to-r  from-black/60 to-black/50">
           <h1 className="uppercase tracking-widest sm:text-lg md:text-2xl lg:text-3xl ">Counselling</h1>
         </div>
+      </div>
+      <div className="container mx-auto">
+        <section className="mx-5 sm:mx-8 md:mx-8 md:flex md:items-center md:gap-5">
+
+          <div className="mb-2 sm:mb-4 md:w-1/2">
+            <p className="text-justify sm:text-lg">Individual counselling is a supportive and confidential process where a trained therapist works one&#45;on&#45;one with a client to explore and address personal challenges&#44; emotions&#44; and goals&#46; It&#39;s a collaborative effort aimed at fostering insight&#44; coping skills&#44; and overall well&#45;being&#46;</p>
+          </div>
+          <div className="md:w-1/2">
+            <Image src={conseling} alt="#" />
+          </div>
+        </section>
       </div>
 
     </>
