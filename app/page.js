@@ -4,6 +4,7 @@
 import Image from "next/image";
 import personal from '@/public/home/personal.jpg'
 import professional from '@/public/home/professional.jpg'
+import offer from '@/public/home/offer.png'
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -46,21 +47,23 @@ export default function Home() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.4, type: "tween", duration: 1 }}
 
-              className="josefin sm:text-2xl lg:text-2xl">We promise &#44;We deliver &#33;</motion.p>
+              className="josefin sm:text-2xl lg:text-2xl"><span className="text-yellow-400">We promise&#44;</span> We deliver &#33;</motion.p>
             <motion.p
 
               initial={{ x: '-30vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.6, type: "tween", duration: 1 }}
 
-              className="text-sm mt-2 md:mt-5 lg:mt-10 sm:text-2xl md:text-2xl lg:text-3xl italic">Your skills to nail the professional Career&#44;</motion.p>
+              className="text-sm mt-2  md:mt-5 lg:mt-10 sm:text-2xl md:text-2xl lg:text-3xl italic font-semibold">High quality guidance for your transformation and excellence
+              &#46;</motion.p>
+
             <motion.p
 
               initial={{ x: '-30vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.7, type: "tween", duration: 1 }}
 
-              className="sm:text-2xl md:mt-2 text-yellow-400 italic md:text-2xl lg:text-3xl">We are providing high quality courses
+              className="sm:text-2xl md:mt-5 text-yellow-400 italic md:text-2xl lg:text-3xl ">We are providing high quality courses
               for our students&#46;</motion.p>
             <motion.button
               initial={{ x: '30vw', opacity: 0 }}
@@ -74,7 +77,48 @@ export default function Home() {
       </motion.section>
 
 
-      <section className="mx-4 md:mx-6">
+      <section className="h-max lg:h-screen py-5 px-3 md:px-0 md:pl-8 bg-yellow-400 ">
+        <div className="md:flex ">
+          <div className="md:w-1/2  text-black ">
+            <h1 className="md:mb-5 lg:mb-10 text-center text-black   text-2xl font-semibold josefin sm:text-4xl lg:text-5xl pb-2 lg:pb-0 lg:mt-8">What we offer &#63;</h1>
+            <ul className="shadow-2xl py-5 px-2  bg-black text-slate-100 w-72 sm:w-96 md:w-full mx-auto rounded-tl-full rounded-br-full">
+              <ul className="shadow-2xl py-5 px-2  bg-black text-slate-100 w-72 sm:w-96 md:w-full mx-auto rounded-tr-full rounded-bl-full">
+                <li className="flex p-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 lg:size-20 pl-2 lg:pl-16">
+                  <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                </svg>
+                  <span className="sm:text-lg font-semibold md:text-lg lg:text-2xl pl-3 josefin">Individual counselling</span>
+                </li>
+                <li className="flex p-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 lg:size-20 pl-2 lg:pl-16">
+                  <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                </svg>
+                  <span className="sm:text-lg font-semibold md:text-lg lg:text-2xl pl-3 josefin">Motivational speech for school students</span>
+                </li>
+                <li className="flex p-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 lg:size-20 pl-2 lg:pl-16">
+                  <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                </svg>
+                  <span className="sm:text-lg font-semibold md:text-lg lg:text-2xl pl-3 josefin">Career guidance for college students</span>
+                </li>
+                <li className="flex p-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 lg:size-20 pl-2 lg:pl-16">
+                  <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                </svg>
+                  <span className="sm:text-lg font-semibold md:text-lg lg:text-2xl pl-3 josefin">Corporate training for excellence</span>
+                </li>
+                <li className="flex p-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 lg:size-20 pl-2 lg:pl-16">
+                  <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                </svg>
+                  <span className="sm:text-lg font-semibold md:text-lg lg:text-2xl pl-3 josefin">Assistance in Recruitment</span>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div className="md:w-1/2  text-black">
+            <Image src={offer} className="h-60 sm:h-96 overflow-hidden lg:overflow-visible object-cover object-top" alt="#" />
+          </div>
+        </div>
+      </section>
+
+
+      {/* <section className="mx-4 md:mx-6">
         <motion.h1
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -165,7 +209,7 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-      </section >
+      </section > */}
     </>
   );
 }
