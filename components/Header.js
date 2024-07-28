@@ -6,7 +6,6 @@ import logo1 from '@/public/logo/Sp-logo1.png'
 import logo2 from '@/public/logo/Sp-logo2.png'
 import Link from 'next/link';
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 
 export default function Header() {
 
@@ -19,10 +18,8 @@ export default function Header() {
     return (
         <>
 
-            <motion.header
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
+            <header
+
 
                 className=' bg-slate-50 sticky z-10 top-0  px-4 sm:px-10 md:px-12 shadow-2xl h-20 sm:h-28 md:h-26 lg:h-24  flex mx-auto items-center justify-between'>
                 <Link href='/' className='flex items-center'>
@@ -80,7 +77,7 @@ export default function Header() {
 
                     )
                 }
-            </motion.header>
+            </header>
 
             {/* FLOWTING ICONS */}
             <div>
