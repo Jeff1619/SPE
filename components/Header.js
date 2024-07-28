@@ -35,10 +35,10 @@ export default function Header() {
                     <Link href='/courses' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Courses</Link>
                     <Link href='' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
                     <Link href='' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
-                    <Link href='/contact' className='group hover:border-yellow-400 ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border border-black  text-black tracking-widest'><span className='group-hover:text-yellow-400 ease duration-150'>Contact</span></Link>
                 </ul>
                 <div className='flex gap-4'>
-                    <Link href='/join_us' className='hidden lg:flex py-2 px-10 shadow-lg rounded-md font-medium bg-black text-yellow-400 tracking-widest'>Join Us</Link>
+                    <Link href='/contact' className='group hover:border-yellow-400 ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border border-black  text-black tracking-widest'><span className='group-hover:text-yellow-400 ease duration-150'>Contact</span></Link>
+
                 </div>
 
 
@@ -69,11 +69,11 @@ export default function Header() {
                                 <Link onClick={() => setActive(!active)} href='/courses' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Courses</Link>
                                 <Link onClick={() => setActive(!active)} href='' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
                                 <Link onClick={() => setActive(!active)} href='' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
-                                <Link onClick={() => setActive(!active)} href='/contact' className='block lg:flex py-2 px-5  rounded-md text-sm md:text-base font-medium border border-black  text-black tracking-widest'>Contact</Link>
+
 
                             </ul>
                             <div>
-                                <Link href='#' className='block lg:flex py-2 text-center px-5 shadow-lg rounded-md font-medium bg-black text-yellow-400 text-sm md:text-base tracking-widest'>Join Us</Link>
+                                <Link onClick={() => setActive(!active)} href='/contact' className='block lg:flex py-2 px-5  rounded-md text-sm md:text-base font-medium border border-black  text-black tracking-widest'>Contact</Link>
                             </div>
                         </div>
 

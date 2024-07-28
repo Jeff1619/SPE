@@ -134,9 +134,6 @@ export default function Home() {
                   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>
                 <span className="font-light">Apply Now</span>
-
-
-
               </button>
             </div>
           </div>
@@ -144,6 +141,26 @@ export default function Home() {
             <Image src={conseling} alt="#" />
           </div>
         </section>
+      </div>
+
+      <div>
+        <h1 className="px-5 py-5 lg:py-14 text-center  sm:text-2xl text-yellow-200 josefin text-lg md:text-3xl lg:text-5xl">Guidance for school students to success</h1>
+        <div className=" container mx-auto sticky bg-cover bg-top bg-[url('../public/home/sucess.jpg')]">
+          <div className="bg-gradient-to-r  from-black/70 to-black/50 lg:from-black/90 lg:to-black/40">
+            <p className="p-5 text-justify md:px-13 md:text-center lg:px-20 lg:py-20">Children are young individuals who are in the early stages of growth and development&#46; They bring joy&#44; curiosity&#44; and boundless energy to our lives&#46; Children possess unique personalities&#44; interests&#44; and talents that shape their journey of learning and discovery&#46; It is our privilege and responsibility to nurture and guide them with love&#44; care&#44; and support as they navigate their way through childhood and beyond&#46;</p>
+          </div>
+          <div className="bg-yellow-400 p-5 ">
+            <p className="text-black text-center josefin text-lg font-semibold md:px-10">We mainly focus on giving session for students to be more responsible at the early age and excel in their career</p>
+            <button className="mt-2 border-black border-2 flex mx-auto text-black px-2 py-1.5 rounded-lg ">
+
+
+              <span className="font-light pr-1">Apply Now</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                <path fillRule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
 
     </>
