@@ -34,7 +34,7 @@ export default function Courses() {
                 </h1>
             </motion.div>
 
-            <div className="mx-4 sm:mx-8 my-5 sm:my-8">
+            <div className="container mx-auto px-7 my-5 sm:my-8">
                 <div className="md:flex md:justify-center md:mb-10 md:gap-7">
                     <motion.div
                         initial={{ opacity: 0 }}

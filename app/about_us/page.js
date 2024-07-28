@@ -50,8 +50,8 @@ export default function About() {
                         </motion.p>
                     </div>
                 </motion.div>
-                <div>
-                    <div className="px-5 sm:px-12 md:px-12 lg:px-28">
+                <div className="container mx-auto">
+                    <div className="px-5">
                         <div className="grid grid-cols-1 gap-10 md:gap-0 md:grid-cols-3 place-items-center pt-8">
                             <motion.div
 
@@ -105,7 +105,7 @@ export default function About() {
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.1 }}
 
-                className="bg-yellow-400 h-max mt-10 pb-10 pt-10 mx-5 sm:px-10 lg:px-20 rounded-3xl">
+                className="container mx-auto bg-yellow-400 h-max mt-10 pb-10 pt-10 sm:px-10 lg:px-20 rounded-3xl">
                 <div className="  md:flex">
                     <div className=" md:w-1/2">
                         <div className="flex">
@@ -126,7 +126,7 @@ export default function About() {
             </motion.section>
 
 
-            <section className="mt-10 px-5 ">
+            <section className="container mx-auto mt-10 px-5 ">
                 <motion.h1
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
@@ -274,7 +274,7 @@ export default function About() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.1 }}
-                className="border-yellow-400 border-2 h-max mt-10 pb-10 pt-10 mx-5 sm:px-10 lg:px-20 rounded-3xl ">
+                className="container mx-auto border-yellow-400 border-2 h-max mt-10 pb-10 pt-10 mx-5 sm:px-10 lg:px-20 rounded-3xl ">
                 <div className=" md:flex md:items-center">
                     <div className="md:w-1/2">
 

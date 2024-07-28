@@ -40,7 +40,7 @@ export default function Home() {
 
 
 
-          <div className="mt-6 sm:mt-8 lg:mt-16">
+          <div className="container mx-auto mt-6 sm:mt-8 lg:mt-16">
             <motion.p
               initial={{ x: '-30vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -53,8 +53,7 @@ export default function Home() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.6, type: "tween", duration: 1 }}
 
-              className="text-sm mt-2  md:mt-5 lg:mt-10 sm:text-2xl md:text-2xl lg:text-3xl italic font-semibold">High quality guidance for your transformation and excellence
-              &#46;</motion.p>
+              className="text-sm mt-2  md:mt-5 lg:mt-10 sm:text-2xl md:text-2xl lg:text-3xl italic font-semibold">High quality guidance for your transformation and excellence&#46;</motion.p>
 
             <motion.p
 
@@ -77,7 +76,7 @@ export default function Home() {
 
 
       <section className="overflow-hidden h-max lg:h-screen pt-8 px-3 md:px-0 md:pl-8 bg-yellow-400 ">
-        <div className="md:flex">
+        <div className="container mx-auto md:flex">
           <div className="md:w-1/2  text-black ">
             <h1 className="md:mb-5 lg:mb-10 text-center text-black   text-2xl font-semibold josefin sm:text-4xl lg:text-5xl pb-2 lg:pb-0 lg:mt-8">What we offer &#63;</h1>
             <ul className="shadow-2xl py-5 px-2  bg-black text-slate-100 w-72 sm:w-96 md:w-full mx-auto rounded-tl-full rounded-br-full">

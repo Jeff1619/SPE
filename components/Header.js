@@ -24,7 +24,7 @@ export default function Header() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
 
-                className='bg-slate-50 sticky z-10 top-0  px-4 sm:px-10 md:px-12 shadow-2xl h-20 sm:h-28 md:h-26 lg:h-24  flex mx-auto items-center justify-between'>
+                className=' bg-slate-50 sticky z-10 top-0  px-4 sm:px-10 md:px-12 shadow-2xl h-20 sm:h-28 md:h-26 lg:h-24  flex mx-auto items-center justify-between'>
                 <Link href='/' className='flex items-center'>
                     <Image className='w-20 sm:w-28 md:w-28' src={logo1} alt='SP-logo' />
                     <Image className='w-20 sm:w-28 md:w-36' src={logo2} alt='' />

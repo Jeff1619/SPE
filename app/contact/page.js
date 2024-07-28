@@ -7,7 +7,7 @@ export default function Contact() {
 
 
     return (
-        <section className="mt-10 md:flex">
+        <section className="container mx-auto mt-10 md:flex">
 
             <div className="md:w-1/2">
                 <motion.h1
