@@ -23,14 +23,3 @@ body {
 .caveat {
     font-family: var(--font-caveat)
 }
-
-
-
-/* input[type=file]::file-selector-button {
-    visibility: hidden;
-} */
-
-
-.fileUpload {
-    color: #f1f5f9;
-}
