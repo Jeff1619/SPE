@@ -4,6 +4,7 @@
 import Image from "next/image";
 import offer from '@/public/home/offer.png'
 import conseling from '@/public/home/conseling.jpg'
+import corporate from '@/public/home/corporate.jpg'
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ type: "tween", duration: 1 }}
 
-        className="h-max lg:h-screen bg-center bg-cover bg-[url('../public/home/people.jpeg')]">
+        className="overflow-hidden h-max lg:h-screen bg-center bg-cover bg-[url('../public/home/people.jpeg')]">
         <div
           className="bg-gradient-to-r w-full h-max lg:h-screen from-black to-black/50 p-4 sm:p-6">
 
@@ -37,7 +38,9 @@ export default function Home() {
             transition={{ delay: 0.3 }}
 
             className="text-slate-100  text-lg font-normal uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5 italic tracking-widest">Enterprises &#33;</motion.p>
-
+          <div className="container mx-auto">
+            <p className="text-justify md:text-center md:px-10">&#34;Welcome to Surging phoenix enterprises &#44; where we specialize in recruitment assistance&#46; We partner with organizations to streamline their hiring processes&#44; ensuring they find the best talent to meet their needs&#46; Our dedicated team provides comprehensive support from sourcing to onboarding&#44; ensuring a seamless recruitment experience&#46; Let us help you build a stronger workforce and achieve your hiring goals effectively&#46;&#34;</p>
+          </div>
 
 
           <div className="container mx-auto mt-6 sm:mt-8 lg:mt-16">
@@ -68,7 +71,7 @@ export default function Home() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.9, type: "tween", duration: 1 }}
 
-              className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-2 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Join Us</motion.button>
+              className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-2 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
           </div>
         </div>
 
@@ -176,13 +179,13 @@ export default function Home() {
           transition={{ delay: 0.1, duration: 1 }}
 
           className="px-5 py-5 lg:py-14 text-center  sm:text-2xl text-yellow-200 josefin text-lg md:text-3xl lg:text-5xl">Guidance for school students to success</motion.h1>
-        <div className=" container mx-auto sticky bg-cover bg-top bg-[url('../public/home/sucess.jpg')]">
+        <div className=" container mx-auto bg-cover bg-top bg-[url('../public/home/sucess.jpg')]">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
             className="bg-gradient-to-r  from-black/70 to-black/50 lg:from-black/90 lg:to-black/40">
-            <p className="p-5 text-justify md:px-13 md:text-center lg:px-20 lg:py-20">Children are young individuals who are in the early stages of growth and development&#46; They bring joy&#44; curiosity&#44; and boundless energy to our lives&#46; Children possess unique personalities&#44; interests&#44; and talents that shape their journey of learning and discovery&#46; It is our privilege and responsibility to nurture and guide them with love&#44; care&#44; and support as they navigate their way through childhood and beyond&#46;</p>
+            <p className="p-5 text-justify md:px-13 md:text-center lg:px-28 lg:py-20">Children are young individuals who are in the early stages of growth and development&#46; They bring joy&#44; curiosity&#44; and boundless energy to our lives&#46; Children possess unique personalities&#44; interests&#44; and talents that shape their journey of learning and discovery&#46; It is our privilege and responsibility to nurture and guide them with love&#44; care&#44; and support as they navigate their way through childhood and beyond&#46;</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -199,6 +202,46 @@ export default function Home() {
               </svg>
             </button>
           </motion.div>
+        </div>
+      </div>
+
+      <section className="mt-5 md:mt-8">
+        <div className="bg-cover bg-top bg-[url('../public/home/college.jpg')]">
+          <div className="bg-gradient-to-r  from-black/70 to-black/50">
+            <div className="container mx-auto p-5">
+              <h1 className="md:py-4 lg:py-8 text-xl text-center josefin font-semibold sm:text-2xl md:text-3xl lg:text-5xl">Career guidance for college students</h1>
+              <p className="text-justify md:text-center py-5 lg:px-28 ">Navigating your career path can be both exciting and challenging&#46; As you embark on this journey&#44; it&#39;s essential to equip yourself with the necessary tools and insights to make informed decisions about your future&#46; Career guidance provides you with valuable resources&#44; advice&#44; and support to help you explore your interests&#44; define your goals&#44; and prepare for the opportunities ahead&#46;</p>
+              <p className="text-center rounded-lg  px-4 py-4 backdrop-brightness-50 josefin md:text-lg">Let&#39;s embark on this journey together to discover your potential and pave the way for a fulfilling career&#46;</p>
+              <button className="mt-2 border-slate-100 border-2 flex mx-auto text-slate-100 px-2 py-1.5 rounded-lg ">
+
+
+                <span className="font-light pr-1">Apply Now</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                  <path fillRule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.1, duration: 1 }}
+        className="my-5 h-24 sm:h-32 md:h-44 lg:h-60 bg-cover bg-top bg-[url('../public/home/corbanner.jpg')]">
+        <div className="flex sm:h-32 md:h-44 lg:h-60 justify-center items-center h-24 bg-gradient-to-r  from-black/60 to-black/50">
+          <h1 className="text-yellow-200 uppercase tracking-widest sm:text-lg md:text-2xl lg:text-3xl ">Corporate training</h1>
+        </div>
+      </motion.div>
+
+      <div className="bg-cover bg-top bg-[url('../public/home/corbackgrnd.jpg')]">
+        <div className="bg-gradient-to-r  from-black/60 to-black/50">
+          <div className="md:flex p-5 md:items-center md:gap-5  container mx-auto">
+
+            <p className="md:w-1/2 text-justify">In today&#39;s dynamic business environment&#44; continuous learning and development are essential for staying competitive and achieving organizational goals&#46; Corporate training plays a pivotal role in equipping our team with the skills&#44; knowledge&#44; and tools necessary to excel in their roles and contribute effectively to our collective success&#46;</p>
+            <Image src={corporate} className="md:w-1/2 mt-4 md:mt-0" alt="#" />
+          </div>
         </div>
       </div>
 
