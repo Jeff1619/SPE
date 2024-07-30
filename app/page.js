@@ -133,13 +133,14 @@ export default function Home() {
 
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 1 }}
         className="my-5 h-24 sm:h-32 md:h-44 lg:h-60 bg-cover bg-top bg-[url('../public/home/cbanner.jpg')]">
         <div className="flex sm:h-32 md:h-44 lg:h-60 justify-center items-center h-24 bg-gradient-to-r  from-black/60 to-black/50">
           <h1 className="uppercase tracking-widest sm:text-lg md:text-2xl lg:text-3xl ">Counselling</h1>
         </div>
       </motion.div>
+
       <div
 
         className="container mx-auto">
@@ -147,7 +148,7 @@ export default function Home() {
 
           <motion.div
             initial={{ x: '-10vw', opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
             className="mb-2 sm:mb-4 border-t-4 border-b-8 border-yellow-400 md:w-1/2 py-3 md:py-5">
             <p className="text-justify sm:text-lg">Individual counselling is a supportive and confidential process where a trained therapist works one&#45;on&#45;one with a client to explore and address personal challenges&#44; emotions&#44; and goals&#46; It&#39;s a collaborative effort aimed at fostering insight&#44; coping skills&#44; and overall well&#45;being&#46;</p>
@@ -175,7 +176,7 @@ export default function Home() {
       <div>
         <motion.h1
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 0.1, duration: 1 }}
 
           className="px-5 py-5 lg:py-14 text-center  sm:text-2xl text-yellow-200 josefin text-lg md:text-3xl lg:text-5xl">Guidance for school students to success</motion.h1>
@@ -205,9 +206,17 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="mt-5 md:mt-8">
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.1, type: "tween", duration: 1 }}
+        className="mt-5 md:mt-8">
         <div className="bg-cover bg-top bg-[url('../public/home/college.jpg')]">
-          <div className="bg-gradient-to-r  from-black/70 to-black/50">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.1, duration: 1 }}
+            className="bg-gradient-to-r  from-black/70 to-black/50">
             <div className="container mx-auto p-5">
               <h1 className="md:py-4 lg:py-8 text-xl text-center josefin font-semibold sm:text-2xl md:text-3xl lg:text-5xl">Career guidance for college students</h1>
               <p className="text-justify md:text-center py-5 lg:px-28 ">Navigating your career path can be both exciting and challenging&#46; As you embark on this journey&#44; it&#39;s essential to equip yourself with the necessary tools and insights to make informed decisions about your future&#46; Career guidance provides you with valuable resources&#44; advice&#44; and support to help you explore your interests&#44; define your goals&#44; and prepare for the opportunities ahead&#46;</p>
@@ -221,13 +230,13 @@ export default function Home() {
                 </svg>
               </button>
             </div>
-          </div>
+          </motion.div>
         </div>
-      </section>
+      </motion.section >
 
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 1 }}
         className="my-5 h-24 sm:h-32 md:h-44 lg:h-60 bg-cover bg-top bg-[url('../public/home/corbanner.jpg')]">
         <div className="flex sm:h-32 md:h-44 lg:h-60 justify-center items-center h-24 bg-gradient-to-r  from-black/60 to-black/50">
@@ -235,34 +244,60 @@ export default function Home() {
         </div>
       </motion.div>
 
-      <div className="bg-cover bg-top bg-[url('../public/home/corbackgrnd.jpg')]">
-        <div className="bg-gradient-to-r  from-black/60 to-black/50">
+      <div
+
+        className="bg-cover bg-top bg-[url('../public/home/corbackgrnd.jpg')]">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.1, duration: 1 }}
+          className="bg-gradient-to-r  from-black/60 to-black/50">
           <div className="md:flex p-5 md:items-center md:gap-5  container mx-auto">
 
             <p className="md:w-1/2 text-justify md:text-center">In today&#39;s dynamic business environment&#44; continuous learning and development are essential for staying competitive and achieving organizational goals&#46; Corporate training plays a pivotal role in equipping our team with the skills&#44; knowledge&#44; and tools necessary to excel in their roles and contribute effectively to our collective success&#46;</p>
             <Image src={corporate} className="md:w-1/2 mt-4 md:mt-0" alt="#" />
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <section className="md:flex md:items-center container p-5  mx-auto mt-5 bg-yellow-400 text-black rounded-3xl">
-        <div className="md:w-1/2 flex flex-col gap-5">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1, }}
+          className="md:w-1/2 flex flex-col gap-5">
           <p className="text-center italic border-t-4 border-black rounded-full pt-10">Through tailored programs and workshops, we aim to empower each of you with the expertise and capabilities needed to navigate challenges, embrace opportunities, and drive innovation within our organization.</p>
           <p className="border-b-2 border-black text-center text-lg lg:text-xl josefin font-semibold">Let's embark on this journey of growth and excellence together.</p>
-        </div>
+        </motion.div>
         <div className="md:w-1/2 mt-3 md:mt-0">
           <h1 className="text-center caveat text-3xl lg:text-5xl mb-4 lg:py-7">Come join us</h1>
           <form>
 
-            <input type="text" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 tracking-widest   rounded-md  bg-black md:py-3 text-slate-100 sm:w-96 md:w-80 lg:w-96" placeholder="Enter your Name" required />
+            <motion.input
+              initial={{ x: "-10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", duration: 1, stiffness: 120 }}
+              type="text" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 tracking-widest   rounded-md  bg-black md:py-3 text-slate-100 sm:w-96 md:w-80 lg:w-96" placeholder="Enter your Name" required />
 
-            <input type="number" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96 md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none text-slate-100" placeholder="Enter your Mobile No" required />
+            <motion.input
+              initial={{ x: "10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", duration: 1, stiffness: 120 }}
+              type="number" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96 md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none text-slate-100" placeholder="Enter your Mobile No" required />
 
 
-            <input type="email" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96  md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 text-slate-100" placeholder="Enter your Email" required />
+            <motion.input
+              initial={{ x: "-10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", duration: 1, stiffness: 120 }}
+              type="email" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96  md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 text-slate-100" placeholder="Enter your Email" required />
 
 
-            <input type="submit" value="Submit" className=" flex px-5 lg:px-8 py-1.5 bg-green-500 mx-auto rounded-md text-slate-100 cursor-pointer" />
+            <motion.input
+              initial={{ x: "10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", duration: 1, stiffness: 120 }}
+              type="submit" value="Submit" className=" flex px-5 lg:px-8 py-1.5 bg-green-500 mx-auto rounded-md text-slate-100 cursor-pointer" />
           </form>
         </div>
       </section>

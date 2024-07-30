@@ -296,7 +296,7 @@ export default function About() {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.1, type: 'tween', stiffness: 120, duration: 1 }}
                 className="mt-10 mb-10 px-5">
-                <p className="text-center text-white caveat text-xl sm:text-2xl lg:text-3xl font-semibold border-b-4 pb-5 border-black tracking-wide rounded-lg">Join us on a journey of transformation and success&#46; Discover the Surging Phoenix difference today &#33;</p>
+                <p className="text-center text-yellow-400 caveat text-xl sm:text-2xl lg:text-3xl font-semibold border-b-4 pb-5 border-black tracking-wide rounded-lg">Join us on a journey of transformation and success&#46; Discover the Surging Phoenix difference today &#33;</p>
             </motion.div>
 
         </>
