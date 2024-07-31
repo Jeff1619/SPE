@@ -266,8 +266,8 @@ export default function Home() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, }}
           className="md:w-1/2 flex flex-col gap-5">
-          <p className="text-center italic border-t-4 border-black rounded-full pt-10">Through tailored programs and workshops, we aim to empower each of you with the expertise and capabilities needed to navigate challenges, embrace opportunities, and drive innovation within our organization.</p>
-          <p className="border-b-2 border-black text-center text-lg lg:text-xl josefin font-semibold">Let's embark on this journey of growth and excellence together.</p>
+          <p className="text-center italic border-t-4 border-black rounded-full pt-10">Through tailored programs and workshops&#44; we aim to empower each of you with the expertise and capabilities needed to navigate challenges&#44; embrace opportunities&#44; and drive innovation within our organization&#46;</p>
+          <p className="border-b-2 border-black text-center text-lg lg:text-xl josefin font-semibold">Let&#39;s embark on this journey of growth and excellence together&#46;</p>
         </motion.div>
         <div className="md:w-1/2 mt-3 md:mt-0">
           <h1 className="text-center caveat text-3xl lg:text-5xl mb-4 lg:py-7">Come join us</h1>
