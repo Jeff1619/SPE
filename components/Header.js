@@ -5,6 +5,7 @@ import Image from 'next/image';
 import logo1 from '@/public/logo/Sp-logo1.png'
 import logo2 from '@/public/logo/Sp-logo2.png'
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import { useState } from 'react';
 
 export default function Header() {
@@ -18,39 +19,39 @@ export default function Header() {
     return (
         <>
 
-            <header
+            <section className=' bg-slate-50 flex items-center sticky z-10 top-0  px-4 sm:px-10 md:px-12 h-20 sm:h-28 md:h-26 lg:h-24 justify-between'>
+                <div className='lg:container lg:mx-auto  flex  items-center justify-between'>
+                    <Link href='/' className='flex items-center'>
+                        <Image className='w-20 sm:w-28 md:w-28' src={logo1} alt='SP-logo' />
+                        <Image className='w-20 sm:w-28 md:w-36' src={logo2} alt='SP-logo' />
+                    </Link>
+                    <ul className='hidden lg:flex gap-10 items-center'>
+                        <Link href='/' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Home</Link>
+                        <Link href='/about_us' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>About Us</Link>
+                        <Link href='/courses' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Courses</Link>
+                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
+                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
+                    </ul>
+                    <div className='flex gap-4'>
+                        <Link href='/contact' className='uppercase group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
 
-
-                className=' bg-slate-50 sticky z-10 top-0  px-4 sm:px-10 md:px-12 shadow-2xl h-20 sm:h-28 md:h-26 lg:h-24  flex mx-auto items-center justify-between'>
-                <Link href='/' className='flex items-center'>
-                    <Image className='w-20 sm:w-28 md:w-28' src={logo1} alt='SP-logo' />
-                    <Image className='w-20 sm:w-28 md:w-36' src={logo2} alt='' />
-                </Link>
-                <ul className='hidden lg:flex gap-10 items-center'>
-                    <Link href='/' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Home</Link>
-                    <Link href='/about_us' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>About Us</Link>
-                    <Link href='/courses' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Courses</Link>
-                    <Link href='' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
-                    <Link href='' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
-                </ul>
-                <div className='flex gap-4'>
-                    <Link href='/contact' className='group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
-
+                    </div>
                 </div>
 
 
+
                 <div className="block  lg:hidden" onClick={() => handleToggle()}>
-                    {/* FOR MENU ICON FOR MOBILE RES */}
+                    {/* FOR MOBILE - MENU */}
 
                     {
                         active ? (
 
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-9 sm:size-14 md:size-14 text-black active:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-9 sm:size-14 md:size-14 text-black active:text-white transition ">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                             </svg>
                         ) :
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-9 sm:size-14 md:ssize-14 text-black active:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-9 sm:size-14 md:ssize-14 text-black active:text-white transition ">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
                     }
@@ -59,25 +60,32 @@ export default function Header() {
                 </div>
                 {
                     active && (
-                        <div className='absolute lg:hidden bg-white right-0 w-1/2 h-max top-20 rounded-md p-4 shadow-xl'>
+                        <motion.div
+                            initial={{ y: "-30vw", opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ type: "tween", duration: 0.2 }}
+                            className='lg:hidden absolute bg-slate-50 w-full left-0 top-20 sm:top-28 rounded-b-full pt-2 pb-10 px-6 shadow-xl'>
                             <ul className='flex mb-5 flex-col text-center gap-4'>
-                                <Link onClick={() => setActive(!active)} href='/' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Home</Link>
-                                <Link onClick={() => setActive(!active)} href='/about_us' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>About Us</Link>
-                                <Link onClick={() => setActive(!active)} href='/courses' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Courses</Link>
-                                <Link onClick={() => setActive(!active)} href='' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
-                                <Link onClick={() => setActive(!active)} href='' className='text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
+                                <Link onClick={() => setActive(!active)} href='/' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Home</Link>
+                                <Link onClick={() => setActive(!active)} href='/about_us' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>About Us</Link>
+                                <Link onClick={() => setActive(!active)} href='/courses' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Courses</Link>
+                                <Link onClick={() => setActive(!active)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
+                                <Link onClick={() => setActive(!active)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
 
 
                             </ul>
                             <div>
-                                <Link onClick={() => setActive(!active)} href='/contact' className='block lg:flex py-2 px-5  rounded-md text-sm md:text-base font-medium border border-black  text-black tracking-widest'>Contact</Link>
+                                <Link onClick={() => setActive(!active)} href='/contact' className='uppercase block group text-center w-40 mx-auto active:bg-black ease duration-150  lg:flex py-2 text-sm md:text-base  rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
+
                             </div>
-                        </div>
+                        </motion.div>
 
 
                     )
                 }
-            </header>
+
+
+            </section>
 
             {/* FLOWTING ICONS */}
             <div>
