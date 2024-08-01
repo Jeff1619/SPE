@@ -274,27 +274,27 @@ export default function Home() {
           <form>
 
             <motion.input
-              initial={{ x: "-10vw", opacity: 0 }}
+              initial={{ x: "-5vw", opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", duration: 1, stiffness: 120 }}
               type="text" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 tracking-widest   rounded-md  bg-black md:py-3 text-slate-100 sm:w-96 md:w-80 lg:w-96" placeholder="Enter your Name" required />
 
             <motion.input
-              initial={{ x: "10vw", opacity: 0 }}
+              initial={{ x: "5vw", opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", duration: 1, stiffness: 120 }}
               type="number" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96 md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none text-slate-100" placeholder="Enter your Mobile No" required />
 
 
             <motion.input
-              initial={{ x: "-10vw", opacity: 0 }}
+              initial={{ x: "-5vw", opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", duration: 1, stiffness: 120 }}
               type="email" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96  md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 text-slate-100" placeholder="Enter your Email" required />
 
 
             <motion.input
-              initial={{ x: "10vw", opacity: 0 }}
+              initial={{ x: "5vw", opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", duration: 1, stiffness: 120 }}
               type="submit" value="Submit" className=" flex px-5 lg:px-8 py-1.5 bg-green-500 mx-auto rounded-md text-slate-100 cursor-pointer" />

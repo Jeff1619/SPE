@@ -34,7 +34,7 @@ export default function Header() {
                     <Link href='' className='hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
                 </ul>
                 <div className='flex gap-4'>
-                    <Link href='/contact' className='group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
+                    <Link href='/contact' className='group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
 
                 </div>
 
