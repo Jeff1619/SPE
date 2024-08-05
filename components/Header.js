@@ -19,21 +19,21 @@ export default function Header() {
     return (
         <>
 
-            <section className=' bg-slate-50 flex items-center sticky z-10 top-0  px-4 sm:px-10 md:px-12 h-20 sm:h-28 md:h-26 lg:h-24 justify-between'>
+            <section className=' bg-slate-50 flex items-center sticky z-10 top-0  px-4 sm:px-10 md:px-12 h-20 sm:h-28 md:h-26 lg:h-24 justify-between shadow-xl'>
                 <div className='lg:container lg:mx-auto  flex  items-center justify-between'>
                     <Link href='/' className='flex items-center'>
-                        <Image className='w-20 sm:w-28 md:w-28' src={logo1} alt='SP-logo' />
-                        <Image className='w-20 sm:w-28 md:w-36' src={logo2} alt='SP-logo' />
+                        <Image className='w-20 sm:w-28 md:w-24' src={logo1} alt='SP-logo' />
+                        <Image className='w-20 sm:w-28 md:w-32' src={logo2} alt='SP-logo' />
                     </Link>
                     <ul className='hidden lg:flex gap-10 items-center'>
-                        <Link href='/' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Home</Link>
-                        <Link href='/about_us' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>About Us</Link>
-                        <Link href='/courses' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>Courses</Link>
-                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
-                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black'>#</Link>
+                        <Link href='/' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Home</Link>
+                        <Link href='/about_us' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>About Us</Link>
+                        <Link href='/courses' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Courses</Link>
+                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>#</Link>
+                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black' text-sm>#</Link>
                     </ul>
                     <div className='flex gap-4'>
-                        <Link href='/contact' className='uppercase group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
+                        <Link href='/contact' className='uppercase group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150 text-sm'>Contact</span></Link>
 
                     </div>
                 </div>
