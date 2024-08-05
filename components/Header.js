@@ -63,7 +63,7 @@ export default function Header() {
                         <motion.div
                             initial={{ y: "-30vw", opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
-                            transition={{ type: "tween", duration: 0.2 }}
+                            transition={{ type: 'tween', duration: 0.2 }}
                             className='lg:hidden absolute bg-slate-50 w-full left-0 top-20 sm:top-28 rounded-b-full pt-2 pb-10 px-6 shadow-xl'>
                             <ul className='flex mb-5 flex-col text-center gap-4'>
                                 <Link onClick={() => setActive(!active)} href='/' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Home</Link>

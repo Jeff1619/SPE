@@ -39,7 +39,7 @@ export default function Home() {
 
             className="text-slate-100  text-lg font-normal uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5 italic tracking-widest">Enterprises &#33;</motion.p>
           <div className="container mx-auto">
-            <p className="text-justify md:text-center md:px-10">&#34;Welcome to Surging phoenix enterprises &#44; where we specialize in recruitment assistance&#46; We partner with organizations to streamline their hiring processes&#44; ensuring they find the best talent to meet their needs&#46; Our dedicated team provides comprehensive support from sourcing to onboarding&#44; ensuring a seamless recruitment experience&#46; Let us help you build a stronger workforce and achieve your hiring goals effectively&#46;&#34;</p>
+            <p className="text-justify md:text-center md:px-10 text-sm md:text-base">&#34;Welcome to <span className="text-yellow-400 font-bold italic text-sm md:text-lg">Surging phoenix enterprises</span> &#44; where we specialize in recruitment assistance&#46; We partner with organizations to streamline their hiring processes&#44; ensuring they find the best talent to meet their needs&#46; Our dedicated team provides comprehensive support from sourcing to onboarding&#44; ensuring a seamless recruitment experience&#46; Let us help you build a stronger workforce and achieve your hiring goals effectively&#46;&#34;</p>
           </div>
 
 
@@ -64,14 +64,14 @@ export default function Home() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.7, type: "tween", duration: 1 }}
 
-              className="sm:text-2xl md:mt-5 text-yellow-400 italic md:text-2xl lg:text-3xl ">We are providing high quality courses
+              className="sm:text-2xl mt-2 md:mt-5 text-yellow-400 italic md:text-2xl lg:text-3xl ">We are providing high quality courses
               for our students&#46;</motion.p>
             <motion.button
               initial={{ x: '30vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.9, type: "tween", duration: 1 }}
 
-              className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-2 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
+              className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-3 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
           </div>
         </div>
 
@@ -156,8 +156,8 @@ export default function Home() {
               <p className="mb-1 pr-3 text-yellow-400 uppercase text-xs sm:text-base sm:tracking-widest md:text-sm">For counselling &#45;</p>
               <button className="border-yellow-400 border flex text-yellow-400 px-2 py-1.5 rounded-lg ">
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>
                 <span className="font-light">Apply Now</span>
               </button>
@@ -292,6 +292,7 @@ export default function Home() {
               transition={{ type: "spring", duration: 1, stiffness: 120 }}
               type="email" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96  md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 text-slate-100" placeholder="Enter your Email" required />
 
+            <input type="file" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96  md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 text-slate-100" placeholder="Enter your Email" required />
 
             <motion.input
               initial={{ x: "5vw", opacity: 0 }}
