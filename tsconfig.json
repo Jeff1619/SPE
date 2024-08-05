@@ -34,7 +34,8 @@
     ".next/types/**/*.ts",
     "app/page.js",
     "app/about_us/page.js",
-    "tailwind.config.js"
+    "tailwind.config.js",
+    "app/layout.js"
   ],
   "exclude": [
     "node_modules"

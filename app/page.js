@@ -66,12 +66,14 @@ export default function Home() {
 
               className="sm:text-2xl mt-2 md:mt-5 text-yellow-400 italic md:text-2xl lg:text-3xl ">We are providing high quality courses
               for our students&#46;</motion.p>
-            <motion.button
-              initial={{ x: '30vw', opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 0.9, type: "tween", duration: 1 }}
+            <a href="https://forms.gle/aTMBh5qqLWYG3vGw9" target="_blank">
+              <motion.button
+                initial={{ x: '30vw', opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.9, type: "tween", duration: 1 }}
 
-              className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-3 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
+                className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-3 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
+            </a>
           </div>
         </div>
 
@@ -221,14 +223,17 @@ export default function Home() {
               <h1 className="md:py-4 lg:py-8 text-xl text-center josefin font-semibold sm:text-2xl md:text-3xl lg:text-5xl">Career guidance for college students</h1>
               <p className="text-justify md:text-center py-5 lg:px-28 ">Navigating your career path can be both exciting and challenging&#46; As you embark on this journey&#44; it&#39;s essential to equip yourself with the necessary tools and insights to make informed decisions about your future&#46; Career guidance provides you with valuable resources&#44; advice&#44; and support to help you explore your interests&#44; define your goals&#44; and prepare for the opportunities ahead&#46;</p>
               <p className="text-center rounded-lg  px-4 py-4 backdrop-brightness-50 josefin md:text-lg">Let&#39;s embark on this journey together to discover your potential and pave the way for a fulfilling career&#46;</p>
-              <button className="mt-2 border-slate-100 border-2 flex mx-auto text-slate-100 px-2 py-1.5 rounded-lg ">
+              <a href="https://forms.gle/xUwoomFESnT6uZQx9">
+
+                <button className="mt-2 border-slate-100 border-2 flex mx-auto text-slate-100 px-2 py-1.5 rounded-lg ">
 
 
-                <span className="font-light pr-1">Apply Now</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                  <path fillRule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
-                </svg>
-              </button>
+                  <span className="font-light pr-1">Apply Now</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                    <path fillRule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+                  </svg>
+                </button>
+              </a>
             </div>
           </motion.div>
         </div>
@@ -271,35 +276,6 @@ export default function Home() {
         </motion.div>
         <div className="md:w-1/2 mt-3 md:mt-0">
           <h1 className="text-center caveat text-3xl lg:text-5xl mb-4 lg:py-7">Come join us</h1>
-          <form>
-
-            <motion.input
-              initial={{ x: "-5vw", opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ type: "spring", duration: 1, stiffness: 120 }}
-              type="text" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 tracking-widest   rounded-md  bg-black md:py-3 text-slate-100 sm:w-96 md:w-80 lg:w-96" placeholder="Enter your Name" required />
-
-            <motion.input
-              initial={{ x: "5vw", opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ type: "spring", duration: 1, stiffness: 120 }}
-              type="number" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96 md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none text-slate-100" placeholder="Enter your Mobile No" required />
-
-
-            <motion.input
-              initial={{ x: "-5vw", opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ type: "spring", duration: 1, stiffness: 120 }}
-              type="email" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96  md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 text-slate-100" placeholder="Enter your Email" required />
-
-            <input type="file" className="flex mx-auto w-full px-4 py-3 mb-3 lg:mb-5 sm:w-96  md:w-80 lg:w-96 tracking-widest  rounded-md  bg-black md:py-3 text-slate-100" placeholder="Enter your Email" required />
-
-            <motion.input
-              initial={{ x: "5vw", opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ type: "spring", duration: 1, stiffness: 120 }}
-              type="submit" value="Submit" className=" flex px-5 lg:px-8 py-1.5 bg-green-500 mx-auto rounded-md text-slate-100 cursor-pointer" />
-          </form>
         </div>
       </section>
 

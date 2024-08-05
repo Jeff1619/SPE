@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from '@/components/Header'
+import Form from '@/components/Form'
 import Footer from '@/components/Footer'
 
 import { poppins } from '@/utils/Fonts'
 import { orbitron } from '@/utils/Fonts'
 import { josefin } from '@/utils/Fonts'
 import { caveat } from '@/utils/Fonts'
+import { useState } from "react";
 
 export const metadata: Metadata = {
   title: "Surging Phoenix Enterprises",
@@ -18,10 +20,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en">
       <body className={`${poppins} ${orbitron} ${josefin} ${caveat}`}>
         <Header />
+        <Form />
         {children}
         {/* <Footer /> */}
 

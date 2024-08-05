@@ -30,7 +30,7 @@ export default function Header() {
                         <Link href='/about_us' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>About Us</Link>
                         <Link href='/courses' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Courses</Link>
                         <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>#</Link>
-                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black' text-sm>#</Link>
+                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>#</Link>
                     </ul>
                     <div className='flex gap-4'>
                         <Link href='/contact' className='uppercase group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150 text-sm'>Contact</span></Link>
@@ -89,6 +89,7 @@ export default function Header() {
 
             {/* FLOWTING ICONS */}
             <div>
+
                 <a href="tel:++91-#" className="p-3 sm:p-5 fixed z-10 rounded-full bottom-32 sm:bottom-32 md:bottom-60 lg:bottom-32 right-4  md:right-5 bg-yellow-400"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7 sm:size-10 text-black ">
                     <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
                 </svg></a>
