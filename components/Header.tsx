@@ -8,12 +8,12 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 
-export default function Header() {
+export default function Header({ handleToggle }: { handleToggle: () => void }) {
 
 
-    const [active, setActive] = useState(false);
+    const [menu, setMenu] = useState(false);
 
-    const handleToggle = () => setActive(!active)
+    const handleMenu = () => setMenu(!menu)
 
 
     return (
@@ -40,11 +40,11 @@ export default function Header() {
 
 
 
-                <div className="block  lg:hidden" onClick={() => handleToggle()}>
+                <div className="block  lg:hidden" onClick={() => handleMenu()}>
                     {/* FOR MOBILE - MENU */}
 
                     {
-                        active ? (
+                        menu ? (
 
 
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-9 sm:size-14 md:size-14 text-black active:text-white transition ">
@@ -59,23 +59,23 @@ export default function Header() {
 
                 </div>
                 {
-                    active && (
+                    menu && (
                         <motion.div
                             initial={{ y: "-30vw", opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ type: 'tween', duration: 0.2 }}
                             className='lg:hidden absolute bg-slate-50 w-full left-0 top-20 sm:top-28 rounded-b-full pt-2 pb-10 px-6 shadow-xl'>
                             <ul className='flex mb-5 flex-col text-center gap-4'>
-                                <Link onClick={() => setActive(!active)} href='/' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Home</Link>
-                                <Link onClick={() => setActive(!active)} href='/about_us' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>About Us</Link>
-                                <Link onClick={() => setActive(!active)} href='/courses' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Courses</Link>
-                                <Link onClick={() => setActive(!active)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
-                                <Link onClick={() => setActive(!active)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
+                                <Link onClick={() => setMenu(!menu)} href='/' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Home</Link>
+                                <Link onClick={() => setMenu(!menu)} href='/about_us' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>About Us</Link>
+                                <Link onClick={() => setMenu(!menu)} href='/courses' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Courses</Link>
+                                <Link onClick={() => setMenu(!menu)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
+                                <Link onClick={() => setMenu(!menu)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
 
 
                             </ul>
                             <div>
-                                <Link onClick={() => setActive(!active)} href='/contact' className='uppercase block group text-center w-40 mx-auto active:bg-black ease duration-150  lg:flex py-2 text-sm md:text-base  rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
+                                <Link onClick={() => setMenu(!menu)} href='/contact' className='uppercase block group text-center w-40 mx-auto active:bg-black ease duration-150  lg:flex py-2 text-sm md:text-base  rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
 
                             </div>
                         </motion.div>
@@ -89,7 +89,18 @@ export default function Header() {
 
             {/* FLOWTING ICONS */}
             <div>
+                <button onClick={handleToggle} className='sm:hidden active:bg-yellow-500 uppercase flex items-center justify-center text-sm  fixed py-2 z-10 bottom-0 w-full bg-yellow-400 text-black font-medium'>
+                    <span className='pr-2'>Apply Now</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 ">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </button>
+                <button onClick={handleToggle} className='hidden sm:block group ease duration-100 active:bg-black  sm:p-5 fixed z-10 rounded-full  sm:bottom-20 md:bottom-44 lg:bottom-20 left-4  md:left-5 bg-yellow-400'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7 sm:size-10 text-black group-active:text-yellow-400">
+                        <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                    </svg>
 
+                </button>
                 <a href="tel:++91-#" className="p-3 sm:p-5 fixed z-10 rounded-full bottom-32 sm:bottom-32 md:bottom-60 lg:bottom-32 right-4  md:right-5 bg-green-100 group active:bg-green-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7 sm:size-10 text-green-600 group-active:text-green-100">
                     <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
                 </svg></a>

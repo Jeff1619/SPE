@@ -35,7 +35,8 @@
     "app/page.js",
     "app/about_us/page.js",
     "tailwind.config.js",
-    "app/layout.js"
+    "app/layout.js",
+    "components/Form.tsx"
   ],
   "exclude": [
     "node_modules"

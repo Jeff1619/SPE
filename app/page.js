@@ -6,9 +6,16 @@ import offer from '@/public/home/offer.png'
 import conseling from '@/public/home/conseling.jpg'
 import corporate from '@/public/home/corporate.jpg'
 import { motion } from "framer-motion";
-import handleToggle from "@/components/Form";
+import { useState } from "react";
 
 export default function Home() {
+
+  const [active, setActive] = useState(false)
+
+  const handleToggle = () => {
+    setActive(!active)
+  }
+
   return (
     <>
       <motion.section
@@ -67,14 +74,14 @@ export default function Home() {
 
               className="sm:text-2xl mt-2 md:mt-5 text-yellow-400 italic md:text-2xl lg:text-3xl ">We are providing high quality courses
               for our students&#46;</motion.p>
-            <a href="https://forms.gle/aTMBh5qqLWYG3vGw9" target="_blank">
-              <motion.button
-                initial={{ x: '30vw', opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ delay: 0.9, type: "tween", duration: 1 }}
 
-                className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-3 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
-            </a>
+            <motion.button
+              initial={{ x: '30vw', opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.9, type: "tween", duration: 1 }}
+              onClick={handleToggle}
+              className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-3 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
+
           </div>
         </div>
 
@@ -157,7 +164,7 @@ export default function Home() {
             <p className="text-justify sm:text-lg">Individual counselling is a supportive and confidential process where a trained therapist works one&#45;on&#45;one with a client to explore and address personal challenges&#44; emotions&#44; and goals&#46; It&#39;s a collaborative effort aimed at fostering insight&#44; coping skills&#44; and overall well&#45;being&#46;</p>
             <div className="mt-2 flex items-center justify-end">
               <p className="mb-1 pr-3 text-yellow-400 uppercase text-xs sm:text-base sm:tracking-widest md:text-sm">For counselling &#45;</p>
-              <button className="border-yellow-400 border flex text-yellow-400 px-2 py-1.5 rounded-lg ">
+              <button onClick={handleToggle} className="border-yellow-400 border flex text-yellow-400 px-2 py-1.5 rounded-lg ">
 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
@@ -197,7 +204,7 @@ export default function Home() {
             transition={{ delay: 0.3, duration: 1 }}
             className="bg-yellow-400 p-5 ">
             <p className="text-black text-center josefin text-lg font-semibold md:px-10">We mainly focus on giving session for students to be more responsible at the early age and excel in their career</p>
-            <button className="mt-2 border-black border-2 flex mx-auto text-black px-2 py-1.5 rounded-lg ">
+            <button onClick={handleToggle} className="mt-2 border-black border-2 flex mx-auto text-black px-2 py-1.5 rounded-lg ">
 
 
               <span className="font-light pr-1">Apply Now</span>
@@ -224,17 +231,15 @@ export default function Home() {
               <h1 className="md:py-4 lg:py-8 text-xl text-center josefin font-semibold sm:text-2xl md:text-3xl lg:text-5xl">Career guidance for college students</h1>
               <p className="text-justify md:text-center py-5 lg:px-28 ">Navigating your career path can be both exciting and challenging&#46; As you embark on this journey&#44; it&#39;s essential to equip yourself with the necessary tools and insights to make informed decisions about your future&#46; Career guidance provides you with valuable resources&#44; advice&#44; and support to help you explore your interests&#44; define your goals&#44; and prepare for the opportunities ahead&#46;</p>
               <p className="text-center rounded-lg  px-4 py-4 backdrop-brightness-50 josefin md:text-lg">Let&#39;s embark on this journey together to discover your potential and pave the way for a fulfilling career&#46;</p>
-              <a href="https://forms.gle/xUwoomFESnT6uZQx9">
 
-                <button className="mt-2 border-slate-100 border-2 flex mx-auto text-slate-100 px-2 py-1.5 rounded-lg ">
+              <button onClick={handleToggle} className="mt-2 border-slate-100 border-2 flex mx-auto text-slate-100 px-2 py-1.5 rounded-lg ">
 
 
-                  <span className="font-light pr-1">Apply Now</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                    <path fillRule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
-                  </svg>
-                </button>
-              </a>
+                <span className="font-light pr-1">Apply Now</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                  <path fillRule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+                </svg>
+              </button>
             </div>
           </motion.div>
         </div>
@@ -276,11 +281,62 @@ export default function Home() {
           <p className="border-b-2 border-black text-center text-lg lg:text-xl josefin font-semibold">Let&#39;s embark on this journey of growth and excellence together&#46;</p>
         </motion.div>
         <div className="md:w-1/2 mt-3 md:mt-0">
-          <h1 className="text-center caveat text-3xl lg:text-5xl mb-4 lg:py-7">Come join us</h1>
+          <h1 className="text-center caveat text-3xl lg:text-5xl mb-4 md:mb-5  lg:py-7">Come join us</h1>
+          <motion.button
+            initial={{ x: '-20vw', opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.3, }}
+            onClick={handleToggle} className="active:bg-yellow-400 ease duration-100 flex mx-auto rounded-md bg-black py-1.5 sm:py-2 md:py-3 px-4 text-yellow-400">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+
+            <span className="px-2">Apply Today</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+          </motion.button>
         </div>
       </section>
 
+
+
+
+      {
+        // FOR FORM 
+        active && (
+          <section className="container mx-auto  flex justify-center ">
+            <motion.div
+              initial={{ y: '-10vw', opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.2, }}
+              className=" fixed z-20 top-52 py-14 sm:py-20 px-3 sm:px-10 bg-slate-50 mx-4 flex flex-col gap-5 sm:gap-6 rounded-lg  ">
+              <button onClick={handleToggle}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 sm:size-8 text-black absolute top-3 right-3 ease active:text-yellow-400">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+
+              </button>
+              <h1 className="absolute top-7 sm:top-10 text-black pl-5 josefin text-xl sm:text-2xl">Looking For &#44;</h1>
+              <a href="" target="_blank" className="bg-yellow-400 text-black py-2 sm:py-4 px-3 sm:px-6 text-center flex rounded-lg items-center justify-between shadow-md josefin text-lg sm:text-xl group ease duration-100 active:bg-black"><span className="group-active:text-yellow-400">Guidance For School &#47; College Students</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 group-active:text-yellow-400">
+                <path fillRule="evenodd" d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                <path fillRule="evenodd" d="M19.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+              </svg>
+              </a>
+              <h1 className="text-black text-center">OR</h1>
+              <a href="" target="_blank" className="bg-yellow-400 text-black py-2 sm:py-4 px-3 sm:px-6 text-center flex rounded-lg items-center justify-between shadow-md josefin text-lg sm:text-xl group ease duration-100 active:bg-black"><span className="group-active:text-yellow-400">Counselling &#47; Corporate training</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 group-active:text-yellow-400">
+                <path fillRule="evenodd" d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+                <path fillRule="evenodd" d="M19.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
+              </svg>
+              </a>
+            </motion.div>
+          </section>
+        )
+      }
+
+
     </>
+
   )
 }
 
