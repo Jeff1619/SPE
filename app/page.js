@@ -6,6 +6,7 @@ import offer from '@/public/home/offer.png'
 import conseling from '@/public/home/conseling.jpg'
 import corporate from '@/public/home/corporate.jpg'
 import { motion } from "framer-motion";
+import handleToggle from "@/components/Form";
 
 export default function Home() {
   return (

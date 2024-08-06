@@ -90,11 +90,11 @@ export default function Header() {
             {/* FLOWTING ICONS */}
             <div>
 
-                <a href="tel:++91-#" className="p-3 sm:p-5 fixed z-10 rounded-full bottom-32 sm:bottom-32 md:bottom-60 lg:bottom-32 right-4  md:right-5 bg-yellow-400"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7 sm:size-10 text-black ">
+                <a href="tel:++91-#" className="p-3 sm:p-5 fixed z-10 rounded-full bottom-32 sm:bottom-32 md:bottom-60 lg:bottom-32 right-4  md:right-5 bg-green-100 group active:bg-green-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7 sm:size-10 text-green-600 group-active:text-green-100">
                     <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
                 </svg></a>
-                <a href="https://wa.me/+91#" target='_blank' className="p-3 sm:p-5 fixed z-10 rounded-full bottom-16 sm:bottom-6 md:bottom-32 lg:bottom-8 right-4 md:right-5  bg-green-500 ">
-                    <span className="[&>svg]:h-7 [&>svg]:w-7 sm:[&>svg]:h-10 sm:[&>svg]:w-10 text-white">
+                <a href="https://wa.me/+91#" target='_blank' className="p-3 sm:p-5 fixed z-10 rounded-full bottom-16 sm:bottom-6 md:bottom-32 lg:bottom-8 right-4 md:right-5  bg-green-500 group active:bg-green-50">
+                    <span className="[&>svg]:h-7 [&>svg]:w-7 sm:[&>svg]:h-10 sm:[&>svg]:w-10 text-green-50 group-active:text-green-500">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="currentColor"
