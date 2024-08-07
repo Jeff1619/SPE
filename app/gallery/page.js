@@ -75,7 +75,7 @@ const Gallery = () => {
                                 </motion.div>
                             </div>
                             <div className='flex justify-center items-center'>
-                                <Image src={bgicon} alt='#' className='absolute z-10 w-44 md:w-72' />
+                                <Image src={bgicon} alt='#' className='absolute  w-44 md:w-72' />
                             </div>
                             <div className='mt-4 sm:mt-8 flex gap-4 sm:gap-9 justify-center'>
                                 <motion.div
