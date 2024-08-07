@@ -42,19 +42,19 @@ const Gallery = () => {
                         </motion.div>
                         <div className='py-3 md:py-5 flex flex-col gap-2 sm:gap-4'>
                             <motion.h1
-                                initial={{ x: "-10vw", opacity: 0 }}
+                                initial={{ x: "-4vw", opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
-                                transition={{ delay: 0.2, duration: 0.4 }}
+                                transition={{ duration: 0.4 }}
                                 className='text-center font-bold text-lg text-yellow-400 sm:text-2xl md:text-3xl'>SPE Tribe&#46;</motion.h1>
                             <motion.h1
-                                initial={{ x: "5vw", opacity: 0 }}
+                                initial={{ x: "4vw", opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
-                                transition={{ delay: 0.2, duration: 0.4 }}
+                                transition={{ duration: 0.4 }}
                                 className='text-center font-bold text-lg text-slate-200 sm:text-2xl md:text-3xl'>Our Tribe&#44; Our Pride</motion.h1>
                             <motion.button
-                                initial={{ x: "-5vw", opacity: 0 }}
+                                initial={{ x: "-4vw", opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
-                                transition={{ delay: 0.2, duration: 0.4 }}
+                                transition={{ duration: 0.4 }}
                                 className='uppercase flex mx-auto bg-yellow-400 text-black py-2 md:text-lg rounded-b-full font-light text-sm px-8 tracking-wider'>Join Our Tribe</motion.button>
                         </div>
                         <div className='lg:flex lg:gap-14 lg:justify-center'>
