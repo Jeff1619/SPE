@@ -45,17 +45,17 @@ const Gallery = () => {
                                 initial={{ x: "-4vw", opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.4 }}
-                                className='text-center font-bold text-lg text-yellow-400 sm:text-2xl md:text-3xl'>SPE Tribe&#46;</motion.h1>
+                                className='text-center font-bold text-lg text-yellow-400 sm:text-2xl md:text-3xl'>SPE <span className='text-slate-100'>Tribe</span>&#46;</motion.h1>
                             <motion.h1
                                 initial={{ x: "4vw", opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.4 }}
-                                className='text-center font-bold text-lg text-slate-200 sm:text-2xl md:text-3xl'>Our Tribe&#44; Our Pride</motion.h1>
+                                className='text-center font-bold text-lg text-slate-200 sm:text-2xl md:text-3xl'>Our <span className='text-yellow-400'>Tribe</span>&#44; Our <span className='text-yellow-400'>Pride</span></motion.h1>
                             <motion.button
                                 initial={{ x: "-4vw", opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 0.4 }}
-                                className='uppercase flex mx-auto bg-yellow-400 text-black py-2 md:text-lg rounded-b-full font-light text-sm px-8 tracking-wider'>Join Our Tribe</motion.button>
+                                className='uppercase flex mx-auto bg-yellow-400 text-black py-2  rounded-b-full  text-sm px-8 tracking-wide josefin'>Join Our Tribe</motion.button>
                         </div>
                         <div className='lg:flex lg:gap-14 lg:justify-center'>
                             <div className='mt-6 sm:mt-10 flex gap-4 sm:gap-9 justify-center'>
