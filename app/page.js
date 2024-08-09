@@ -8,7 +8,10 @@ import corporate from '@/public/home/corporate.jpg'
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+
+
 export default function Home() {
+
 
   const [active, setActive] = useState(false)
 
@@ -271,7 +274,7 @@ export default function Home() {
         </motion.div>
       </div>
 
-      <section className="md:flex md:items-center container p-5  mx-auto mt-5 bg-yellow-400 text-black rounded-3xl">
+      <section className="md:flex md:items-center container p-5  mx-auto my-5 bg-yellow-400 text-black rounded-3xl">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -302,7 +305,7 @@ export default function Home() {
       {
         // FOR FORM 
         active && (
-          <div className="">
+          <div className="w-full h-full fixed  bg-yellow-400">
 
             <section className="container mx-auto  flex justify-center ">
               <motion.div
