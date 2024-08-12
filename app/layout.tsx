@@ -8,6 +8,7 @@ import Footer from '@/components/Footer'
 
 import { poppins } from '@/utils/Fonts'
 import { orbitron } from '@/utils/Fonts'
+import { cinzel } from "@/utils/Fonts";
 import { josefin } from '@/utils/Fonts'
 import { caveat } from '@/utils/Fonts'
 import { useState } from "react";
@@ -35,7 +36,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${poppins} ${orbitron} ${josefin} ${caveat}`}>
+      <body className={`${poppins} ${orbitron} ${josefin} ${caveat} ${cinzel}`}>
 
         {
           active && <>

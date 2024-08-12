@@ -23,3 +23,7 @@ body {
 .caveat {
     font-family: var(--font-caveat)
 }
+
+.cinzel {
+    font-family: var(--font-cinzel);
+}

@@ -5,6 +5,11 @@ import Image from "next/image";
 import offer from '@/public/home/offer.png'
 import conseling from '@/public/home/conseling.jpg'
 import corporate from '@/public/home/corporate.jpg'
+import personalDev from '@/public/home/personal.jpg'
+import careerGrowth from '@/public/home/money.jpg'
+import Health from '@/public/home/Health.jpg'
+import relationship from '@/public/home/Relationships.jpg'
+import time from '@/public/home/time.jpg'
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -29,28 +34,31 @@ export default function Home() {
 
         className="overflow-hidden h-max lg:h-screen bg-center bg-cover bg-[url('../public/home/people.jpeg')]">
         <div
-          className="bg-gradient-to-r w-full h-max lg:h-screen from-black to-black/50 p-4 sm:p-6">
+          className="bg-gradient-to-r w-full h-max lg:h-screen from-black to-black/55 p-4 sm:p-6">
 
-          <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ type: "spring", }}
+          <div className="container mx-auto">
+            <motion.h1
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ type: "spring", }}
 
-            className="text-xs pt-5 lg:text-base  uppercase   text-center tracking-widest mb-4">Welcome to  </motion.h1>
+              className="text-xs py-5 md:py-10 lg:text-base  uppercase   text-center md:text-left md:ml-24 tracking-widest ">Welcome to  </motion.h1>
+          </div>
           <motion.p
 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-yellow-400 font-extralight uppercase  text-center text-2xl sm:text-5xl md:text-5xl lg:text-7xl tracking-wide">Surging Phoenix</motion.p>
+            className="text-yellow-400 cinzel font-semibold uppercase  text-center text-2xl sm:text-5xl md:text-5xl lg:text-6xl tracking-wide pb-2 md:pb-5">Surging Phoenix</motion.p>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
 
-            className="text-slate-100  text-lg font-normal uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5 italic tracking-widest">Enterprises &#33;</motion.p>
-          <div className="container mx-auto">
-            <p className="text-justify md:text-center md:px-10 text-sm md:text-base">&#34;Welcome to <span className="text-yellow-400 font-bold italic text-sm md:text-lg">Surging phoenix enterprises</span> &#44; where we specialize in recruitment assistance&#46; We partner with organizations to streamline their hiring processes&#44; ensuring they find the best talent to meet their needs&#46; Our dedicated team provides comprehensive support from sourcing to onboarding&#44; ensuring a seamless recruitment experience&#46; Let us help you build a stronger workforce and achieve your hiring goals effectively&#46;&#34;</p>
+            className="text-slate-100  text-lg cinzel uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5  tracking-widest">Enterprises</motion.p>
+          <div className="container mx-auto flex justify-center md:mt-10 lg:mt-14">
+            <p className="text-justify lg:w-5/6 md:text-center md:px-10 text-sm md:text-base">At <span className="text-yellow-400 font-bold font-sans italic animate-pulse">Surging Phoenix Enterprises</span>&#44; we believe that every individual has the potential to rise&#44; transform&#44; and achieve greatness&#46; Our mission is to guide you on a journey of personal evolution&#44; helping you navigate the complexities of life with clarity&#44; confidence&#44; and resilience&#46;
+            </p>
           </div>
 
 
@@ -60,30 +68,16 @@ export default function Home() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.4, type: "tween", duration: 1 }}
 
-              className="josefin sm:text-2xl lg:text-2xl"><span className="text-yellow-400">We promise&#44;</span> We deliver &#33;</motion.p>
-            <motion.p
+              className="flex justify-center josefin sm:text-2xl lg:text-2xl mb-2 lg:mb-6">&#45; Empowering Your Journey &#45;
+            </motion.p>
 
-              initial={{ x: '-30vw', opacity: 0 }}
+
+            <motion.a href="/about" className="bg-yellow-400 text-black px-6 rounded-tr-full rounded-bl-full py-1 lg:py-2 text-sm md:text-base w-32 md:w-44 flex mx-auto group ease duration-150 hover:bg-black active:bg-black"
+              initial={{ x: '10vw', opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.6, type: "tween", duration: 1 }}
 
-              className="text-sm mt-2  md:mt-5 lg:mt-10 sm:text-2xl md:text-2xl lg:text-3xl italic font-semibold">High quality guidance for your transformation and excellence&#46;</motion.p>
-
-            <motion.p
-
-              initial={{ x: '-30vw', opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 0.7, type: "tween", duration: 1 }}
-
-              className="sm:text-2xl mt-2 md:mt-5 text-yellow-400 italic md:text-2xl lg:text-3xl ">We are providing high quality courses
-              for our students&#46;</motion.p>
-
-            <motion.button
-              initial={{ x: '30vw', opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 0.9, type: "tween", duration: 1 }}
-              onClick={handleToggle}
-              className="bg-yellow-400 px-5 py-2 lg:py-3 lg:px-9  text-black font-medium rounded-md mt-3 md:mt-5 sm:mt-4 active:bg-yellow-200 text-sm sm:text-xl ">Apply Now</motion.button>
+            ><span className="mx-auto group-hover:text-yellow-400 active:text-yellow-400">Learn More</span></motion.a>
 
           </div>
         </div>
@@ -91,7 +85,84 @@ export default function Home() {
       </motion.section>
 
 
-      <section className="overflow-hidden h-max lg:h-screen pt-8 px-3 md:px-0 md:pl-8 bg-yellow-400 ">
+      {/* <div className="container mx-auto my-8">
+        <p className=" text-center josefin text-xl px-5 py-5 border-slate-100 border-y-2">Life is a dynamic and multifaceted journey, and we’re here to help you master it. As experienced life coaches, we offer comprehensive support across a wide range of areas, </p>
+      </div> */}
+
+      {/* <h1 className="text-center text-yellow-400 font-semibold text-sm py-9 px-8 josefin">Why Choose Surging Phoenix Enterprises?</h1>
+      <div className="container mx-auto">
+
+        <div className="">
+          <div className=" group w-44 h-72 [perspective:1000px] rounded-lg">
+            <div className="bg-yellow-400  relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0">
+                <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+              </div>
+              <div className="absolute inset-0 h-72 w-60 rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="container mx-auto">
+
+        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+          <div className="md:w-1/2 ">
+            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Personal Development&#58;</h1>
+            <p className="text-justify mb-4">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
+            </p>
+          </div>
+          <Image src={personalDev} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+        </div>
+        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+          <div className="order-2 md:w-1/2 ">
+            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Career Growth&#58;</h1>
+            <p className="text-justify mb-4">
+              Take control of your professional path with strategic guidance and support&#46; Whether you’re seeking career advancement&#44; transitioning to a new role&#44; or starting a new venture&#44; we offer the tools and insights you need to succeed and thrive in your career&#46;
+
+            </p>
+          </div>
+          <Image src={careerGrowth} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+
+        </div>
+        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+          <div className=" md:w-1/2 ">
+            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Health and Wellness&#58; </h1>
+            <p className="text-justify mb-4">
+              Achieve a balanced and healthy lifestyle through personalized wellness plans and strategies&#46; Our coaching focuses on holistic well-being&#44; including physical health&#44; mental clarity&#44; and emotional resilience&#44; to help you live your best life
+
+            </p>
+          </div>
+          <Image src={Health} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+
+        </div>
+        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+          <div className=" md:w-1/2 order-2">
+            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl"> Relationships and Communication&#58; </h1>
+            <p className="text-justify mb-4">
+              Build stronger&#44; more meaningful connections with those around you&#46; We provide practical advice and techniques to improve your communication skills&#44; resolve conflicts&#44; and foster positive relationships in both personal and professional settings&#46;
+
+
+            </p>
+          </div>
+          <Image src={relationship} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+
+        </div>
+        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+          <div className=" md:w-1/2">
+            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Time Management and Productivity&#58;  </h1>
+            <p className="text-justify mb-4">
+              Master the art of effective time management and boost your productivity&#46; Our coaching helps you develop efficient routines&#44; prioritize tasks&#44; and overcome procrastination&#44; enabling you to achieve more with less stress&#46;
+            </p>
+          </div>
+          <Image src={time} className=" md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+
+        </div>
+      </div>
+
+      {/* <section className="overflow-hidden h-max lg:h-screen pt-8 px-3 md:px-0 md:pl-8 bg-yellow-400 ">
         <div className="container mx-auto md:flex">
           <div className="md:w-1/2  text-black ">
             <motion.h1
@@ -336,7 +407,7 @@ export default function Home() {
 
           </div>
         )
-      }
+      } */}
 
 
     </>
