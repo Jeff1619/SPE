@@ -27,3 +27,7 @@ body {
 .cinzel {
     font-family: var(--font-cinzel);
 }
+
+.great {
+    font-family: var(--font-great);
+}

@@ -57,7 +57,7 @@ export default function Home() {
 
             className="text-slate-100  text-lg cinzel uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5  tracking-widest">Enterprises</motion.p>
           <div className="container mx-auto flex justify-center md:mt-10 lg:mt-14">
-            <p className="text-justify lg:w-5/6 md:text-center md:px-10 text-sm md:text-base">At <span className="text-yellow-400 font-bold font-sans italic animate-pulse">Surging Phoenix Enterprises</span>&#44; we believe that every individual has the potential to rise&#44; transform&#44; and achieve greatness&#46; Our mission is to guide you on a journey of personal evolution&#44; helping you navigate the complexities of life with clarity&#44; confidence&#44; and resilience&#46;
+            <p className="text-justify lg:w-5/6 md:text-center md:px-10 text-sm sm:text-base ">At <span className="text-yellow-400 font-bold font-sans italic animate-pulse">Surging Phoenix Enterprises</span>&#44; we believe that every individual has the potential to rise&#44; transform&#44; and achieve greatness&#46; Our mission is to guide you on a journey of personal evolution&#44; helping you navigate the complexities of life with clarity&#44; confidence&#44; and resilience&#46;
             </p>
           </div>
 
@@ -89,38 +89,81 @@ export default function Home() {
         <p className=" text-center josefin text-xl px-5 py-5 border-slate-100 border-y-2">Life is a dynamic and multifaceted journey, and we’re here to help you master it. As experienced life coaches, we offer comprehensive support across a wide range of areas, </p>
       </div> */}
 
-      {/* <h1 className="text-center text-yellow-400 font-semibold text-sm py-9 px-8 josefin">Why Choose Surging Phoenix Enterprises?</h1>
+      <h1 className="text-center font-semibold text-sm py-9 px-8 josefin">Why Choose <span className="text-yellow-400 text-lg md:text-2xl great tracking-widest">Surging Phoenix Enterprises</span>?</h1>
+
       <div className="container mx-auto">
 
-        <div className="">
-          <div className=" group w-44 h-72 [perspective:1000px] rounded-lg">
-            <div className="bg-yellow-400  relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-              <div className="absolute inset-0">
-                <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+        <div className="lg:flex">
+          <div className="md:mb-10 lg:mb-0 md:flex md:mx-auto  md:w-3/4">
+            <div className="w-60 mx-auto mb-8 md:mb-0">
+              <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
+                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute  inset-0">
+                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+                  </div>
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  </div>
+                </div>
               </div>
-              <div className="absolute inset-0 h-72 w-60 rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+            </div>
+            <div className="w-60 mx-auto mb-8 md:mb-0">
+              <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
+                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute  inset-0">
+                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+                  </div>
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="md:flex md:mx-auto  md:w-3/4 ">
+            <div className="w-60 mx-auto mb-8 md:mb-0">
+              <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
+                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute  inset-0">
+                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+                  </div>
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-60 mx-auto mb-8 md:mb-0">
+              <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
+                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute  inset-0">
+                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+                  </div>
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="container mx-auto">
 
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="md:w-1/2 ">
-            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Personal Development&#58;</h1>
-            <p className="text-justify mb-4">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
+            <h1 className="tracking-widest font-semibold mb-2 text-xl md:text-2xl  great ">Personal Development&#58;</h1>
+            <p className="text-justify mb-4 text-sm sm:text-base">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
             </p>
           </div>
           <Image src={personalDev} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="order-2 md:w-1/2 ">
-            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Career Growth&#58;</h1>
-            <p className="text-justify mb-4">
-              Take control of your professional path with strategic guidance and support&#46; Whether you’re seeking career advancement&#44; transitioning to a new role&#44; or starting a new venture&#44; we offer the tools and insights you need to succeed and thrive in your career&#46;
+            <h1 className="tracking-widest font-semibold mb-2 text-xl md:text-2xl great">Career Growth&#58;</h1>
+            <p className="text-justify mb-4 text-sm sm:text-base">
+              Take control of your professional path with strategic guidance and support&#46; Whether you&#39;re seeking career advancement&#44; transitioning to a new role&#44; or starting a new venture&#44; we offer the tools and insights you need to succeed and thrive in your career&#46;
 
             </p>
           </div>
@@ -129,8 +172,8 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 ">
-            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Health and Wellness&#58; </h1>
-            <p className="text-justify mb-4">
+            <h1 className="great tracking-widest font-semibold mb-2 text-xl md:text-2xl">Health and Wellness&#58; </h1>
+            <p className="text-justify mb-4 text-sm sm:text-base">
               Achieve a balanced and healthy lifestyle through personalized wellness plans and strategies&#46; Our coaching focuses on holistic well-being&#44; including physical health&#44; mental clarity&#44; and emotional resilience&#44; to help you live your best life
 
             </p>
@@ -140,8 +183,8 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 order-2">
-            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl"> Relationships and Communication&#58; </h1>
-            <p className="text-justify mb-4">
+            <h1 className="great tracking-widest font-semibold mb-2 text-xl md:text-2xl"> Relationships and Communication&#58; </h1>
+            <p className="text-justify mb-4 text-sm sm:text-base">
               Build stronger&#44; more meaningful connections with those around you&#46; We provide practical advice and techniques to improve your communication skills&#44; resolve conflicts&#44; and foster positive relationships in both personal and professional settings&#46;
 
 
@@ -152,8 +195,8 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2">
-            <h1 className="uppercase font-semibold mb-2 text-lg md:text-xl lg:text-2xl">Time Management and Productivity&#58;  </h1>
-            <p className="text-justify mb-4">
+            <h1 className="great tracking-widest font-semibold mb-2 text-xl md:text-2xl">Time Management and Productivity&#58;  </h1>
+            <p className="text-justify mb-4 text-sm sm:text-base">
               Master the art of effective time management and boost your productivity&#46; Our coaching helps you develop efficient routines&#44; prioritize tasks&#44; and overcome procrastination&#44; enabling you to achieve more with less stress&#46;
             </p>
           </div>

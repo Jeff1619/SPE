@@ -11,6 +11,7 @@ import { orbitron } from '@/utils/Fonts'
 import { cinzel } from "@/utils/Fonts";
 import { josefin } from '@/utils/Fonts'
 import { caveat } from '@/utils/Fonts'
+import { great } from '@/utils/Fonts'
 import { useState } from "react";
 
 // export const metadata: Metadata = {
@@ -36,7 +37,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${poppins} ${orbitron} ${josefin} ${caveat} ${cinzel}`}>
+      <body className={`${poppins} ${orbitron} ${josefin} ${caveat} ${cinzel} ${great}`}>
 
         {
           active && <>
