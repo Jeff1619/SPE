@@ -95,13 +95,21 @@ export default function Home() {
 
 
 
-      <h1 className="text-center font-semibold text-sm py-9 md:py-14 lg:py-20 px-8 josefin md:text-lg">Why Choose <span className="text-yellow-400 text-xl md:text-3xl great tracking-widest">Surging Phoenix Enterprises</span>&#63;</h1>
+      <motion.h1
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="text-center font-semibold text-sm py-9 md:py-14 lg:py-20 px-8 josefin md:text-lg">Why Choose <span className="text-yellow-400 text-xl md:text-3xl great tracking-widest">Surging Phoenix Enterprises</span>&#63;</motion.h1>
 
       <div className="container mx-auto">
 
         <div className="lg:flex">
           <div className="md:mb-10 lg:mb-0 md:flex md:mx-auto  md:w-3/4">
-            <div className="w-60 mx-auto mb-8 md:mb-0">
+            <motion.div
+              initial={{ x: "-10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 120, duration: 1 }}
+              className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg ">
                 <div className="bg-pink-300 shadow-lg shadow-pink-400   relative h-72 w-60 rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute  inset-0 p-4">
@@ -116,8 +124,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="w-60 mx-auto mb-8 md:mb-0">
+            </motion.div>
+            <motion.div
+              initial={{ x: "-10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.2, type: "spring", stiffness: 120, duration: 1 }}
+              className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
                 <div className="bg-blue-200   relative h-72 w-60 rounded-xl shadow-blue-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute  inset-0 p-4">
@@ -131,10 +143,14 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className="md:flex md:mx-auto  md:w-3/4 ">
-            <div className="w-60 mx-auto mb-8 md:mb-0">
+            <motion.div
+              initial={{ x: "-10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.4, type: "spring", stiffness: 120, duration: 1 }}
+              className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
                 <div className="bg-slate-200  relative h-72 w-60 rounded-xl shadow-slate-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute  inset-0 p-4">
@@ -149,8 +165,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="w-60 mx-auto mb-8 md:mb-0">
+            </motion.div>
+            <motion.div
+              initial={{ x: "-10vw", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.6, type: "spring", stiffness: 120, duration: 1 }}
+              className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
                 <div className="bg-green-200  relative h-72 w-60 rounded-xl shadow-green-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute p-4  inset-0">
@@ -164,19 +184,23 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
-      </div>
+      </div >
 
-      <div className="container mx-auto my-16 md:my-20">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="container mx-auto my-16 md:my-20">
         <div className="px-5 py-5 md:py-10 border-slate-100 border-y-2">
           <p className=" text-center josefin text-xl mb-5 md:w-1/2 mx-auto">Life is a dynamic and multifaceted journey&#44; and we&#39;re here to help you master it&#46; As experienced life coaches&#46; we offer comprehensive support across a wide range of areas&#46;
           </p>
           <Image src={leafIcon} className="w-48 mx-auto" alt="#" />
         </div>
 
-      </div>
+      </motion.div>
 
       <div className="container mx-auto">
 
@@ -188,15 +212,24 @@ export default function Home() {
           </svg>
         </h1>
 
-        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+        <motion.div
+          initial={{ y: "10vw", opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="md:w-1/2 ">
             <h1 className="tracking-widest font-semibold mb-5  text-2xl md:text-3xl  great text-yellow-400 underline underline-offset-8">Personal Development&#58;</h1>
             <p className="text-justify mb-4 text-sm sm:text-base">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
             </p>
           </div>
-          <Image src={personalDev} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
-        </div>
-        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+          <Image
+            src={personalDev} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+        </motion.div>
+        <motion.div
+          initial={{ y: "10vw", opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="order-2 md:w-1/2 ">
             <h1 className="tracking-widest font-semibold mb-5 text-2xl md:text-3xl great text-yellow-400 underline underline-offset-8">Career Growth&#58;</h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
@@ -206,8 +239,12 @@ export default function Home() {
           </div>
           <Image src={careerGrowth} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
 
-        </div>
-        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+        </motion.div>
+        <motion.div
+          initial={{ y: "10vw", opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 ">
             <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8">Health and Wellness&#58; </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
@@ -217,8 +254,12 @@ export default function Home() {
           </div>
           <Image src={Health} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
 
-        </div>
-        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+        </motion.div>
+        <motion.div
+          initial={{ y: "10vw", opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 order-2">
             <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8"> Relationships and Communication&#58; </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
@@ -229,8 +270,12 @@ export default function Home() {
           </div>
           <Image src={relationship} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
 
-        </div>
-        <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+        </motion.div>
+        <motion.div
+          initial={{ y: "10vw", opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2">
             <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8">Time Management and Productivity&#58;  </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
@@ -239,8 +284,8 @@ export default function Home() {
           </div>
           <Image src={time} className=" md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
 
-        </div>
-      </div>
+        </motion.div>
+      </div >
 
 
 
