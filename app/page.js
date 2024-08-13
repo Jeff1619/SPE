@@ -9,6 +9,10 @@ import personalDev from '@/public/home/personal.jpg'
 import careerGrowth from '@/public/home/money.jpg'
 import Health from '@/public/home/Health.jpg'
 import relationship from '@/public/home/Relationships.jpg'
+import tailoredCoaching from '@/public/home/TailoredCoaching.png'
+import expertGuidance from '@/public/home/ExpertGuidance.png'
+import holisticApproach from '@/public/home/HolisticApproach.png'
+import transformationalResults from '@/public/home/TransformationalResults.png'
 import time from '@/public/home/time.jpg'
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -89,32 +93,39 @@ export default function Home() {
         <p className=" text-center josefin text-xl px-5 py-5 border-slate-100 border-y-2">Life is a dynamic and multifaceted journey, and we’re here to help you master it. As experienced life coaches, we offer comprehensive support across a wide range of areas, </p>
       </div> */}
 
-      <h1 className="text-center font-semibold text-sm py-9 px-8 josefin">Why Choose <span className="text-yellow-400 text-lg md:text-2xl great tracking-widest">Surging Phoenix Enterprises</span>?</h1>
+      <h1 className="text-center font-semibold text-sm py-9 md:py-14 lg:py-20 px-8 josefin">Why Choose <span className="text-yellow-400 text-lg md:text-2xl great tracking-widest">Surging Phoenix Enterprises</span>?</h1>
 
       <div className="container mx-auto">
 
         <div className="lg:flex">
           <div className="md:mb-10 lg:mb-0 md:flex md:mx-auto  md:w-3/4">
             <div className="w-60 mx-auto mb-8 md:mb-0">
-              <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
-                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  <div className="absolute  inset-0">
-                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+              <div className="group w-44 h-72 [perspective:1000px] rounded-lg ">
+                <div className="bg-pink-300 shadow-lg shadow-pink-400   relative h-72 w-60 rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute  inset-0 p-4">
+                    <Image src={tailoredCoaching} alt="#" />
+                    <h1 className="josefin text-pink-700 text-center text-lg uppercase font-semibold pt-10">Tailored Coaching:</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-pink-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-4 text-justify">
+                      We understand that every individual’s journey is unique. Our coaching is customized to address your specific needs, challenges, and aspirations, ensuring a personalized approach that delivers real results.
+                    </p>
+
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
-                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  <div className="absolute  inset-0">
-                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+                <div className="bg-blue-200   relative h-72 w-60 rounded-xl shadow-blue-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute  inset-0 p-2">
+                    <Image src={expertGuidance} alt="#" /><h1 className="text-center text-lg uppercase font-semibold pt-10 josefin text-blue-400">Expert Guidance</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-blue-300 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-4 text-justify">
+                      Our team of skilled coaches brings extensive experience and a deep understanding of various life aspects, offering you insights and strategies grounded in both theory and practice.
+                    </p>
+
                   </div>
                 </div>
               </div>
@@ -123,24 +134,31 @@ export default function Home() {
           <div className="md:flex md:mx-auto  md:w-3/4 ">
             <div className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
-                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  <div className="absolute  inset-0">
-                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+                <div className="bg-slate-200  relative h-72 w-60 rounded-xl shadow-slate-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute  inset-0 p-4">
+                    <Image src={holisticApproach} className="w-56 mx-auto" alt="#" />
+                    <h1 className="text-center text-lg uppercase font-semibold pt-5 josefin text-black">Holistic Approach</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-slate-300 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-4 text-justify">
+                      We focus on the whole person, integrating multiple facets of life to foster comprehensive growth and balance. Our holistic approach ensures that improvements in one area positively impact all other areas.
+                    </p>
+
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
-                <div className="bg-yellow-400   relative h-72 w-60 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  <div className="absolute  inset-0">
-                    <img className="mx-auto w-44" src="https://png.pngtree.com/png-clipart/20230914/original/pngtree-webdesign-clipart-flat-website-design-vector-illustration-cartoon-png-image_12145876.png" alt="" /><h1 className="text-center text-2xl uppercase font-semibold pt-10">for corporates</h1>
+                <div className="bg-green-200   relative h-72 w-60 rounded-xl shadow-green-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                  <div className="absolute p-4  inset-0">
+                    <Image src={transformationalResults} className="w-40 mx-auto" alt="#" /><h1 className="text-center text-lg uppercase font-semibold pt-5 josefin text-green-400">Transformational Results</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-yellow-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non similique saepe, in fugit ullam quas ipsum, repellendus nihil expedita adipisci deserunt est, labore ipsa quisquam consequuntur corporis enim minima!
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-green-300 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-4 text-justify">
+                      Our goal is not just to help you navigate life’s challenges but to inspire lasting transformation. We’re dedicated to supporting you every step of the way as you achieve your goals and realize your full potential.
+                    </p>
+
                   </div>
                 </div>
               </div>
