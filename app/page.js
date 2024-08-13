@@ -93,7 +93,7 @@ export default function Home() {
         <p className=" text-center josefin text-xl px-5 py-5 border-slate-100 border-y-2">Life is a dynamic and multifaceted journey, and we’re here to help you master it. As experienced life coaches, we offer comprehensive support across a wide range of areas, </p>
       </div> */}
 
-      <h1 className="text-center font-semibold text-sm py-9 md:py-14 lg:py-20 px-8 josefin">Why Choose <span className="text-yellow-400 text-lg md:text-2xl great tracking-widest">Surging Phoenix Enterprises</span>?</h1>
+      <h1 className="text-center font-semibold text-sm py-9 md:py-14 lg:py-20 px-8 josefin">Why Choose <span className="text-yellow-400 text-xl md:text-2xl great tracking-widest">Surging Phoenix Enterprises</span>&#63;</h1>
 
       <div className="container mx-auto">
 
@@ -103,12 +103,12 @@ export default function Home() {
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg ">
                 <div className="bg-pink-300 shadow-lg shadow-pink-400   relative h-72 w-60 rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute  inset-0 p-4">
-                    <Image src={tailoredCoaching} alt="#" />
-                    <h1 className="josefin text-pink-700 text-center text-lg uppercase font-semibold pt-10">Tailored Coaching:</h1>
+                    <Image src={tailoredCoaching} className="h-4/5 object-contain" alt="#" />
+                    <h1 className="h-1/5 josefin text-pink-700 justify-center text-base uppercase font-semibold flex items-center">Tailored Coaching</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-pink-400 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    <p className="p-4 text-justify">
-                      We understand that every individual’s journey is unique. Our coaching is customized to address your specific needs, challenges, and aspirations, ensuring a personalized approach that delivers real results.
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-pink-800 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-5 text-justify text-pink-100">
+                      We understand that every individual&#39;s journey is unique&#46; Our coaching is customized to address your specific needs&#44; challenges&#44; and aspirations&#44; ensuring a personalized approach that delivers real results&#46;
                     </p>
 
                   </div>
@@ -118,12 +118,12 @@ export default function Home() {
             <div className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
                 <div className="bg-blue-200   relative h-72 w-60 rounded-xl shadow-blue-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  <div className="absolute  inset-0 p-2">
-                    <Image src={expertGuidance} alt="#" /><h1 className="text-center text-lg uppercase font-semibold pt-10 josefin text-blue-400">Expert Guidance</h1>
+                  <div className="absolute  inset-0 p-4">
+                    <Image src={expertGuidance} className="h-4/5 object-contain" alt="#" /><h1 className="h-1/5 flex items-center justify-center text-base uppercase font-semibold  josefin text-blue-500">Expert Guidance</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-blue-300 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    <p className="p-4 text-justify">
-                      Our team of skilled coaches brings extensive experience and a deep understanding of various life aspects, offering you insights and strategies grounded in both theory and practice.
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-blue-800 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-5 text-justify text-blue-100">
+                      Our team of skilled coaches brings extensive experience and a deep understanding of various life aspects&#44; offering you insights and strategies grounded in both theory and practice&#46;
                     </p>
 
                   </div>
@@ -136,12 +136,12 @@ export default function Home() {
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
                 <div className="bg-slate-200  relative h-72 w-60 rounded-xl shadow-slate-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute  inset-0 p-4">
-                    <Image src={holisticApproach} className="w-56 mx-auto" alt="#" />
-                    <h1 className="text-center text-lg uppercase font-semibold pt-5 josefin text-black">Holistic Approach</h1>
+                    <Image src={holisticApproach} className="h-4/5 object-contain " alt="#" />
+                    <h1 className="h-1/5 flex items-center justify-center text-base uppercase font-semibold  josefin text-black">Holistic Approach</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-slate-300 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    <p className="p-4 text-justify">
-                      We focus on the whole person, integrating multiple facets of life to foster comprehensive growth and balance. Our holistic approach ensures that improvements in one area positively impact all other areas.
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-slate-800 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-5 text-justify text-slate-100">
+                      We focus on the whole person&#44; integrating multiple facets of life to foster comprehensive growth and balance&#46; Our holistic approach ensures that improvements in one area positively impact all other areas&#46;
                     </p>
 
                   </div>
@@ -150,13 +150,13 @@ export default function Home() {
             </div>
             <div className="w-60 mx-auto mb-8 md:mb-0">
               <div className="group w-44 h-72 [perspective:1000px] rounded-lg">
-                <div className="bg-green-200   relative h-72 w-60 rounded-xl shadow-green-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <div className="bg-green-200  relative h-72 w-60 rounded-xl shadow-green-300 shadow-lg transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div className="absolute p-4  inset-0">
-                    <Image src={transformationalResults} className="w-40 mx-auto" alt="#" /><h1 className="text-center text-lg uppercase font-semibold pt-5 josefin text-green-400">Transformational Results</h1>
+                    <Image src={transformationalResults} className="h-4/5 object-contain" alt="#" /><h1 className="h-1/5 flex items-center justify-center text-center text-base uppercase font-semibold  josefin text-green-500">Transformational Results</h1>
                   </div>
-                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-green-300 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    <p className="p-4 text-justify">
-                      Our goal is not just to help you navigate life’s challenges but to inspire lasting transformation. We’re dedicated to supporting you every step of the way as you achieve your goals and realize your full potential.
+                  <div className="absolute inset-0 h-72 w-60  rounded-xl bg-green-800 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <p className="p-5 text-justify text-green-100">
+                      Our goal is not just to help you navigate life&#39;s challenges but to inspire lasting transformation&#46; We&#39;re dedicated to supporting you every step of the way as you achieve your goals and realize your full potential&#46;
                     </p>
 
                   </div>
@@ -171,7 +171,7 @@ export default function Home() {
 
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="md:w-1/2 ">
-            <h1 className="tracking-widest font-semibold mb-2 text-xl md:text-2xl  great ">Personal Development&#58;</h1>
+            <h1 className="tracking-widest font-semibold mb-2 text-2xl md:text-2xl  great ">Personal Development&#58;</h1>
             <p className="text-justify mb-4 text-sm sm:text-base">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
             </p>
           </div>
@@ -179,7 +179,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="order-2 md:w-1/2 ">
-            <h1 className="tracking-widest font-semibold mb-2 text-xl md:text-2xl great">Career Growth&#58;</h1>
+            <h1 className="tracking-widest font-semibold mb-2 text-2xl md:text-2xl great">Career Growth&#58;</h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Take control of your professional path with strategic guidance and support&#46; Whether you&#39;re seeking career advancement&#44; transitioning to a new role&#44; or starting a new venture&#44; we offer the tools and insights you need to succeed and thrive in your career&#46;
 
@@ -190,7 +190,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 ">
-            <h1 className="great tracking-widest font-semibold mb-2 text-xl md:text-2xl">Health and Wellness&#58; </h1>
+            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-2xl">Health and Wellness&#58; </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Achieve a balanced and healthy lifestyle through personalized wellness plans and strategies&#46; Our coaching focuses on holistic well-being&#44; including physical health&#44; mental clarity&#44; and emotional resilience&#44; to help you live your best life
 
@@ -201,7 +201,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 order-2">
-            <h1 className="great tracking-widest font-semibold mb-2 text-xl md:text-2xl"> Relationships and Communication&#58; </h1>
+            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-2xl"> Relationships and Communication&#58; </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Build stronger&#44; more meaningful connections with those around you&#46; We provide practical advice and techniques to improve your communication skills&#44; resolve conflicts&#44; and foster positive relationships in both personal and professional settings&#46;
 
@@ -213,7 +213,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2">
-            <h1 className="great tracking-widest font-semibold mb-2 text-xl md:text-2xl">Time Management and Productivity&#58;  </h1>
+            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-2xl">Time Management and Productivity&#58;  </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Master the art of effective time management and boost your productivity&#46; Our coaching helps you develop efficient routines&#44; prioritize tasks&#44; and overcome procrastination&#44; enabling you to achieve more with less stress&#46;
             </p>
