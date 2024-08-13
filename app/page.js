@@ -171,7 +171,7 @@ export default function Home() {
 
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="md:w-1/2 ">
-            <h1 className="tracking-widest font-semibold mb-2 text-2xl md:text-2xl  great ">Personal Development&#58;</h1>
+            <h1 className="tracking-widest font-semibold mb-2  text-2xl md:text-3xl  great ">Personal Development&#58;</h1>
             <p className="text-justify mb-4 text-sm sm:text-base">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
             </p>
           </div>
@@ -179,7 +179,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className="order-2 md:w-1/2 ">
-            <h1 className="tracking-widest font-semibold mb-2 text-2xl md:text-2xl great">Career Growth&#58;</h1>
+            <h1 className="tracking-widest font-semibold mb-2 text-2xl md:text-3xl great">Career Growth&#58;</h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Take control of your professional path with strategic guidance and support&#46; Whether you&#39;re seeking career advancement&#44; transitioning to a new role&#44; or starting a new venture&#44; we offer the tools and insights you need to succeed and thrive in your career&#46;
 
@@ -190,7 +190,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 ">
-            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-2xl">Health and Wellness&#58; </h1>
+            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-3xl">Health and Wellness&#58; </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Achieve a balanced and healthy lifestyle through personalized wellness plans and strategies&#46; Our coaching focuses on holistic well-being&#44; including physical health&#44; mental clarity&#44; and emotional resilience&#44; to help you live your best life
 
@@ -201,7 +201,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2 order-2">
-            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-2xl"> Relationships and Communication&#58; </h1>
+            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-3xl"> Relationships and Communication&#58; </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Build stronger&#44; more meaningful connections with those around you&#46; We provide practical advice and techniques to improve your communication skills&#44; resolve conflicts&#44; and foster positive relationships in both personal and professional settings&#46;
 
@@ -213,7 +213,7 @@ export default function Home() {
         </div>
         <div className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
           <div className=" md:w-1/2">
-            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-2xl">Time Management and Productivity&#58;  </h1>
+            <h1 className="great tracking-widest font-semibold mb-2 text-2xl md:text-3xl">Time Management and Productivity&#58;  </h1>
             <p className="text-justify mb-4 text-sm sm:text-base">
               Master the art of effective time management and boost your productivity&#46; Our coaching helps you develop efficient routines&#44; prioritize tasks&#44; and overcome procrastination&#44; enabling you to achieve more with less stress&#46;
             </p>
