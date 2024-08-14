@@ -95,14 +95,15 @@ export default function Home() {
       </motion.section>
 
 
+      <div className="bg-fixed bg-contain bg-no-repeat bg-[url('../public/home/goldenbg.png')]">
 
-      <motion.h1
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className="text-center font-semibold text-sm py-9 md:py-14 lg:py-20 px-8 josefin md:text-lg">Why Choose <span className="text-yellow-400 text-xl md:text-3xl great tracking-widest">Surging Phoenix Enterprises</span>&#63;</motion.h1>
+        <motion.h1
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="text-center font-semibold text-sm py-9 md:py-14 lg:py-20 px-8 josefin md:text-lg">Why Choose <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400 text-xl md:text-3xl great tracking-widest">Surging Phoenix Enterprises</span>&#63;</motion.h1>
 
-      <div>
+
         <div className="container mx-auto">
 
           <div className="lg:flex">
@@ -204,13 +205,15 @@ export default function Home() {
           </motion.div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+
       </div>
+
 
       <div>
         <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
         <div className="container mx-auto">
 
-          <h1 className="flex gap-2 justify-center uppercase tracking-widest text-xl text-center items-center font-light "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+          <h1 className="flex gap-2 justify-center uppercase tracking-widest text-lg md:text-xl text-center items-center font-light "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
           </svg>
             <span>including</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -218,87 +221,92 @@ export default function Home() {
             </svg>
           </h1>
 
-          <motion.div
-            initial={{ y: "10vw", opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
-            <div className="md:w-1/2 ">
-              <h1 className="tracking-widest font-semibold mb-5  text-2xl md:text-3xl  great text-yellow-400 underline underline-offset-8">Personal Development&#58;</h1>
-              <p className="text-justify mb-4 text-sm sm:text-base">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
-              </p>
-            </div>
-            <Image
-              src={personalDev} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
-          </motion.div>
-          <motion.div
-            initial={{ y: "10vw", opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
-            <div className="order-2 md:w-1/2 ">
-              <h1 className="tracking-widest font-semibold mb-5 text-2xl md:text-3xl great text-yellow-400 underline underline-offset-8">Career Growth&#58;</h1>
-              <p className="text-justify mb-4 text-sm sm:text-base">
-                Take control of your professional path with strategic guidance and support&#46; Whether you&#39;re seeking career advancement&#44; transitioning to a new role&#44; or starting a new venture&#44; we offer the tools and insights you need to succeed and thrive in your career&#46;
-
-              </p>
-            </div>
-            <Image src={careerGrowth} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
-
-          </motion.div>
-          <motion.div
-            initial={{ y: "10vw", opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
-            <div className=" md:w-1/2 ">
-              <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8">Health and Wellness&#58; </h1>
-              <p className="text-justify mb-4 text-sm sm:text-base">
-                Achieve a balanced and healthy lifestyle through personalized wellness plans and strategies&#46; Our coaching focuses on holistic well-being&#44; including physical health&#44; mental clarity&#44; and emotional resilience&#44; to help you live your best life
-
-              </p>
-            </div>
-            <Image src={Health} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
-
-          </motion.div>
-          <motion.div
-            initial={{ y: "10vw", opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
-            <div className=" md:w-1/2 order-2">
-              <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8"> Relationships and Communication&#58; </h1>
-              <p className="text-justify mb-4 text-sm sm:text-base">
-                Build stronger&#44; more meaningful connections with those around you&#46; We provide practical advice and techniques to improve your communication skills&#44; resolve conflicts&#44; and foster positive relationships in both personal and professional settings&#46;
+          <div className="bg-fixed bg-center sm:bg-contain bg-no-repeat bg-[url('../public/home/goldenice.png')]">
+            <motion.div
+              initial={{ y: "10vw", opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8 }}
+              className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+              <div className="md:w-1/2 ">
+                <h1 className="tracking-widest font-semibold mb-5  text-2xl md:text-3xl  great text-yellow-400 underline underline-offset-8">Personal Development&#58;</h1>
+                <p className="text-justify mb-4 text-sm sm:text-base">Unlock your true potential by enhancing self-awareness&#44; building confidence&#44; and setting meaningful goals&#46; We provide tailored coaching to help you cultivate positive habits&#44; overcome challenges&#44; and achieve personal fulfillment&#46;
+                </p>
+              </div>
+              <Image
+                src={personalDev} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+            </motion.div>
 
 
-              </p>
-            </div>
-            <Image src={relationship} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+            <motion.div
+              initial={{ y: "10vw", opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8 }}
+              className="px-5  py-9 md:py-16 md:flex md:gap-8 md:items-center">
+              <div className="order-2 md:w-1/2 ">
+                <h1 className="tracking-widest font-semibold mb-5 text-2xl md:text-3xl great text-yellow-400 underline underline-offset-8">Career Growth&#58;</h1>
+                <p className="text-justify mb-4 text-sm sm:text-base">
+                  Take control of your professional path with strategic guidance and support&#46; Whether you&#39;re seeking career advancement&#44; transitioning to a new role&#44; or starting a new venture&#44; we offer the tools and insights you need to succeed and thrive in your career&#46;
 
-          </motion.div>
-          <motion.div
-            initial={{ y: "10vw", opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
-            <div className=" md:w-1/2">
-              <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8">Time Management and Productivity&#58;  </h1>
-              <p className="text-justify mb-4 text-sm sm:text-base">
-                Master the art of effective time management and boost your productivity&#46; Our coaching helps you develop efficient routines&#44; prioritize tasks&#44; and overcome procrastination&#44; enabling you to achieve more with less stress&#46;
-              </p>
-            </div>
-            <Image src={time} className=" md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+                </p>
+              </div>
+              <Image src={careerGrowth} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
 
-          </motion.div>
+            </motion.div>
+
+            <motion.div
+              initial={{ y: "10vw", opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8 }}
+              className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+              <div className=" md:w-1/2 ">
+                <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8">Health and Wellness&#58; </h1>
+                <p className="text-justify mb-4 text-sm sm:text-base">
+                  Achieve a balanced and healthy lifestyle through personalized wellness plans and strategies&#46; Our coaching focuses on holistic well-being&#44; including physical health&#44; mental clarity&#44; and emotional resilience&#44; to help you live your best life
+
+                </p>
+              </div>
+              <Image src={Health} className="md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+
+            </motion.div>
+            <motion.div
+              initial={{ y: "10vw", opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8 }}
+              className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+              <div className=" md:w-1/2 order-2">
+                <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8"> Relationships and Communication&#58; </h1>
+                <p className="text-justify mb-4 text-sm sm:text-base">
+                  Build stronger&#44; more meaningful connections with those around you&#46; We provide practical advice and techniques to improve your communication skills&#44; resolve conflicts&#44; and foster positive relationships in both personal and professional settings&#46;
+
+
+                </p>
+              </div>
+              <Image src={relationship} className="order-1 md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+
+            </motion.div>
+            <motion.div
+              initial={{ y: "10vw", opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8 }}
+              className="px-5 py-9 md:py-16 md:flex md:gap-8 md:items-center">
+              <div className=" md:w-1/2">
+                <h1 className="great tracking-widest font-semibold mb-5 text-2xl md:text-3xl text-yellow-400 underline underline-offset-8">Time Management and Productivity&#58;  </h1>
+                <p className="text-justify mb-4 text-sm sm:text-base">
+                  Master the art of effective time management and boost your productivity&#46; Our coaching helps you develop efficient routines&#44; prioritize tasks&#44; and overcome procrastination&#44; enabling you to achieve more with less stress&#46;
+                </p>
+              </div>
+              <Image src={time} className=" md:w-1/2 h-60 sm:h-80 lg:h-96 w-80 sm:w-96 mx-auto object-cover object-center" alt="#" />
+
+            </motion.div>
+          </div>
+
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
-
       </div>
 
 
 
-      <section>
+      <section className="bg-local bg-cover sm:bg-contain bg-no-repeat bg-[url('../public/home/goldenfire.png')]">
 
 
         <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
