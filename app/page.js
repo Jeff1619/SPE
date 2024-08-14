@@ -15,6 +15,7 @@ import holisticApproach from '@/public/home/HolisticApproach.png'
 import transformationalResults from '@/public/home/TransformationalResults.png'
 import flowerIcon from '@/public/home/flowerIcon.png'
 import leafIcon from '@/public/home/leafIcon.png'
+import cruveLine from '@/public/home/cruveLine.png'
 import time from '@/public/home/time.jpg'
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -289,6 +290,18 @@ export default function Home() {
 
 
 
+      <section>
+
+
+        <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+        <h1 className="pt-4 md:pt-0  text-center tracking-wide  font-semibold josefin text-lg md:text-3xl">&#45; Start Your <span className="great text-2xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Journey</span> Today &#45;</h1>
+        <div className="conatiner mx-auto">
+          <p className="w-72 md:w-96 md:text-base pt-5 pb-5 md:pt-10 text-center mx-auto italic text-sm">Are you ready to embrace change and take control of your life&#63; At Surging Phoenix Enterprises&#44; we&#39;re committed to helping you rise above limitations and soar to new heights&#46; Connect with us today to start your transformative journey and discover how our life coaching can make a profound difference in your life&#46;
+          </p>
+          <Image src={cruveLine} className="w-56 lg:w-64 mx-auto" alt="#" />
+          {/* <h1>Contact Us</h1> */}
+        </div>
+      </section>
     </>
 
   )
