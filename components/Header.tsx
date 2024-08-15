@@ -28,7 +28,7 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
                     <ul className='hidden lg:flex gap-10 items-center'>
                         <Link href='/' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Home</Link>
                         <Link href='/about' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>About Us</Link>
-                        <Link href='/courses' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Courses</Link>
+                        <Link href='/coaching_services' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Coaching Services</Link>
                         <Link href='/gallery' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Gallery</Link>
                         <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>#</Link>
                     </ul>
@@ -68,7 +68,7 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
                             <ul className='flex mb-5 flex-col text-center gap-4'>
                                 <Link onClick={() => setMenu(!menu)} href='/' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Home</Link>
                                 <Link onClick={() => setMenu(!menu)} href='/about' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>About Us</Link>
-                                <Link onClick={() => setMenu(!menu)} href='/courses' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Courses</Link>
+                                <Link onClick={() => setMenu(!menu)} href='/coaching_services' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>coaching services</Link>
                                 <Link onClick={() => setMenu(!menu)} href='/gallery' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Gallery</Link>
                                 <Link onClick={() => setMenu(!menu)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
 
