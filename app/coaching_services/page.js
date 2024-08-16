@@ -9,6 +9,7 @@ import oneOnone from '@/public/coaching/oneOnone.png'
 import phoenix from '@/public/coaching/phoenix.png'
 import age6 from '@/public/coaching/children.jpg'
 import Icon19 from '@/public/coaching/19icon.png'
+import age20 from '@/public/coaching/age20.jpg'
 import { motion } from "framer-motion"
 
 
@@ -98,7 +99,7 @@ export default function Courses() {
                             Study Skills and Organization: Help children develop effective study habits, organizational skills, and time management strategies to support their academic success.
                             Emotional Regulation: Teach children strategies for managing emotions and dealing with stress in a healthy way.
                         </p>
-                        <Image src={age6} className="w-60 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
+                        <Image src={age6} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
@@ -107,37 +108,37 @@ export default function Courses() {
 
             <div className="bg-cover  bg-fixed bg-no-repeat bg-[url('../public/coaching/age19backgrnd.png')]">
                 <div className="container mx-auto">
-                    <div className="py-4 md:py-9 px-5">
+                    <div className="py-4 md:pt-20 px-5">
                         <h1 className="text-center font-sans font-medium text-xs md:text-lg text-black">Guidance for
                             <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold  text-black">Teens</span></h1>
                         <h1 className="text-center font-sans font-medium text-black">&#40;Ages 13-19&#41;</h1>
                         <div className="space-y-4 md:space-y-8 md:my-10">
                             <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl md:text-3xl font-semibold py-2">Academic and Career Planning:</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Assist teens in exploring career interests, setting academic goals, and preparing for college or vocational training.
+                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl md:text-3xl font-semibold py-2">Academic and Career Planning&#58;</h1>
+                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Assist teens in exploring career interests&#44; setting academic goals&#44; and preparing for college or vocational training&#46;
                                 </p>
                             </div>
 
                             <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Self-Discovery and Identity:</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Support teens in understanding their values, strengths, and interests as they develop their personal identity.
+                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Self-Discovery and Identity&#58;</h1>
+                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Support teens in understanding their values&#44; strengths&#44; and interests as they develop their personal identity&#46;
 
                                 </p>
                             </div>
                             <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Stress and Anxiety Management:</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Provide tools and techniques to manage academic pressures, social stressors, and anxiety.
+                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Stress and Anxiety Management&#58;</h1>
+                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Provide tools and techniques to manage academic pressures&#44; social stressors&#44; and anxiety&#46;
                                 </p>
                             </div>
                             <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Healthy Relationships:</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Educate teens about building healthy relationships, effective communication, and resolving conflicts.
+                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Healthy Relationships&#58;</h1>
+                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Educate teens about building healthy relationships&#44; effective communication&#44; and resolving conflicts&#46;
 
                                 </p>
                             </div>
                             <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl  font-semibold py-2 md:text-3xl">Life Skills Development:</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Focus on practical life skills such as financial literacy, decision-making, and problem-solving.
+                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl  font-semibold py-2 md:text-3xl">Life Skills Development&#58;</h1>
+                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Focus on practical life skills such as financial literacy&#44; decision-making&#44; and problem-solving&#46;
 
 
                                 </p>
@@ -146,7 +147,25 @@ export default function Courses() {
                         </div>
                     </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+            </div>
+
+            <div className="md:bg-cover md:bg-left-top bg-opacity-90 bg-fixed bg-[url('../public/coaching/after20backgrnd.png')]">
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <div className="container mx-auto">
+                    <div className="py-4">
+                        <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for
+                            <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Young Adults</span></h1>
+                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 20-30&#41;</h1>
+                        <p className="my-6 md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50">Career Development: Offer guidance on career planning, job search strategies, and professional development to help young adults navigate the early stages of their careers.
+                            Personal Growth: Support personal development through goal setting, self-improvement, and enhancing life skills.
+                            Work-Life Balance: Help young adults find a balance between their personal and professional lives, and manage stress effectively.
+                            Relationship Building: Provide insights and strategies for building and maintaining meaningful relationships, including romantic, familial, and professional connections.
+                            Transition Support: Assist with life transitions such as moving out, starting a new job, or pursuing further education.
+                        </p>
+                        <Image src={age20} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
         </>
     )

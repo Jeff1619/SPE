@@ -30,7 +30,6 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
                         <Link href='/about' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>About Us</Link>
                         <Link href='/coaching_services' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Coaching Services</Link>
                         <Link href='/gallery' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Gallery</Link>
-                        <Link href='' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>#</Link>
                     </ul>
                     <div className='flex gap-4'>
                         <Link href='/contact' className='uppercase group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150 text-sm'>Contact</span></Link>
@@ -70,7 +69,6 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
                                 <Link onClick={() => setMenu(!menu)} href='/about' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>About Us</Link>
                                 <Link onClick={() => setMenu(!menu)} href='/coaching_services' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>coaching services</Link>
                                 <Link onClick={() => setMenu(!menu)} href='/gallery' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>Gallery</Link>
-                                <Link onClick={() => setMenu(!menu)} href='' className='uppercase active:text-yellow-400 ease text-neutral-10 font-medium tracking-widest text-sm md:text-base text-black'>#</Link>
 
 
                             </ul>
