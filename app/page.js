@@ -2,9 +2,6 @@
 "use client"
 
 import Image from "next/image";
-import offer from '@/public/home/offer.png'
-import conseling from '@/public/home/conseling.jpg'
-import corporate from '@/public/home/corporate.jpg'
 import personalDev from '@/public/home/personal.jpg'
 import careerGrowth from '@/public/home/money.jpg'
 import Health from '@/public/home/Health.jpg'
