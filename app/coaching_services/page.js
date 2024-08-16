@@ -171,4 +171,3 @@ export default function Courses() {
     )
 }
 
-// Guidance for Teens (Ages 13-19)
