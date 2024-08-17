@@ -116,17 +116,17 @@ export default function Courses() {
                 <div className="container mx-auto">
                     <div className="py-4">
                         <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Teens</span></h1>
-                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 13-19&#41;</h1>
+                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 13&#45;19&#41;</h1>
                         <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">
-                            Academic and Career Planning:
+                            Academic and Career Planning&#58;
                         </span>
-                            Assist teens in exploring career interests, setting academic goals, and preparing for college or vocational training. <span className="josefin text-lg md:text-xl font-semibold italic">Self-Discovery and Identity:</span>
+                            Assist teens in exploring career interests&#44; setting academic goals&#44; and preparing for college or vocational training&#46; <span className="josefin text-lg md:text-xl font-semibold italic">Self&#45;Discovery and Identity&#58;</span>
 
 
-                            Support teens in understanding their values, strengths, and interests as they develop their personal identity.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Stress and Anxiety Management:</span> Provide tools and techniques to manage academic pressures, social stressors, and anxiety.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Healthy Relationships:</span> Educate teens about building healthy relationships, effective communication, and resolving conflicts.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Life Skills Development:</span> Focus on practical life skills such as financial literacy, decision-making, and problem-solving.
+                            Support teens in understanding their values&#44; strengths&#44; and interests as they develop their personal identity&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Stress and Anxiety Management&#58;</span> Provide tools and techniques to manage academic pressures&#44; social stressors&#44; and anxiety&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Healthy Relationships&#58;</span> Educate teens about building healthy relationships&#44; effective communication&#44; and resolving conflicts&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Life Skills Development&#58;</span> Focus on practical life skills such as financial literacy&#44; decision-making&#44; and problem-solving&#46;
 
                         </p>
                         <Image src={age19} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
@@ -143,12 +143,12 @@ export default function Courses() {
                     <div className="py-4">
                         <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for
                             <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Young Adults</span></h1>
-                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 20-30&#41;</h1>
-                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">Career Development:</span> Offer guidance on career planning, job search strategies, and professional development to help young adults navigate the early stages of their careers.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Personal Growth:</span> Support personal development through goal setting, self-improvement, and enhancing life skills.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Work-Life Balance:</span> Help young adults find a balance between their personal and professional lives, and manage stress effectively.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Relationship Building:</span> Provide insights and strategies for building and maintaining meaningful relationships, including romantic, familial, and professional connections.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Transition Support: </span>Assist with life transitions such as moving out, starting a new job, or pursuing further education.
+                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 20&#45;30&#41;</h1>
+                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">Career Development&#58;</span> Offer guidance on career planning&#44; job search strategies&#44; and professional development to help young adults navigate the early stages of their careers&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Personal Growth&#58;</span> Support personal development through goal setting&#44; self&#45;improvement&#44; and enhancing life skills&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Work-Life Balance&#58;</span> Help young adults find a balance between their personal and professional lives&#44; and manage stress effectively&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Relationship Building&#58;</span> Provide insights and strategies for building and maintaining meaningful relationships&#44; including romantic&#44; familial&#44; and professional connections&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Transition Support&#58; </span>Assist with life transitions such as moving out&#44; starting a new job&#44; or pursuing further education&#46;
                         </p>
                         <Image src={age20} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
                     </div>
@@ -163,11 +163,11 @@ export default function Courses() {
                         <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for
                             <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Adults</span></h1>
                         <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 31&#43;&#41;</h1>
-                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">Career Advancement:</span> Offer strategies for career growth, leadership development, and achieving professional goals.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Personal and Professional Balance:</span> Support adults in managing their time, achieving work-life balance, and prioritizing personal well-being.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Health and Wellness:</span> Provide guidance on maintaining physical, mental, and emotional health, and developing sustainable wellness practices.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Life Transitions:</span> Assist with navigating major life changes such as starting a family, changing careers, or approaching retirement.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Financial Planning:</span> Offer advice on financial management, budgeting, and planning for future financial goals.
+                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">Career Advancement&#58;</span> Offer strategies for career growth&#44; leadership development&#44; and achieving professional goals&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Personal and Professional Balance&#58;</span> Support adults in managing their time&#44; achieving work&#45;life balance&#44; and prioritizing personal well&#45;being&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Health and Wellness&#58;</span> Provide guidance on maintaining physical&#44; mental&#44; and emotional health&#44; and developing sustainable wellness practices&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Life Transitions&#58;</span> Assist with navigating major life changes such as starting a family&#44; changing careers&#44; or approaching retirement&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Financial Planning&#58;</span> Offer advice on financial management&#44; budgeting&#44; and planning for future financial goals&#46;
 
                         </p>
                         <Image src={age31} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
@@ -185,9 +185,9 @@ export default function Courses() {
                         <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100 mb-2">Coaching</h1>
 
                         <p className="my-6 md:my-10 text-sm md:text-base text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50">
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Parenting Support:</span> Provide guidance on effective parenting strategies, communication with children, and fostering a positive family environment.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Family Dynamics:</span> Assist families in improving communication, resolving conflicts, and strengthening family bonds.
-                            <span className="josefin text-lg md:text-xl font-semibold italic">Educational Support:</span> Help parents support their children's academic and developmental needs through effective strategies and resources.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Parenting Support&#58;</span> Provide guidance on effective parenting strategies&#44; communication with children&#44; and fostering a positive family environment&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Family Dynamics&#58;</span> Assist families in improving communication&#44; resolving conflicts&#44; and strengthening family bonds&#46;
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Educational Support&#58;</span> Help parents support their children&#39;s academic and developmental needs through effective strategies and resources&#46;
 
 
                         </p>
