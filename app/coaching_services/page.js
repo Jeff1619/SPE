@@ -202,7 +202,8 @@ export default function Courses() {
             </div>
             <div className="space-y-7 my-5 md:my-0 md:mb-10">
                 <Image src={phoenix2} className="w-24 md:w-32 mx-auto" alt="#" />
-                <p className="px-6 md:px-0 md:w-1/2 md:mx-auto text-center text-yellow-50 text-sm md:text-base">At <span className="animate-pulse font-semibold">Surging Phoenix Enterprises</span>, we are dedicated to providing targeted guidance that meets the needs of individuals at every stage of life. Whether you’re a child learning essential skills, a teen navigating adolescence, a young adult establishing your path, or an adult managing life’s complexities, our coaching services are designed to support and empower you. Contact us to explore how we can help you or your family achieve growth and success.</p>
+                <p className="px-6 md:px-0 md:w-1/2 md:mx-auto text-center text-yellow-50 text-sm md:text-base">At <span className="animate-pulse font-semibold text-yellow-400">Surging Phoenix Enterprises</span>&#44; we are dedicated to providing targeted guidance that meets the needs of individuals at every stage of life&#46; Whether you&#39;re a child learning essential skills&#44; a teen navigating adolescence, a young adult establishing your path&#44; or an adult managing life&#39;s complexities&#44; our coaching services are designed to support and empower you&#46; </p>
+                {/* <p>Contact us to explore how we can help you or your family achieve growth and success.</p> */}
                 <Image src={goldflower} className="w-14 md:w-20 mx-auto" alt="#" />
             </div>
         </>
