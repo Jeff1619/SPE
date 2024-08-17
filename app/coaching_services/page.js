@@ -10,6 +10,11 @@ import phoenix from '@/public/coaching/phoenix.png'
 import age6 from '@/public/coaching/children.jpg'
 import Icon19 from '@/public/coaching/19icon.png'
 import age20 from '@/public/coaching/age20.jpg'
+import age19 from '@/public/coaching/age19grnd.jpg'
+import age31 from '@/public/coaching/age31.jpg'
+import parent from '@/public/coaching/parent.jpg'
+import phoenix2 from '@/public/coaching/phoenix2.png'
+import goldflower from '@/public/coaching/goldflower.png'
 import { motion } from "framer-motion"
 
 
@@ -93,11 +98,11 @@ export default function Courses() {
                     <div className="py-4">
                         <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Children</span></h1>
                         <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 6-12&#41;</h1>
-                        <p className="my-6 md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50">Social Skills Development: Teach children essential social skills, such as communication, empathy, and teamwork, to help them build positive relationships with peers and adults.
-                            Confidence Building: Provide activities and exercises to boost self-esteem and encourage a positive self-image.
-                            Goal Setting and Achievement: Introduce age-appropriate goal-setting techniques and help children develop a sense of accomplishment through small, manageable objectives.
-                            Study Skills and Organization: Help children develop effective study habits, organizational skills, and time management strategies to support their academic success.
-                            Emotional Regulation: Teach children strategies for managing emotions and dealing with stress in a healthy way.
+                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">Social Skills Development:</span> Teach children essential social skills, such as communication, empathy, and teamwork, to help them build positive relationships with peers and adults.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Confidence Building:</span> Provide activities and exercises to boost self-esteem and encourage a positive self-image.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Goal Setting and Achievement:</span> Introduce age-appropriate goal-setting techniques and help children develop a sense of accomplishment through small, manageable objectives.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Study Skills and Organization:</span> Help children develop effective study habits, organizational skills, and time management strategies to support their academic success.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Emotional Regulation:</span> Teach children strategies for managing emotions and dealing with stress in a healthy way.
                         </p>
                         <Image src={age6} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
                     </div>
@@ -106,47 +111,49 @@ export default function Courses() {
             </div>
 
 
-            <div className="bg-cover  bg-fixed bg-no-repeat bg-[url('../public/coaching/age19backgrnd.png')]">
+            <div className="md:bg-cover md:bg-left-top bg-opacity-90 bg-fixed bg-[url('../public/coaching/after20backgrnd.png')]">
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                 <div className="container mx-auto">
-                    <div className="py-4 md:pt-20 px-5">
-                        <h1 className="text-center font-sans font-medium text-xs md:text-lg text-black">Guidance for
-                            <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold  text-black">Teens</span></h1>
-                        <h1 className="text-center font-sans font-medium text-black">&#40;Ages 13-19&#41;</h1>
-                        <div className="space-y-4 md:space-y-8 md:my-10">
-                            <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl md:text-3xl font-semibold py-2">Academic and Career Planning&#58;</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Assist teens in exploring career interests&#44; setting academic goals&#44; and preparing for college or vocational training&#46;
-                                </p>
-                            </div>
-
-                            <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Self-Discovery and Identity&#58;</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Support teens in understanding their values&#44; strengths&#44; and interests as they develop their personal identity&#46;
-
-                                </p>
-                            </div>
-                            <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Stress and Anxiety Management&#58;</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Provide tools and techniques to manage academic pressures&#44; social stressors&#44; and anxiety&#46;
-                                </p>
-                            </div>
-                            <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl font-semibold py-2 md:text-3xl">Healthy Relationships&#58;</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Educate teens about building healthy relationships&#44; effective communication&#44; and resolving conflicts&#46;
-
-                                </p>
-                            </div>
-                            <div >
-                                <h1 className="text-black md:text-center caveat underline underline-offset-4 text-2xl  font-semibold py-2 md:text-3xl">Life Skills Development&#58;</h1>
-                                <p className="text-black md:w-1/2 md:mx-auto md:text-center text-sm md:text-base text-pretty">Focus on practical life skills such as financial literacy&#44; decision-making&#44; and problem-solving&#46;
+                    <div className="py-4">
+                        <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Teens</span></h1>
+                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 13-19&#41;</h1>
+                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">
+                            Academic and Career Planning:
+                        </span>
+                            Assist teens in exploring career interests, setting academic goals, and preparing for college or vocational training. <span className="josefin text-lg md:text-xl font-semibold italic">Self-Discovery and Identity:</span>
 
 
-                                </p>
-                            </div>
-                            <Image src={Icon19} className="w-32 mx-auto" alt="#" />
-                        </div>
+                            Support teens in understanding their values, strengths, and interests as they develop their personal identity.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Stress and Anxiety Management:</span> Provide tools and techniques to manage academic pressures, social stressors, and anxiety.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Healthy Relationships:</span> Educate teens about building healthy relationships, effective communication, and resolving conflicts.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Life Skills Development:</span> Focus on practical life skills such as financial literacy, decision-making, and problem-solving.
+
+                        </p>
+                        <Image src={age19} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
                     </div>
                 </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+
+            </div>
+
+
+            <div className="md:bg-cover md:bg-left-top bg-opacity-90 bg-fixed bg-[url('../public/coaching/age6grnd.png')]">
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <div className="container mx-auto">
+                    <div className="py-4">
+                        <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for
+                            <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Young Adults</span></h1>
+                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 20-30&#41;</h1>
+                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">Career Development:</span> Offer guidance on career planning, job search strategies, and professional development to help young adults navigate the early stages of their careers.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Personal Growth:</span> Support personal development through goal setting, self-improvement, and enhancing life skills.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Work-Life Balance:</span> Help young adults find a balance between their personal and professional lives, and manage stress effectively.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Relationship Building:</span> Provide insights and strategies for building and maintaining meaningful relationships, including romantic, familial, and professional connections.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Transition Support: </span>Assist with life transitions such as moving out, starting a new job, or pursuing further education.
+                        </p>
+                        <Image src={age20} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
 
             <div className="md:bg-cover md:bg-left-top bg-opacity-90 bg-fixed bg-[url('../public/coaching/after20backgrnd.png')]">
@@ -154,20 +161,52 @@ export default function Courses() {
                 <div className="container mx-auto">
                     <div className="py-4">
                         <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100">Guidance for
-                            <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Young Adults</span></h1>
-                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 20-30&#41;</h1>
-                        <p className="my-6 md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50">Career Development: Offer guidance on career planning, job search strategies, and professional development to help young adults navigate the early stages of their careers.
-                            Personal Growth: Support personal development through goal setting, self-improvement, and enhancing life skills.
-                            Work-Life Balance: Help young adults find a balance between their personal and professional lives, and manage stress effectively.
-                            Relationship Building: Provide insights and strategies for building and maintaining meaningful relationships, including romantic, familial, and professional connections.
-                            Transition Support: Assist with life transitions such as moving out, starting a new job, or pursuing further education.
+                            <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Adults</span></h1>
+                        <h1 className="text-center font-sans font-medium text-yellow-100">&#40;Ages 31&#43;&#41;</h1>
+                        <p className="my-6 text-sm md:text-base md:my-10 text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50"><span className="josefin text-lg md:text-xl font-semibold italic">Career Advancement:</span> Offer strategies for career growth, leadership development, and achieving professional goals.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Personal and Professional Balance:</span> Support adults in managing their time, achieving work-life balance, and prioritizing personal well-being.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Health and Wellness:</span> Provide guidance on maintaining physical, mental, and emotional health, and developing sustainable wellness practices.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Life Transitions:</span> Assist with navigating major life changes such as starting a family, changing careers, or approaching retirement.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Financial Planning:</span> Offer advice on financial management, budgeting, and planning for future financial goals.
+
                         </p>
-                        <Image src={age20} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
+                        <Image src={age31} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
+
+            <div className="md:bg-cover md:bg-left-top bg-opacity-90 bg-fixed bg-[url('../public/coaching/age6grnd.png')]">
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <div className="container mx-auto">
+                    <div className="py-4">
+                        <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100 space-x-3 md:space-x-5">
+                            <span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Family</span><span>and</span><span className="great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400 ">Parent</span></h1>
+                        <h1 className="text-center font-sans font-medium text-xs md:text-lg text-yellow-100 mb-2">Coaching</h1>
+
+                        <p className="my-6 md:my-10 text-sm md:text-base text-justify px-5 md:px-0 md:w-2/3 md:text-center md:mx-auto text-yellow-50">
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Parenting Support:</span> Provide guidance on effective parenting strategies, communication with children, and fostering a positive family environment.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Family Dynamics:</span> Assist families in improving communication, resolving conflicts, and strengthening family bonds.
+                            <span className="josefin text-lg md:text-xl font-semibold italic">Educational Support:</span> Help parents support their children's academic and developmental needs through effective strategies and resources.
+
+
+                        </p>
+                        <Image src={parent} className="w-64 md:h-60 lg:h-80 object-cover object-top md:w-1/2  mx-auto" alt="#" />
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+            </div>
+
+            <div>
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+            </div>
+            <div className="space-y-7 my-5 md:my-0 md:mb-10">
+                <Image src={phoenix2} className="w-24 md:w-32 mx-auto" alt="#" />
+                <p className="px-6 md:px-0 md:w-1/2 md:mx-auto text-center text-yellow-50 text-sm md:text-base">At <span className="animate-pulse font-semibold">Surging Phoenix Enterprises</span>, we are dedicated to providing targeted guidance that meets the needs of individuals at every stage of life. Whether you’re a child learning essential skills, a teen navigating adolescence, a young adult establishing your path, or an adult managing life’s complexities, our coaching services are designed to support and empower you. Contact us to explore how we can help you or your family achieve growth and success.</p>
+                <Image src={goldflower} className="w-14 md:w-20 mx-auto" alt="#" />
+            </div>
         </>
     )
 }
+
 
