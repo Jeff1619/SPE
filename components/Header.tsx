@@ -86,7 +86,7 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
             </section>
 
             {/* FLOWTING ICONS */}
-            <div>
+            {/* <div>
                 <button onClick={handleToggle} className='sm:hidden active:bg-yellow-500 uppercase flex items-center justify-center text-sm  fixed py-2 z-10 bottom-0 w-full bg-yellow-400 text-black font-medium'>
                     <span className='pr-2'>Apply Now</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 ">
@@ -114,7 +114,7 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
                     </span>
                 </a>
 
-            </div>
+            </div> */}
 
         </>
 
