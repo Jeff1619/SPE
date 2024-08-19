@@ -10,6 +10,17 @@ import thinking from '@/public/about/thinking.png'
 import cruveIcon from '@/public/about/cruveIcon.png'
 import arrow from '@/public/about/arrowIcon.png'
 import shylla from '@/public/about/shylla.jpg'
+import people from '@/public/about/people.jpg'
+import strategies from '@/public/about/strategies.jpg'
+import mindset from '@/public/about/mindset.jpg'
+import guidance from '@/public/about/guidance.jpg'
+import goal from '@/public/about/goal.jpg'
+import Achievement from '@/public/about/Achievement.jpg'
+import Emotional from '@/public/about/Emotional .jpg'
+import Obstacles from '@/public/about/Obstacles .jpg'
+import Personal from '@/public/about/Personal .jpg'
+import Success from '@/public/about/Success .jpg'
+
 
 
 import { motion } from "framer-motion"
@@ -332,6 +343,116 @@ export default function About() {
                 </div>
             </div>
 
+            <div className="container mx-auto md:my-6">
+                <h1 className="text-center py-6 md:py-12 font-semibold">My <span className="great text-2xl md:text-4xl tracking-widest text-yellow-100 underline underline-offset-8">Approach</span>&#58;</h1>
+                <div className="space-y-10 md:space-y-16 lg:w-4/5 lg:mx-auto">
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Practical Strategies&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify"> Through my own experiences&#44; I&#39;ve developed a toolkit of effective strategies for overcoming adversity&#46; I&#39;ll share practical techniques and insights that have helped me and many others navigate tough times and emerge stronger&#46;
+                            </p>
+                        </div>
+                        <div className="md:w-1/2">
+                            <Image src={strategies} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="order-2 space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Empathetic Guidance&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify"> Understanding and empathy are at the core of my coaching&#46; I recognize the emotional and psychological impact of challenges and provide a supportive environment where you can openly explore your difficulties and aspirations&#46;
+
+                            </p>
+                        </div>
+                        <div className="order-1 md:w-1/2">
+                            <Image src={guidance} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Resilient Mindset&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify"> I&#39;ve learned firsthand the power of resilience&#46; My coaching approach is rooted in the belief that every challenge is an opportunity for growth&#46; I&#39;ll work with you to develop a resilient mindset&#44; helping you to view obstacles as opportunities to learn and evolve&#46;
+                            </p>
+                        </div>
+                        <div className="md:w-1/2">
+                            <Image src={mindset} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="order-2 space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Goal-Oriented Support&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify"> Together&#44; we&#39;ll set clear&#44; actionable goals tailored to your unique situation&#46; I&#39;ll provide the motivation&#44; accountability&#44; and resources you need to stay focused and make steady progress toward your objectives&#46;
+                            </p>
+                        </div>
+                        <div className="order-1 md:w-1/2">
+                            <Image src={goal} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto md:my-6">
+                <h1 className="text-center py-8 md:py-12 font-semibold space-x-2"><span>My</span> <span className="great text-2xl md:text-4xl tracking-widest text-yellow-100 underline underline-offset-8">Services</span><span>Include&#58;</span></h1>
+                <div className="space-y-10 md:space-y-16 lg:w-4/5 lg:mx-auto">
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Overcoming Obstacles Coaching&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify">Learn how to navigate life&#39;s challenges with resilience and confidence&#46; I&#39;ll guide you through strategies for overcoming personal&#44; professional&#44; and emotional hurdles&#46;
+
+                            </p>
+                        </div>
+                        <div className="md:w-1/2">
+                            <Image src={Obstacles} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="order-2 space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Success Mindset Development&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify"> Cultivate a mindset geared toward success and growth&#46; Develop the mental fortitude to turn setbacks into opportunities and achieve your goals&#46;
+
+
+                            </p>
+                        </div>
+                        <div className="order-1 md:w-1/2">
+                            <Image src={Success} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Personal and Professional Growth&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify">Enhance your skills&#44; build confidence&#44; and set and achieve meaningful goals in all areas of your life&#46;
+
+                            </p>
+                        </div>
+                        <div className="md:w-1/2">
+                            <Image src={Personal} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="order-2 space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Stress and Emotional Management&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify"> Equip yourself with tools to manage stress&#44; handle emotional setbacks&#44; and maintain a positive outlook&#46;
+
+                            </p>
+                        </div>
+                        <div className="order-1 md:w-1/2">
+                            <Image src={Emotional} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                        <div className="order-1 space-y-1 md:w-1/2">
+                            <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">
+                                Empowerment and Achievement&#58;</h1>
+                            <p className="text-sm md:text-base px-6 text-justify">ransform your aspirations into reality by setting clear goals&#44; creating actionable plans&#44; and celebrating your progress along the way&#46;
+
+
+                            </p>
+                        </div>
+                        <div className="order-2 md:w-1/2">
+                            <Image src={Achievement} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </>
     )
