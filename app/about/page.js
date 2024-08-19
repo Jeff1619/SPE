@@ -454,7 +454,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="bg-fixed bg-cover bg-[url('../public/about/banner.jpg')]">
+            <div className="bg-fixed bg-cover bg-right-top bg-[url('../public/about/goldenbck.png')]">
                 <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                 <h1 className="text-center py-4 josefin text-lg md:text-xl font-semibold">Why <span className="great text-3xl md:text-5xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Work</span> With Me&#63;</h1>
                 <div className="space-y-5">
