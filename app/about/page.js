@@ -390,7 +390,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="container mx-auto md:my-6">
+            <div className="container mx-auto my-10 md:my-6">
                 <h1 className="text-center py-8 md:py-12 font-semibold space-x-2"><span>My</span> <span className="great text-2xl md:text-4xl tracking-widest text-yellow-100 underline underline-offset-8">Services</span><span>Include&#58;</span></h1>
                 <div className="space-y-10 md:space-y-16 lg:w-4/5 lg:mx-auto">
                     <div className="space-y-4 md:flex md:items-center md:mx-10">
@@ -452,6 +452,24 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="bg-fixed bg-cover bg-[url('../public/about/banner.jpg')]">
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <h1 className="text-center py-4 josefin text-lg md:text-xl font-semibold">Why <span className="great text-3xl md:text-5xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Work</span> With Me&#63;</h1>
+                <div className="space-y-5">
+                    <p className="text-yellow-100 text-sm sm:text-base px-6 md:px-0 md:w-1/2 md:mx-auto md:text-center italic text-justify">My personal journey of overcoming obstacles has equipped me with unique insights and practical strategies that I&#39;m eager to share with you&#46; I&#39;m committed to helping you navigate your own challenges&#44; build resilience&#44; and achieve the success you envision&#46; My goal is to empower you with the tools and mindset necessary to transform difficulties into opportunities for growth&#46;
+                    </p>
+                    <div>
+                        <Image src={shylla} className="w-52 mx-auto py-10" alt="#" />
+                        {/* <Image src={shylla} className="absolute w-28 " alt="#" />
+                    <Image src={shylla} className="absolute w-28" alt="#" />
+                    <Image src={shylla} className="absolute w-28" alt="#" /> */}
+                    </div>
+                    <p className="text-sm sm:text-base  text-center px-5 md:px-0 md:w-2/5 md:mx-auto md:text-center">Let&#39;s embark on this empowering journey together&#46; Contact me today to start transforming your obstacles into stepping stones for success and achieving the life you dream of&#46;</p>
+                    <Image src={arrow} className="w-28 md:w-36 mx-auto" alt="#" />
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
 
         </>
