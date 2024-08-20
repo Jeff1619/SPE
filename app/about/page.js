@@ -20,6 +20,12 @@ import Emotional from '@/public/about/Emotional .jpg'
 import Obstacles from '@/public/about/Obstacles .jpg'
 import Personal from '@/public/about/Personal .jpg'
 import Success from '@/public/about/Success .jpg'
+import workshop from '@/public/about/workshop.jpg'
+import Daily from '@/public/about/Daily .png'
+import Overcome from '@/public/about/Overcome .png'
+import Routine from '@/public/about/Routine.png'
+import Motivate from '@/public/about/Motivate.png'
+import Measure from '@/public/about/Measure .png'
 
 
 
@@ -472,6 +478,88 @@ export default function About() {
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
 
+
+            <div className="bg-yellow-400 ">
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <div className="py-9 space-y-2 md:space-y-6">
+                    <h1 className="text-center text-black font-semibold text-lg md:text-2xl">21-DaY</h1>
+                    <h1 className="text-center text-black font-semibold great text-2xl tracking-widest md:text-5xl">Consistency Workshop</h1>
+                    <p className="md:w-1/2 md:mx-auto text-center px-8 text-black  font-semibold josefin  md:text-lg">Turning Skills into Practice
+                        Are you ready to transform your aspirations into consistent habits?
+                    </p>
+                    <p className="md:w-2/3 md:text-center md:mx-auto text-justify px-6 text-black text-sm md:text-base">
+                        At <span className="text-base font-semibold italic md:text-lg">Surging Phoenix Enterprises</span>, we understand that practicing consistency is one of the most significant challenges in personal and professional growth. That&#39;s why we&#39;ve designed our 21-Day Consistency Workshop to help you turn your desired skills into daily practices, ensuring that you achieve your goals and maintain lasting progress.
+                    </p>
+                    <Image src={arrow} className="pt-3 w-28 md:w-36 mx-auto" alt="#" />
+                </div>
+
+            </div>
+
+            <div>
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <div className="container mx-auto">
+
+                    <div className="py-4 space-y-5 lg:space-y-10">
+                        <div>
+                            <h1 className="text-center uppercase josefin font-semibold md:text-lg">About the</h1>
+                            <h1 className="text-center great text-4xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400 font-semibold md:text-6xl">Workshop</h1>
+                        </div>
+                        <Image src={workshop} className="w-72 md:w-96 lg:w-1/2 mx-auto" alt="#" />
+                    </div>
+                    <div>
+                        <h1 className="font-extralight mb-3 text-center md:text-left md:py-8 md:px-20 md:text-xl">What You&#39;ll Achieve:</h1>
+                        <div className="px-6 space-y-10 md:px-14">
+                            <div className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
+                                <div className=" md:w-1/2 md:space-y-5">
+                                    <h1 className="font-semibold text-lg md:text-xl">Develop Daily Habits&#58;</h1>
+                                    <p className="text-sm md:text-base">Learn how to integrate your chosen skill into your daily routine, transforming it from a mere aspiration into a consistent practice.
+                                    </p>
+                                </div>
+                                <div className="md:w-1/2">
+
+                                    <Image src={Daily} className="w-52 md:mx-auto md:w-60 mx-auto" alt="#" />
+                                </div>
+                            </div>
+                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                                <div className="order-2 md:w-1/2 md:space-y-5">
+                                    <h1 className="font-semibold text-lg md:text-xl">Overcome Procrastination&#58;</h1>
+                                    <p className="text-sm md:text-base">Identify and address common barriers to consistency, such as procrastination and lack of motivation, with practical strategies.
+
+                                    </p>
+                                </div>
+                                <Image src={Overcome} className="order-1 w-52 md:mx-auto md:w-60 mx-auto" alt="#" />
+
+                            </div>
+                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                                <div className=" md:w-1/2 md:space-y-5">
+                                    <h1 className="font-semibold text-lg md:text-xl">Build a Routine&#58;</h1>
+                                    <p className="text-sm md:text-base">Create a personalized, manageable routine that incorporates your skill practice, making it an effortless part of your daily life.
+                                    </p>
+                                </div>
+                                <Image src={Routine} className="w-96 md:mx-auto md:w-80 mx-auto" alt="#" />
+                            </div>
+                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                                <div className="order-2 md:w-1/2 md:space-y-5">
+                                    <h1 className="font-semibold text-lg md:text-xl">Track and Measure Progress&#58;</h1>
+                                    <p className="text-sm md:text-base">Use tools and techniques to track your progress, measure your achievements, and adjust your approach as needed.
+                                    </p>
+                                </div>
+                                <Image src={Measure} className="order-1 w-52 md:mx-auto md:w-60 mx-auto" alt="#" />
+
+                            </div>
+                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                                <div className=" md:w-1/2 md:space-y-5">
+                                    <h1 className="font-semibold text-lg md:text-xl">Stay Motivated&#58;</h1>
+                                    <p className="text-sm md:text-base">Receive ongoing support and encouragement to stay motivated and committed throughout the 21&#45;day journey.
+                                    </p>
+                                </div>
+                                <Image src={Motivate} className="w-60 md:mx-auto md:w-60 mx-auto" alt="#" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

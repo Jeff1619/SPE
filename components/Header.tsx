@@ -26,7 +26,7 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
                         <Image className='w-20 sm:w-28 md:w-32' src={logo2} alt='SP-logo' />
                     </Link>
                     <ul className='hidden lg:flex gap-10 items-center'>
-                        <Link href='/' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Home</Link>
+                        <Link href='/' className='active:bottom-2 uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Home</Link>
                         <Link href='/about' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>About Us</Link>
                         <Link href='/coaching_services' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Coaching Services</Link>
                         <Link href='/gallery' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Gallery</Link>
