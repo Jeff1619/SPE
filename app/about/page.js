@@ -26,6 +26,9 @@ import Overcome from '@/public/about/Overcome .png'
 import Routine from '@/public/about/Routine.png'
 import Motivate from '@/public/about/Motivate.png'
 import Measure from '@/public/about/Measure .png'
+import Approach from '@/public/about/Approach.png'
+import Techniques from '@/public/about/Techniques.png'
+import Supportive from '@/public/about/Supportive .png'
 
 
 
@@ -55,7 +58,7 @@ export default function About() {
             </div>
 
             <div
-                className="bg-yellow-400 pt-9 space-y-6">
+                className="bg-fixed bg-center md:bg-left-top bg-cover bg-[url('../public/about/squarebg.png')] pt-9 space-y-6">
                 <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -334,10 +337,18 @@ export default function About() {
 
             <div className="container mx-auto">
                 <div className="lg:my-20 space-y-4 md:flex md:gap-5 md:justify-center md:items-center">
-                    <div className="md:w-1/2">
+                    <motion.div
+                        initial={{ y: "20vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="md:w-1/2">
                         <Image src={shylla} className="w-32 md:w-64  lg:w-96  mx-auto rounded-full md:rounded-none" alt="#" />
-                    </div>
-                    <div className=" md:w-1/2">
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className=" md:w-1/2">
                         <h1 className="text-sm md:text-base text-center">Meet <span className="uppercase text-yellow-400 text-lg md:text-3xl josefin tracking-wider">Shylla&#44;</span></h1>
                         <p className="text-center px-5 md:px-0 text-sm md:text-base font-semibold italic tracking-wide">Your Life Coach and Resiliency Expert</p>
                         <p className="px-6   md:mx-auto mt-5 text-center text-sm sm:text-base">Welcome to Surging Phoenix Enterprises&#33; I&#39;m <span className="text-yellow-400 font-semibold text-base md:text-lg italic animate-pulse">Shylla</span>&#44; and I&#39;m here to share my journey of transformation and guide you on your path to overcoming obstacles and achieving success&#46;
@@ -345,14 +356,18 @@ export default function About() {
                         <h1 className="mt-8 pl-6">About <span className="great text-3xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400 font-semibold">Shylla</span>&#58;</h1>
                         <p className="px-6 text-start md:text-justify mt-2 text-sm sm:text-base">Life has presented me with a myriad of challenges&#44; each of which has shaped me into the resilient and empathetic coach I am today&#46; From navigating personal setbacks to overcoming professional hurdles&#44; I&#39;ve faced and conquered obstacles that many consider insurmountable&#46; My journey has not only deepened my understanding of life&#39;s complexities but has also fueled my passion for helping others turn their struggles into stepping stones for success&#46;
                         </p>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
             <div className="container mx-auto md:my-6">
                 <h1 className="text-center py-6 md:py-12 font-semibold">My <span className="great text-2xl md:text-4xl tracking-widest text-yellow-100 underline underline-offset-8">Approach</span>&#58;</h1>
                 <div className="space-y-10 md:space-y-16 lg:w-4/5 lg:mx-auto">
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Practical Strategies&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify"> Through my own experiences&#44; I&#39;ve developed a toolkit of effective strategies for overcoming adversity&#46; I&#39;ll share practical techniques and insights that have helped me and many others navigate tough times and emerge stronger&#46;
@@ -361,8 +376,14 @@ export default function About() {
                         <div className="md:w-1/2">
                             <Image src={strategies} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+
+
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="order-2 space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Empathetic Guidance&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify"> Understanding and empathy are at the core of my coaching&#46; I recognize the emotional and psychological impact of challenges and provide a supportive environment where you can openly explore your difficulties and aspirations&#46;
@@ -372,8 +393,14 @@ export default function About() {
                         <div className="order-1 md:w-1/2">
                             <Image src={guidance} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+
+
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Resilient Mindset&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify"> I&#39;ve learned firsthand the power of resilience&#46; My coaching approach is rooted in the belief that every challenge is an opportunity for growth&#46; I&#39;ll work with you to develop a resilient mindset&#44; helping you to view obstacles as opportunities to learn and evolve&#46;
@@ -382,8 +409,14 @@ export default function About() {
                         <div className="md:w-1/2">
                             <Image src={mindset} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+
+
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="order-2 space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-left">Goal-Oriented Support&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify"> Together&#44; we&#39;ll set clear&#44; actionable goals tailored to your unique situation&#46; I&#39;ll provide the motivation&#44; accountability&#44; and resources you need to stay focused and make steady progress toward your objectives&#46;
@@ -392,14 +425,18 @@ export default function About() {
                         <div className="order-1 md:w-1/2">
                             <Image src={goal} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
             <div className="container mx-auto my-10 md:my-6">
                 <h1 className="text-center py-8 md:py-12 font-semibold space-x-2"><span>My</span> <span className="great text-2xl md:text-4xl tracking-widest text-yellow-100 underline underline-offset-8">Services</span><span>Include&#58;</span></h1>
                 <div className="space-y-10 md:space-y-16 lg:w-4/5 lg:mx-auto">
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Overcoming Obstacles Coaching&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify">Learn how to navigate life&#39;s challenges with resilience and confidence&#46; I&#39;ll guide you through strategies for overcoming personal&#44; professional&#44; and emotional hurdles&#46;
@@ -409,8 +446,12 @@ export default function About() {
                         <div className="md:w-1/2">
                             <Image src={Obstacles} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="order-2 space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Success Mindset Development&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify"> Cultivate a mindset geared toward success and growth&#46; Develop the mental fortitude to turn setbacks into opportunities and achieve your goals&#46;
@@ -421,8 +462,12 @@ export default function About() {
                         <div className="order-1 md:w-1/2">
                             <Image src={Success} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Personal and Professional Growth&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify">Enhance your skills&#44; build confidence&#44; and set and achieve meaningful goals in all areas of your life&#46;
@@ -432,8 +477,12 @@ export default function About() {
                         <div className="md:w-1/2">
                             <Image src={Personal} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="order-2 space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">Stress and Emotional Management&#58;</h1>
                             <p className="text-sm md:text-base px-6 text-justify"> Equip yourself with tools to manage stress&#44; handle emotional setbacks&#44; and maintain a positive outlook&#46;
@@ -443,8 +492,12 @@ export default function About() {
                         <div className="order-1 md:w-1/2">
                             <Image src={Emotional} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
-                    <div className="space-y-4 md:flex md:items-center md:mx-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: "10vw", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="space-y-4 md:flex md:items-center md:mx-10">
                         <div className="order-1 space-y-1 md:w-1/2">
                             <h1 className="px-6 josefin text-xl md:text-2xl font-semibold tracking-tight text-yellow-300 text-center md:text-left">
                                 Empowerment and Achievement&#58;</h1>
@@ -456,7 +509,7 @@ export default function About() {
                         <div className="order-2 md:w-1/2">
                             <Image src={Achievement} className="w-64 md:w-72 lg:w-96 mx-auto" alt="#" />
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
@@ -479,9 +532,13 @@ export default function About() {
             </div>
 
 
-            <div className="bg-yellow-400 ">
+            <div className="bg-fixed bg-center md:bg-left-top bg-cover bg-[url('../public/about/squarebg.png')] ">
                 <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
-                <div className="py-9 space-y-2 md:space-y-6">
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.2, duration: 1 }}
+                    className="py-9 space-y-2 md:space-y-6">
                     <h1 className="text-center text-black font-semibold text-lg md:text-2xl">21-DaY</h1>
                     <h1 className="text-center text-black font-semibold great text-2xl tracking-widest md:text-5xl">Consistency Workshop</h1>
                     <p className="md:w-1/2 md:mx-auto text-center px-8 text-black  font-semibold josefin  md:text-lg">Turning Skills into Practice
@@ -491,7 +548,7 @@ export default function About() {
                         At <span className="text-base font-semibold italic md:text-lg">Surging Phoenix Enterprises</span>, we understand that practicing consistency is one of the most significant challenges in personal and professional growth. That&#39;s why we&#39;ve designed our 21-Day Consistency Workshop to help you turn your desired skills into daily practices, ensuring that you achieve your goals and maintain lasting progress.
                     </p>
                     <Image src={arrow} className="pt-3 w-28 md:w-36 mx-auto" alt="#" />
-                </div>
+                </motion.div>
 
             </div>
 
@@ -509,9 +566,15 @@ export default function About() {
                     <div>
                         <h1 className="font-extralight mb-3 text-center md:text-left md:py-8 md:px-20 md:text-xl">What You&#39;ll Achieve:</h1>
                         <div className="px-6 space-y-10 md:px-14">
-                            <div className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
-                                <div className=" md:w-1/2 md:space-y-5">
-                                    <h1 className="font-semibold text-lg md:text-xl">Develop Daily Habits&#58;</h1>
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
+                                <div
+
+                                    className=" md:w-1/2 md:space-y-5">
+                                    <h1 className="font-semibold text-lg md:text-xl">Develop <span className="great text-3xl tracking-widest text-cyan-300 md:text-4xl">Daily</span> Habits&#58;</h1>
                                     <p className="text-sm md:text-base">Learn how to integrate your chosen skill into your daily routine, transforming it from a mere aspiration into a consistent practice.
                                     </p>
                                 </div>
@@ -519,46 +582,128 @@ export default function About() {
 
                                     <Image src={Daily} className="w-52 md:mx-auto md:w-60 mx-auto" alt="#" />
                                 </div>
-                            </div>
-                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                            </motion.div>
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className="order-2 md:w-1/2 md:space-y-5">
-                                    <h1 className="font-semibold text-lg md:text-xl">Overcome Procrastination&#58;</h1>
+                                    <h1 className="font-semibold text-lg md:text-xl"><span className="great text-3xl tracking-widest text-yellow-300 md:text-4xl">Overcome</span> Procrastination&#58;</h1>
                                     <p className="text-sm md:text-base">Identify and address common barriers to consistency, such as procrastination and lack of motivation, with practical strategies.
 
                                     </p>
                                 </div>
                                 <Image src={Overcome} className="order-1 w-52 md:mx-auto md:w-60 mx-auto" alt="#" />
 
-                            </div>
-                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                            </motion.div>
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className=" md:w-1/2 md:space-y-5">
-                                    <h1 className="font-semibold text-lg md:text-xl">Build a Routine&#58;</h1>
+                                    <h1 className="font-semibold text-lg md:text-xl">Build a <span className="great text-3xl tracking-widest text-pink-300 md:text-4xl">Routine</span>&#58;</h1>
                                     <p className="text-sm md:text-base">Create a personalized, manageable routine that incorporates your skill practice, making it an effortless part of your daily life.
                                     </p>
                                 </div>
                                 <Image src={Routine} className="w-96 md:mx-auto md:w-80 mx-auto" alt="#" />
-                            </div>
-                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                            </motion.div>
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className="order-2 md:w-1/2 md:space-y-5">
-                                    <h1 className="font-semibold text-lg md:text-xl">Track and Measure Progress&#58;</h1>
+                                    <h1 className="font-semibold text-lg md:text-xl"><span className="great text-3xl tracking-widest text-red-600 md:text-4xl">Track</span> and Measure Progress&#58;</h1>
                                     <p className="text-sm md:text-base">Use tools and techniques to track your progress, measure your achievements, and adjust your approach as needed.
                                     </p>
                                 </div>
                                 <Image src={Measure} className="order-1 w-52 md:mx-auto md:w-60 mx-auto" alt="#" />
 
-                            </div>
-                            <div className="space-y-4 md:px-14 md:flex md:items-center">
+                            </motion.div>
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className=" md:w-1/2 md:space-y-5">
-                                    <h1 className="font-semibold text-lg md:text-xl">Stay Motivated&#58;</h1>
+                                    <h1 className="font-semibold text-lg md:text-xl">Stay <span className="great text-3xl tracking-widest text-blue-300 md:text-4xl">Motivated</span>&#58;</h1>
                                     <p className="text-sm md:text-base">Receive ongoing support and encouragement to stay motivated and committed throughout the 21&#45;day journey.
                                     </p>
                                 </div>
                                 <Image src={Motivate} className="w-60 md:mx-auto md:w-60 mx-auto" alt="#" />
 
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
                 </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+            </div>
+            <div>
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <div className="conatiner mx-auto space-y-5" >
+                    <div className="py-4">
+                        <div>
+                            <h1 className="text-center text-sm uppercase josefin font-semibold md:text-lg"> Why Choose This </h1>
+                            <h1 className="text-center great text-4xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400 font-semibold md:text-6xl">Workshop?</h1>
+                        </div>
+                    </div>
+
+                    <div className="container mx-auto">
+                        <div className="px-6 space-y-10 md:px-14">
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
+                                <div className=" md:w-1/2 md:space-y-5">
+                                    <h1 className="text-orange-200 font-semibold text-lg md:text-xl">Focused <span className="great text-orange-300 text-3xl tracking-widest md:text-4xl">Approach</span>&#58;</h1>
+                                    <p className="text-sm md:text-base">Our 21-day format is specifically designed to help you establish and maintain consistency with dedicated, manageable steps.
+                                    </p>
+                                </div>
+                                <div className="md:w-1/2">
+                                    <Image src={Approach} className="w-52 md:mx-auto md:w-72 mx-auto" alt="#" />
+                                </div>
+                            </motion.div>
+
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
+                                <div className="order-2  md:w-1/2 md:space-y-5">
+                                    <h1 className="text-orange-300 font-semibold text-lg md:text-xl">Proven <span className="great text-orange-300 text-3xl tracking-widest md:text-4xl">Techniques</span>&#58;</h1>
+                                    <p className="text-sm md:text-base">We use evidence-based methods to help you develop effective habits and overcome challenges related to consistency.
+
+                                    </p>
+                                </div>
+                                <div className="order-1 md:w-1/2">
+
+                                    <Image src={Techniques} className="w-52 md:mx-auto md:w-72 mx-auto" alt="#" />
+                                </div>
+                            </motion.div>
+
+                            <motion.div
+                                initial={{ y: "20vw", opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.8 }}
+                                className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
+                                <div className=" md:w-1/2 md:space-y-5">
+                                    <h1 className="text-orange-300 font-semibold text-lg md:text-xl">Supportive <span className="great text-orange-300 text-3xl tracking-widest md:text-4xl">Environment</span>&#58;</h1>
+                                    <p className="text-sm md:text-base">Our workshop provides a supportive and motivating environment, ensuring you have the resources and encouragement needed to succeed.
+                                    </p>
+                                </div>
+                                <div className="md:w-1/2">
+
+                                    <Image src={Supportive} className="w-52 md:mx-auto md:w-72 mx-auto" alt="#" />
+                                </div>
+                            </motion.div>
+                        </div>
+                    </div>
+
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
         </>
     )
