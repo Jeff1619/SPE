@@ -924,7 +924,7 @@ export default function About() {
                         <Image src={people} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 px-3">
-                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl tracking-widest">Career</span>:</h1>
+                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl lg:text-4xl tracking-widest">Career</span>:</h1>
                             <h1 className="josefin text-lg">3-Day Transformation Program</h1>
                             <p className="text-sm md:text-base">Unlock Your Potential and Become a Top Performer in Your Career</p>
                         </div>
@@ -933,7 +933,7 @@ export default function About() {
                             <h1 className=" font-semibold text-xl josefin"> Duration: 3 <span className="great text-2xl tracking-widest">Days</span></h1>
 
                             <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
-                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span></h1>
+                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest lg:text-4xl">Workshops</span></h1>
                             <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
                             <p className="text-sm">Professionals aiming to boost their career performance</p>
 
@@ -953,11 +953,11 @@ export default function About() {
                     <div className="  md:w-1/2 text-center space-y-10">
                         <p className="text-sm md:text-base ">
 
-                            Welcome to our intensive <span className="font-semibold text-base">3-Day Transformation Program</span>, designed to equip you with the skills and strategies needed to excel in your career. In just one hour per day, we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence.
+                            Welcome to our intensive <span className="font-semibold md:text-lg lg:text-xl">3-Day Transformation Program</span>, designed to equip you with the skills and strategies needed to excel in your career. In just one hour per day, we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence.
                         </p>
 
-                        <div className="w-60 space-y-4 mx-auto">
-                            <div className="flex space-x-3">
+                        <div className="w-60 space-y-4 mx-auto ">
+                            <div className="flex space-x-3 text-left">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
                                     <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                 </svg>
@@ -984,7 +984,7 @@ export default function About() {
                         <Image src={people} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
-                            <h1 className="font-semibold">Personal Branding <span className="great text-3xl tracking-widest">Mastery</span>:</h1>
+                            <h1 className="font-semibold">Personal Branding <span className="great text-3xl lg:text-4xl tracking-widest">Mastery</span>:</h1>
                             <h1 className="josefin text-lg">5-Day Intensive Program</h1>
                             <p className="text-sm md:text-base">Elevate Your Professional Presence and Influence</p>
                         </div>
@@ -1012,13 +1012,13 @@ export default function About() {
 
                     </div>
                     <div className="order-1 w-1/2 md:w-1/2 text-center space-y-8">
-                        <p className="text-sm md:text-base ">
+                        <p className=" md:text-base ">
 
-                            Welcome to our Personal Branding Mastery Program! This <span className="font-semibold text-base">5-day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths, values, and professional goals. Each day focuses on key aspects of personal branding to help you create a strong, authentic presence in your field.
+                            Welcome to our Personal Branding Mastery Program! This <span className="font-semibold md:text-lg lg:text-xl">5-day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths, values, and professional goals. Each day focuses on key aspects of personal branding to help you create a strong, authentic presence in your field.
                         </p>
                         <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
-                        <p className="text-sm">Professionals and entrepreneurs looking to develop or refine their personal brand.</p>
-                        <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest">Activities</span></h1>
+                        <p className="text-base">Professionals and entrepreneurs looking to develop or refine their personal brand.</p>
+                        <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-3xl lg:text-4xl tracking-widest">Workshops</span> and  <span className="great text-3xl lg:text-4xl tracking-widest">Activities</span></h1>
 
                     </div>
                 </div>
@@ -1028,7 +1028,7 @@ export default function About() {
                         <Image src={people} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
-                            <h1 className="font-semibold"> Discovering Your <span className="great text-3xl tracking-widest"> Worth</span>:</h1>
+                            <h1 className="font-semibold"> Discovering Your <span className="great text-3xl lg:text-4xl tracking-widest"> Worth</span>:</h1>
                             <p className="text-sm md:text-base">A Journey from Loneliness to Self-Value Reconnect with Yourself and Embrace Your True Value</p>
                         </div>
                         <div className="px-6  space-y-4">
@@ -1057,9 +1057,9 @@ export default function About() {
                     <div className=" w-1/2 md:w-1/2 text-center relative top-10 space-y-5">
                         <p className="text-sm md:text-base ">
 
-                            Feeling lonely and undervalued can deeply impact your emotional well-being and self-esteem. Our "Discovering Your Worth" program is designed to guide you through a transformative journey, helping you overcome loneliness and recognize your inherent value. Through insightful exercises and supportive guidance, you'll learn to appreciate your worth and foster a more fulfilling connection with yourself.
+                            Feeling lonely and undervalued can deeply impact your emotional well-being and self-esteem. Our <span className="font-semibold md:text-lg lg:text-xl">"Discovering Your Worth"</span> program is designed to guide you through a transformative journey, helping you overcome loneliness and recognize your inherent value. Through insightful exercises and supportive guidance, you'll learn to appreciate your worth and foster a more fulfilling connection with yourself.
                         </p>
-                        <h1 className=" font-semibold text-xl josefin">Format: Interactive<span className="great text-4xl tracking-widest">Workshops</span> and  <span className="great text-4xl tracking-widest"> Reflective</span> Activities</h1>
+                        <h1 className=" font-semibold text-xl josefin">Format: Interactive<span className="great text-3xl lg:text-4xltracking-widest">Workshops</span> and  <span className="great text-3xl lg:text-4xl tracking-widest"> Reflective</span> Activities</h1>
                         <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
                         <p className="text-base">Individuals seeking to overcome feelings of loneliness and enhance their self-worth.</p>
                     </div>
