@@ -97,7 +97,7 @@ export default function Courses() {
             </div >
 
             <div className="conatiner mx-auto ">
-                <div className="bg-yellow-400 overflow-hidden">
+                <div className="bg-fixed bg-center md:bg-left-top bg-cover bg-[url('../public/about/squarebg.png')] overflow-hidden">
                     <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                     <div className="py-5">
                         <h1

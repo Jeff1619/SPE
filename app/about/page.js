@@ -29,6 +29,9 @@ import Measure from '@/public/about/Measure .png'
 import Approach from '@/public/about/Approach.png'
 import Techniques from '@/public/about/Techniques.png'
 import Supportive from '@/public/about/Supportive .png'
+import butterfly from '@/public/about/butterfly.png'
+import phoenixIcon from '@/public/about/phoenixIcon.png'
+import lotusIcon from '@/public/about/lotusIcon.png'
 
 
 
@@ -320,7 +323,7 @@ export default function About() {
                             At <span className="text-xs md:text-lg animate-pulse font-semibold italic text-yellow-400">Surging Phoenix Enterprises</span>&#44; we understand these challenges and are committed to providing the support&#44; guidance&#44; and resources necessary to overcome them&#46; Our personalised programs are designed to help individuals navigate these obstacles and achieve their full potential&#46;
                         </p>
 
-                        <Image src={arrow} className="pointer-events-none w-36 mx-auto" alt="#" />
+                        <Image src={phoenixIcon} className="pointer-events-none w-20 md:w-28 mx-auto" alt="#" />
                     </motion.div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                 </div>
@@ -547,7 +550,7 @@ export default function About() {
                     <p className="md:w-2/3 md:text-center md:mx-auto text-justify px-6 text-black text-sm md:text-base">
                         At <span className="text-base font-semibold italic md:text-lg">Surging Phoenix Enterprises</span>, we understand that practicing consistency is one of the most significant challenges in personal and professional growth. That&#39;s why we&#39;ve designed our 21-Day Consistency Workshop to help you turn your desired skills into daily practices, ensuring that you achieve your goals and maintain lasting progress.
                     </p>
-                    <Image src={arrow} className="pt-3 w-28 md:w-36 mx-auto" alt="#" />
+                    <Image src={lotusIcon} className="pt-3 w-28 md:w-36 mx-auto" alt="#" />
                 </motion.div>
 
             </div>
@@ -703,7 +706,364 @@ export default function About() {
                     </div>
 
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+            </div>
+
+
+            <div className="bg-fixed bg-center md:bg-left-top bg-cover bg-[url('../public/about/squarebg.png')]">
+                <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.8 }}
+
+                    className="conatiner mx-auto space-y-5 md:space-y-10 py-5 ">
+                    <div>
+                        <h1 className="text-center text-sm uppercase josefin font-semibold md:text-lg text-black">Get Started</h1>
+                        <h1 className="text-center great text-4xl tracking-widest text-black font-semibold md:text-6xl">Today!</h1>
+                    </div>
+                    <div className="space-y-8 md:space-y-10">
+                        <p className="md:w-3/4 lg:w-1/2 md:text-center md:mx-auto px-5 text-justify text-sm md:text-base text-black">Transform your aspirations into consistent practices with our 21-Day Consistency Workshop. Sign up today to start your journey toward building lasting habits and achieving your goals with confidence.
+                        </p>
+
+                        <p className="font-semibold text-sm md:text-base md:w-1/2 lg:w-2/5 md:text-center md:mx-auto text-center px-6 text-black">Contact Us for more information and to reserve your spot in the workshop. Together, we&#39;ll turn your skill into a powerful, consistent practice!</p>
+                    </div>
+                    <Image src={butterfly} className="mx-auto w-28" alt="#" />
+                </motion.div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+            </div>
+
+            <div className=" md:hidden container mx-auto  py-80">
+
+
+                <div className="flex">
+                    <div className="w-1/2 md:w-1/2 relative bottom-60 space-y-5 md:space-y-8 text-center ">
+                        <Image src={people} className="w-96 mx-auto" alt="#" />
+
+                        <div className="space-y-4 px-3">
+                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl tracking-widest">Career</span>:</h1>
+                            <h1 className="josefin text-lg">3-Day Transformation Program</h1>
+                            <p className="text-sm md:text-base">Unlock Your Potential and Become a Top Performer in Your Career</p>
+                        </div>
+
+
+
+                    </div>
+                    <div className="md:w-20 text-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6  mx-auto">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+                        </svg>
+
+                        <div className="flex relative top-3 "><span className="border-2 h-96 mx-auto "></span></div>
+
+
+
+                    </div>
+                    <div className="w-1/2 md:w-1/2 text-center ">
+                        <p className="text-sm md:text-base ">
+
+                            Welcome to our intensive <span className="font-semibold text-base">3-Day Transformation Program</span>, designed to equip you with the skills and strategies needed to excel in your career. In just one hour per day, we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex">
+                    <div className=" w-1/2 md:w-1/2 relative bottom-40 space-y-5 md:space-y-8 text-center ">
+                        <Image src={people} className="w-96 mx-auto" alt="#" />
+
+                        <div className="space-y-4 ">
+                            <h1 className="font-semibold">Personal Branding <span className="great text-3xl tracking-widest">Mastery</span>:</h1>
+                            <h1 className="josefin text-lg">5-Day Intensive Program</h1>
+                            <p className="text-sm md:text-base">Elevate Your Professional Presence and Influence</p>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                    <div className=" md:w-20 text-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6  mx-auto relative top-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+                        </svg>
+
+                        <div className="flex relative top-8"><span className="border-2 h-96 mx-auto "></span></div>
+
+
+
+                    </div>
+                    <div className=" w-1/2 md:w-1/2 text-center ">
+                        <p className="text-sm md:text-base ">
+
+                            Welcome to our Personal Branding Mastery Program! This <span className="font-semibold text-base">5-day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths, values, and professional goals. Each day focuses on key aspects of personal branding to help you create a strong, authentic presence in your field.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex">
+                    <div className=" w-1/2 md:w-1/2 relative bottom-32 space-y-5 md:space-y-8 text-center ">
+                        <Image src={people} className="w-96 mx-auto" alt="#" />
+
+                        <div className="space-y-4 ">
+                            <h1 className="font-semibold"> Discovering Your <span className="great text-3xl tracking-widest"> Worth</span>:</h1>
+                            <p className="text-sm md:text-base">A Journey from Loneliness to Self-Value Reconnect with Yourself and Embrace Your True Value</p>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                    <div className=" md:w-20 text-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6  mx-auto relative top-8">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+                        </svg>
+
+                        <div className="flex relative  top-9"><span className="border-2 h-96 sm:h-44 mx-auto "></span></div>
+
+
+
+                    </div>
+                    <div className=" w-1/2 md:w-1/2 text-center relative top-10 ">
+                        <p className="text-sm md:text-base ">
+
+                            Feeling lonely and undervalued can deeply impact your emotional well-being and self-esteem. Our "Discovering Your Worth" program is designed to guide you through a transformative journey, helping you overcome loneliness and recognize your inherent value. Through insightful exercises and supportive guidance, you'll learn to appreciate your worth and foster a more fulfilling connection with yourself.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="relative top-20 space-y-5">
+                    <h1 className="text-center font-semibold text-lg">Elevate Your <span className="great text-4xl tracking-widest text-yellow-400">Career</span></h1>
+                    <div className="bg-yellow-400 text-black">
+                        <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                        <div className="px-6 py-8 space-y-4">
+                            <h1 className=" font-semibold text-xl josefin"> Duration: 3 <span className="great text-2xl tracking-widest">Days</span></h1>
+
+                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span></h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                            <p className="text-sm">Professionals aiming to boost their career performance</p>
+
+
+                            <div className="w-60 space-y-4">
+                                <div className="flex space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
+                                        <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                                    </svg>
+                                    <li className="list-none"><span className="font-semibold">Day 1:</span> Mastering Performance Excellence</li>
+                                </div>
+                                <div className="flex space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
+                                        <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                                    </svg>
+                                    <li className="list-none text-justify"><span className="font-semibold ">Day 2:</span> Enhancing Skills and Efficiency</li>
+                                </div>
+                                <div className="flex space-x-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                                        <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                                    </svg>
+                                    <li className="list-none text-justify"><span className="font-semibold">Day 3:</span> Building a High-Impact Personal Brand</li>
+                                </div>
+                            </div>
+                        </div>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                    </div>
+                </div>
+
+                <div className="relative top-28 space-y-5">
+                    <h1 className="text-center font-semibold text-lg px-6">Personal Branding  <span className="great text-4xl tracking-widest text-yellow-400">Mastery</span></h1>
+                    <div className="bg-yellow-400 text-black">
+                        <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                        <div className="px-6 py-8 space-y-4">
+                            <h1 className=" font-semibold text-xl josefin"> Duration: 5  <span className="great text-2xl tracking-widest">Days</span></h1>
+
+                            <h1 className=" font-semibold text-xl josefin">Session Length: 1.5 Hours per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest">Activities</span></h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                            <p className="text-sm">Professionals and entrepreneurs looking to develop or refine their personal brand.</p>
+
+                        </div>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                    </div>
+                </div>
+
+
+                <div className="relative top-32 space-y-5">
+                    <h1 className="text-center font-semibold text-lg px-9">Discovering Your   <span className="great text-4xl tracking-widest text-yellow-400">Worth</span></h1>
+                    <div className="bg-yellow-400 text-black">
+                        <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                        <div className="px-6 py-8 space-y-4">
+                            <h1 className=" font-semibold text-xl josefin"> Duration: 4   <span className="great text-2xl tracking-widest">Days</span></h1>
+
+                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format: Interactive<span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest"> Reflective</span> Activities</h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                            <p className="text-sm">Individuals seeking to overcome feelings of loneliness and enhance their self-worth.</p>
+
+                        </div>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div className="hidden md:block container mx-auto  py-80">
+
+
+                <div className="flex">
+                    <div className=" md:w-1/2 relative bottom-52  md:space-y-8 text-center ">
+                        <Image src={people} className="w-96 mx-auto" alt="#" />
+
+                        <div className="space-y-4 px-3">
+                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl tracking-widest">Career</span>:</h1>
+                            <h1 className="josefin text-lg">3-Day Transformation Program</h1>
+                            <p className="text-sm md:text-base">Unlock Your Potential and Become a Top Performer in Your Career</p>
+                        </div>
+
+                        <div className="px-6  space-y-4">
+                            <h1 className=" font-semibold text-xl josefin"> Duration: 3 <span className="great text-2xl tracking-widest">Days</span></h1>
+
+                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span></h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                            <p className="text-sm">Professionals aiming to boost their career performance</p>
+
+                        </div>
+
+                    </div>
+                    <div className="md:w-20 text-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6  mx-auto">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+                        </svg>
+
+                        <div className="flex relative top-3 "><span className="border-2 h-96 mx-auto "></span></div>
+
+
+
+                    </div>
+                    <div className="  md:w-1/2 text-center space-y-10">
+                        <p className="text-sm md:text-base ">
+
+                            Welcome to our intensive <span className="font-semibold text-base">3-Day Transformation Program</span>, designed to equip you with the skills and strategies needed to excel in your career. In just one hour per day, we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence.
+                        </p>
+
+                        <div className="w-60 space-y-4 mx-auto">
+                            <div className="flex space-x-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
+                                    <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                                </svg>
+                                <li className="list-none"><span className="font-semibold">Day 1:</span> Mastering Performance Excellence</li>
+                            </div>
+                            <div className="flex space-x-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
+                                    <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                                </svg>
+                                <li className="list-none text-justify"><span className="font-semibold ">Day 2:</span> Enhancing Skills and Efficiency</li>
+                            </div>
+                            <div className="flex space-x-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                                    <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+                                </svg>
+                                <li className="list-none text-justify"><span className="font-semibold">Day 3:</span> Building a High-Impact Personal Brand</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex ">
+                    <div className="order-3  md:w-1/2 relative bottom-40 space-y-5 md:space-y-8 text-center ">
+                        <Image src={people} className="w-96 mx-auto" alt="#" />
+
+                        <div className="space-y-4 ">
+                            <h1 className="font-semibold">Personal Branding <span className="great text-3xl tracking-widest">Mastery</span>:</h1>
+                            <h1 className="josefin text-lg">5-Day Intensive Program</h1>
+                            <p className="text-sm md:text-base">Elevate Your Professional Presence and Influence</p>
+                        </div>
+
+
+                        <div className="px-6 py-8 space-y-4">
+                            <h1 className=" font-semibold text-xl josefin"> Duration: 5  <span className="great text-2xl tracking-widest">Days</span></h1>
+
+                            <h1 className=" font-semibold text-xl josefin">Session Length: 1.5 Hours per Day</h1>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div className="order-2 md:w-20 text-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6  mx-auto relative top-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+                        </svg>
+
+                        <div className="flex relative top-8"><span className="border-2 h-96 mx-auto "></span></div>
+
+
+
+                    </div>
+                    <div className="order-1 w-1/2 md:w-1/2 text-center space-y-8">
+                        <p className="text-sm md:text-base ">
+
+                            Welcome to our Personal Branding Mastery Program! This <span className="font-semibold text-base">5-day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths, values, and professional goals. Each day focuses on key aspects of personal branding to help you create a strong, authentic presence in your field.
+                        </p>
+                        <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                        <p className="text-sm">Professionals and entrepreneurs looking to develop or refine their personal brand.</p>
+                        <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest">Activities</span></h1>
+
+                    </div>
+                </div>
+
+                <div className="flex">
+                    <div className="  md:w-1/2 relative bottom-14 space-y-5 md:space-y-8 text-center ">
+                        <Image src={people} className="w-96 mx-auto" alt="#" />
+
+                        <div className="space-y-4 ">
+                            <h1 className="font-semibold"> Discovering Your <span className="great text-3xl tracking-widest"> Worth</span>:</h1>
+                            <p className="text-sm md:text-base">A Journey from Loneliness to Self-Value Reconnect with Yourself and Embrace Your True Value</p>
+                        </div>
+                        <div className="px-6  space-y-4">
+                            <h1 className=" font-semibold text-xl josefin"> Duration: 4   <span className="great text-2xl tracking-widest">Days</span></h1>
+
+                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div className=" md:w-20 text-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6  mx-auto relative top-8">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+                        </svg>
+
+                        <div className="flex relative top-11"><span className="border-2 h-96  mx-auto "></span></div>
+
+
+
+                    </div>
+                    <div className=" w-1/2 md:w-1/2 text-center relative top-10 space-y-5">
+                        <p className="text-sm md:text-base ">
+
+                            Feeling lonely and undervalued can deeply impact your emotional well-being and self-esteem. Our "Discovering Your Worth" program is designed to guide you through a transformative journey, helping you overcome loneliness and recognize your inherent value. Through insightful exercises and supportive guidance, you'll learn to appreciate your worth and foster a more fulfilling connection with yourself.
+                        </p>
+                        <h1 className=" font-semibold text-xl josefin">Format: Interactive<span className="great text-4xl tracking-widest">Workshops</span> and  <span className="great text-4xl tracking-widest"> Reflective</span> Activities</h1>
+                        <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                        <p className="text-base">Individuals seeking to overcome feelings of loneliness and enhance their self-worth.</p>
+                    </div>
+                </div>
             </div>
         </>
     )
