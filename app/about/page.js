@@ -32,6 +32,9 @@ import Supportive from '@/public/about/Supportive .png'
 import butterfly from '@/public/about/butterfly.png'
 import phoenixIcon from '@/public/about/phoenixIcon.png'
 import lotusIcon from '@/public/about/lotusIcon.png'
+import career from '@/public/about/career.jpg'
+import branding from '@/public/about/branding.jpg'
+import worth from '@/public/about/worth.jpg'
 
 
 
@@ -735,10 +738,10 @@ export default function About() {
 
             <div className=" md:hidden container mx-auto  py-80">
 
-
+                {/* for sm screen */}
                 <div className="flex">
                     <div className="w-1/2 md:w-1/2 relative bottom-60 space-y-5 md:space-y-8 text-center ">
-                        <Image src={people} className="w-96 mx-auto" alt="#" />
+                        <Image src={career} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 px-3">
                             <h1 className="font-semibold">Elevate Your <span className="great text-3xl tracking-widest">Career</span>:</h1>
@@ -769,7 +772,7 @@ export default function About() {
 
                 <div className="flex">
                     <div className=" w-1/2 md:w-1/2 relative bottom-40 space-y-5 md:space-y-8 text-center ">
-                        <Image src={people} className="w-96 mx-auto" alt="#" />
+                        <Image src={branding} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
                             <h1 className="font-semibold">Personal Branding <span className="great text-3xl tracking-widest">Mastery</span>:</h1>
@@ -804,7 +807,7 @@ export default function About() {
 
                 <div className="flex">
                     <div className=" w-1/2 md:w-1/2 relative bottom-32 space-y-5 md:space-y-8 text-center ">
-                        <Image src={people} className="w-96 mx-auto" alt="#" />
+                        <Image src={worth} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
                             <h1 className="font-semibold"> Discovering Your <span className="great text-3xl tracking-widest"> Worth</span>:</h1>
@@ -918,10 +921,10 @@ export default function About() {
 
             <div className="hidden md:block container mx-auto  py-80">
 
-
+                {/* for above MD Screen */}
                 <div className="flex">
                     <div className=" md:w-1/2 relative bottom-52  md:space-y-8 text-center ">
-                        <Image src={people} className="w-96 mx-auto" alt="#" />
+                        <Image src={career} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 px-3">
                             <h1 className="font-semibold">Elevate Your <span className="great text-3xl lg:text-4xl tracking-widest">Career</span>:</h1>
@@ -981,7 +984,7 @@ export default function About() {
 
                 <div className="flex ">
                     <div className="order-3  md:w-1/2 relative bottom-40 space-y-5 md:space-y-8 text-center ">
-                        <Image src={people} className="w-96 mx-auto" alt="#" />
+                        <Image src={branding} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
                             <h1 className="font-semibold">Personal Branding <span className="great text-3xl lg:text-4xl tracking-widest">Mastery</span>:</h1>
@@ -1025,7 +1028,7 @@ export default function About() {
 
                 <div className="flex">
                     <div className="  md:w-1/2 relative bottom-14 space-y-5 md:space-y-8 text-center ">
-                        <Image src={people} className="w-96 mx-auto" alt="#" />
+                        <Image src={worth} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
                             <h1 className="font-semibold"> Discovering Your <span className="great text-3xl lg:text-4xl tracking-widest"> Worth</span>:</h1>
