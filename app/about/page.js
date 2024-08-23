@@ -917,10 +917,11 @@ export default function About() {
 
             </div>
             <h1 className="hidden md:block py-20 text-center great text-5xl font-semibold tracking-widest text-yellow-400">Events</h1>
-            <div className="hidden md:block container mx-auto relative top-56">
+            <div className="hidden  md:block  container mx-auto relative top-56">
 
                 {/* for above MD Screen */}
-                <div className="flex">
+                <div className="flex ">
+
                     <div className=" md:w-1/2 relative bottom-52  md:space-y-8 text-center ">
                         <Image src={career} className="w-96 mx-auto" alt="#" />
 
