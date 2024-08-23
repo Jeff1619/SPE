@@ -737,8 +737,8 @@ export default function About() {
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
 
-            <div className=" md:hidden container mx-auto  py-80">
-
+            <h1 className="block md:hidden  py-10 text-center great text-4xl font-semibold tracking-widest text-yellow-400">Events</h1>
+            <div className=" md:hidden container mx-auto relative top-60">
                 {/* for sm screen */}
                 <div className="flex">
                     <div className="w-1/2 md:w-1/2 relative bottom-60 space-y-5 md:space-y-8 text-center ">
@@ -915,12 +915,9 @@ export default function About() {
                     </div>
                 </div>
 
-
-
-
             </div>
-
-            <div className="hidden md:block container mx-auto  py-80">
+            <h1 className="hidden md:block py-20 text-center great text-5xl font-semibold tracking-widest text-yellow-400">Events</h1>
+            <div className="hidden md:block container mx-auto relative top-56">
 
                 {/* for above MD Screen */}
                 <div className="flex">
