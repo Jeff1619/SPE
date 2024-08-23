@@ -545,13 +545,13 @@ export default function About() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.2, duration: 1 }}
                     className="py-9 space-y-2 md:space-y-6">
-                    <h1 className="text-center text-black font-semibold text-lg md:text-2xl">21-DaY</h1>
+                    <h1 className="text-center text-black font-semibold text-lg md:text-2xl">21&#45;DaY</h1>
                     <h1 className="text-center text-black font-semibold great text-2xl tracking-widest md:text-5xl">Consistency Workshop</h1>
                     <p className="md:w-1/2 md:mx-auto text-center px-8 text-black  font-semibold josefin  md:text-lg">Turning Skills into Practice
-                        Are you ready to transform your aspirations into consistent habits?
+                        Are you ready to transform your aspirations into consistent habits&#63;
                     </p>
                     <p className="md:w-2/3 md:text-center md:mx-auto text-justify px-6 text-black text-sm md:text-base">
-                        At <span className="text-base font-semibold italic md:text-lg">Surging Phoenix Enterprises</span>, we understand that practicing consistency is one of the most significant challenges in personal and professional growth. That&#39;s why we&#39;ve designed our 21-Day Consistency Workshop to help you turn your desired skills into daily practices, ensuring that you achieve your goals and maintain lasting progress.
+                        At <span className="text-base font-semibold italic md:text-lg">Surging Phoenix Enterprises</span>&#44; we understand that practicing consistency is one of the most significant challenges in personal and professional growth&#46; That&#39;s why we&#39;ve designed our 21&#45;Day Consistency Workshop to help you turn your desired skills into daily practices&#44; ensuring that you achieve your goals and maintain lasting progress&#46;
                     </p>
                     <Image src={lotusIcon} className="pt-3 w-28 md:w-36 mx-auto" alt="#" />
                 </motion.div>
@@ -581,7 +581,7 @@ export default function About() {
 
                                     className=" md:w-1/2 md:space-y-5">
                                     <h1 className="font-semibold text-lg md:text-xl">Develop <span className="great text-3xl tracking-widest text-cyan-300 md:text-4xl">Daily</span> Habits&#58;</h1>
-                                    <p className="text-sm md:text-base">Learn how to integrate your chosen skill into your daily routine, transforming it from a mere aspiration into a consistent practice.
+                                    <p className="text-sm md:text-base">Learn how to integrate your chosen skill into your daily routine&#44; transforming it from a mere aspiration into a consistent practice&#46;
                                     </p>
                                 </div>
                                 <div className="md:w-1/2">
@@ -596,7 +596,7 @@ export default function About() {
                                 className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className="order-2 md:w-1/2 md:space-y-5">
                                     <h1 className="font-semibold text-lg md:text-xl"><span className="great text-3xl tracking-widest text-yellow-300 md:text-4xl">Overcome</span> Procrastination&#58;</h1>
-                                    <p className="text-sm md:text-base">Identify and address common barriers to consistency, such as procrastination and lack of motivation, with practical strategies.
+                                    <p className="text-sm md:text-base">Identify and address common barriers to consistency&#44; such as procrastination and lack of motivation&#44; with practical strategies&#46;
 
                                     </p>
                                 </div>
@@ -610,7 +610,7 @@ export default function About() {
                                 className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className=" md:w-1/2 md:space-y-5">
                                     <h1 className="font-semibold text-lg md:text-xl">Build a <span className="great text-3xl tracking-widest text-pink-300 md:text-4xl">Routine</span>&#58;</h1>
-                                    <p className="text-sm md:text-base">Create a personalized, manageable routine that incorporates your skill practice, making it an effortless part of your daily life.
+                                    <p className="text-sm md:text-base">Create a personalized&#44; manageable routine that incorporates your skill practice&#44; making it an effortless part of your daily life&#46;
                                     </p>
                                 </div>
                                 <Image src={Routine} className="w-96 md:mx-auto md:w-80 mx-auto" alt="#" />
@@ -622,7 +622,7 @@ export default function About() {
                                 className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className="order-2 md:w-1/2 md:space-y-5">
                                     <h1 className="font-semibold text-lg md:text-xl"><span className="great text-3xl tracking-widest text-red-600 md:text-4xl">Track</span> and Measure Progress&#58;</h1>
-                                    <p className="text-sm md:text-base">Use tools and techniques to track your progress, measure your achievements, and adjust your approach as needed.
+                                    <p className="text-sm md:text-base">Use tools and techniques to track your progress&#44; measure your achievements&#44; and adjust your approach as needed&#46;
                                     </p>
                                 </div>
                                 <Image src={Measure} className="order-1 w-52 md:mx-auto md:w-60 mx-auto" alt="#" />
@@ -635,7 +635,7 @@ export default function About() {
                                 className="space-y-4 md:px-14 md:flex md:items-center">
                                 <div className=" md:w-1/2 md:space-y-5">
                                     <h1 className="font-semibold text-lg md:text-xl">Stay <span className="great text-3xl tracking-widest text-blue-300 md:text-4xl">Motivated</span>&#58;</h1>
-                                    <p className="text-sm md:text-base">Receive ongoing support and encouragement to stay motivated and committed throughout the 21&#45;day journey.
+                                    <p className="text-sm md:text-base">Receive ongoing support and encouragement to stay motivated and committed throughout the 21&#45;day journey&#46;
                                     </p>
                                 </div>
                                 <Image src={Motivate} className="w-60 md:mx-auto md:w-60 mx-auto" alt="#" />
@@ -646,13 +646,14 @@ export default function About() {
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
+
             <div>
                 <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                 <div className="conatiner mx-auto space-y-5" >
                     <div className="py-4">
                         <div>
                             <h1 className="text-center text-sm uppercase josefin font-semibold md:text-lg"> Why Choose This </h1>
-                            <h1 className="text-center great text-4xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400 font-semibold md:text-6xl">Workshop?</h1>
+                            <h1 className="text-center great text-4xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400 font-semibold md:text-6xl">Workshop&#63;</h1>
                         </div>
                     </div>
 
@@ -665,7 +666,7 @@ export default function About() {
                                 className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
                                 <div className=" md:w-1/2 md:space-y-5">
                                     <h1 className="text-orange-200 font-semibold text-lg md:text-xl">Focused <span className="great text-orange-300 text-3xl tracking-widest md:text-4xl">Approach</span>&#58;</h1>
-                                    <p className="text-sm md:text-base">Our 21-day format is specifically designed to help you establish and maintain consistency with dedicated, manageable steps.
+                                    <p className="text-sm md:text-base">Our 21&#45;day format is specifically designed to help you establish and maintain consistency with dedicated&#44; manageable steps&#46;
                                     </p>
                                 </div>
                                 <div className="md:w-1/2">
@@ -680,7 +681,7 @@ export default function About() {
                                 className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
                                 <div className="order-2  md:w-1/2 md:space-y-5">
                                     <h1 className="text-orange-300 font-semibold text-lg md:text-xl">Proven <span className="great text-orange-300 text-3xl tracking-widest md:text-4xl">Techniques</span>&#58;</h1>
-                                    <p className="text-sm md:text-base">We use evidence-based methods to help you develop effective habits and overcome challenges related to consistency.
+                                    <p className="text-sm md:text-base">We use evidence&#45;based methods to help you develop effective habits and overcome challenges related to consistency&#46;
 
                                     </p>
                                 </div>
@@ -697,7 +698,7 @@ export default function About() {
                                 className="space-y-4 md:space-x-4 md:px-14 md:flex md:items-center">
                                 <div className=" md:w-1/2 md:space-y-5">
                                     <h1 className="text-orange-300 font-semibold text-lg md:text-xl">Supportive <span className="great text-orange-300 text-3xl tracking-widest md:text-4xl">Environment</span>&#58;</h1>
-                                    <p className="text-sm md:text-base">Our workshop provides a supportive and motivating environment, ensuring you have the resources and encouragement needed to succeed.
+                                    <p className="text-sm md:text-base">Our workshop provides a supportive and motivating environment&#44; ensuring you have the resources and encouragement needed to succeed&#46;
                                     </p>
                                 </div>
                                 <div className="md:w-1/2">
@@ -723,13 +724,13 @@ export default function About() {
                     className="conatiner mx-auto space-y-5 md:space-y-10 py-5 ">
                     <div>
                         <h1 className="text-center text-sm uppercase josefin font-semibold md:text-lg text-black">Get Started</h1>
-                        <h1 className="text-center great text-4xl tracking-widest text-black font-semibold md:text-6xl">Today!</h1>
+                        <h1 className="text-center great text-4xl tracking-widest text-black font-semibold md:text-6xl">Today&#33;</h1>
                     </div>
                     <div className="space-y-8 md:space-y-10">
-                        <p className="md:w-3/4 lg:w-1/2 md:text-center md:mx-auto px-5 text-justify text-sm md:text-base text-black">Transform your aspirations into consistent practices with our 21-Day Consistency Workshop. Sign up today to start your journey toward building lasting habits and achieving your goals with confidence.
+                        <p className="md:w-3/4 lg:w-1/2 md:text-center md:mx-auto px-5 text-justify text-sm md:text-base text-black">Transform your aspirations into consistent practices with our 21&#45;Day Consistency Workshop&#46; Sign up today to start your journey toward building lasting habits and achieving your goals with confidence&#46;
                         </p>
 
-                        <p className="font-semibold text-sm md:text-base md:w-1/2 lg:w-2/5 md:text-center md:mx-auto text-center px-6 text-black">Contact Us for more information and to reserve your spot in the workshop. Together, we&#39;ll turn your skill into a powerful, consistent practice!</p>
+                        <p className="font-semibold text-sm md:text-base md:w-1/2 lg:w-2/5 md:text-center md:mx-auto text-center px-6 text-black">Contact Us for more information and to reserve your spot in the workshop&#46; Together&#44; we&#39;ll turn your skill into a powerful&#44; consistent practice&#33;</p>
                     </div>
                     <Image src={butterfly} className="mx-auto w-28" alt="#" />
                 </motion.div>
@@ -744,8 +745,8 @@ export default function About() {
                         <Image src={career} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 px-3">
-                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl tracking-widest">Career</span>:</h1>
-                            <h1 className="josefin text-lg">3-Day Transformation Program</h1>
+                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl tracking-widest">Career</span>&#58;</h1>
+                            <h1 className="josefin text-lg">3&#45;Day Transformation Program</h1>
                             <p className="text-sm md:text-base">Unlock Your Potential and Become a Top Performer in Your Career</p>
                         </div>
 
@@ -765,7 +766,7 @@ export default function About() {
                     <div className="w-1/2 md:w-1/2 text-center ">
                         <p className="text-sm md:text-base ">
 
-                            Welcome to our intensive <span className="font-semibold text-base">3-Day Transformation Program</span>, designed to equip you with the skills and strategies needed to excel in your career. In just one hour per day, we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence.
+                            Welcome to our intensive <span className="font-semibold text-base">3-Day Transformation Program</span>&#44; designed to equip you with the skills and strategies needed to excel in your career&#46; In just one hour per day&#44; we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence&#46;
                         </p>
                     </div>
                 </div>
@@ -800,7 +801,7 @@ export default function About() {
                     <div className=" w-1/2 md:w-1/2 text-center ">
                         <p className="text-sm md:text-base ">
 
-                            Welcome to our Personal Branding Mastery Program! This <span className="font-semibold text-base">5-day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths, values, and professional goals. Each day focuses on key aspects of personal branding to help you create a strong, authentic presence in your field.
+                            Welcome to our Personal Branding Mastery Program! This <span className="font-semibold text-base">5&#45;day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths&#44; values&#44; and professional goals&#46; Each day focuses on key aspects of personal branding to help you create a strong&#44; authentic presence in your field&#46;
                         </p>
                     </div>
                 </div>
@@ -811,7 +812,7 @@ export default function About() {
 
                         <div className="space-y-4 ">
                             <h1 className="font-semibold"> Discovering Your <span className="great text-3xl tracking-widest"> Worth</span>:</h1>
-                            <p className="text-sm md:text-base">A Journey from Loneliness to Self-Value Reconnect with Yourself and Embrace Your True Value</p>
+                            <p className="text-sm md:text-base">A Journey from Loneliness to Self&#45;Value Reconnect with Yourself and Embrace Your True Value</p>
                         </div>
 
 
@@ -833,7 +834,7 @@ export default function About() {
                     <div className=" w-1/2 md:w-1/2 text-center relative top-10 ">
                         <p className="text-sm md:text-base ">
 
-                            Feeling lonely and undervalued can deeply impact your emotional well-being and self-esteem. Our "Discovering Your Worth" program is designed to guide you through a transformative journey, helping you overcome loneliness and recognize your inherent value. Through insightful exercises and supportive guidance, you'll learn to appreciate your worth and foster a more fulfilling connection with yourself.
+                            Feeling lonely and undervalued can deeply impact your emotional well&#45;being and self&#45;esteem&#46; Our &#33;Discovering Your Worth&#33; program is designed to guide you through a transformative journey&#44; helping you overcome loneliness and recognize your inherent value&#46; Through insightful exercises and supportive guidance&#44; you&#39;ll learn to appreciate your worth and foster a more fulfilling connection with yourself&#46;
                         </p>
                     </div>
                 </div>
@@ -843,11 +844,11 @@ export default function About() {
                     <div className="bg-yellow-400 text-black">
                         <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                         <div className="px-6 py-8 space-y-4">
-                            <h1 className=" font-semibold text-xl josefin"> Duration: 3 <span className="great text-2xl tracking-widest">Days</span></h1>
+                            <h1 className=" font-semibold text-xl josefin"> Duration&#58; 3 <span className="great text-2xl tracking-widest">Days</span></h1>
 
-                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
-                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span></h1>
-                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                            <h1 className=" font-semibold text-xl josefin">Session Length&#58; 1 Hour per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format&#58; Interactive <span className="great text-2xl tracking-widest">Workshops</span></h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience&#58; </h1>
                             <p className="text-sm">Professionals aiming to boost their career performance</p>
 
 
@@ -856,19 +857,19 @@ export default function About() {
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
                                         <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                     </svg>
-                                    <li className="list-none"><span className="font-semibold">Day 1:</span> Mastering Performance Excellence</li>
+                                    <li className="list-none"><span className="font-semibold">Day 1&#58;</span> Mastering Performance Excellence</li>
                                 </div>
                                 <div className="flex space-x-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
                                         <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                     </svg>
-                                    <li className="list-none text-justify"><span className="font-semibold ">Day 2:</span> Enhancing Skills and Efficiency</li>
+                                    <li className="list-none text-justify"><span className="font-semibold ">Day 2&#58;</span> Enhancing Skills and Efficiency</li>
                                 </div>
                                 <div className="flex space-x-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
                                         <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                     </svg>
-                                    <li className="list-none text-justify"><span className="font-semibold">Day 3:</span> Building a High-Impact Personal Brand</li>
+                                    <li className="list-none text-justify"><span className="font-semibold">Day 3&#58;</span> Building a High&#45;Impact Personal Brand</li>
                                 </div>
                             </div>
                         </div>
@@ -882,12 +883,12 @@ export default function About() {
                     <div className="bg-yellow-400 text-black">
                         <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                         <div className="px-6 py-8 space-y-4">
-                            <h1 className=" font-semibold text-xl josefin"> Duration: 5  <span className="great text-2xl tracking-widest">Days</span></h1>
+                            <h1 className=" font-semibold text-xl josefin"> Duration&#58; 5  <span className="great text-2xl tracking-widest">Days</span></h1>
 
-                            <h1 className=" font-semibold text-xl josefin">Session Length: 1.5 Hours per Day</h1>
-                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest">Activities</span></h1>
-                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
-                            <p className="text-sm">Professionals and entrepreneurs looking to develop or refine their personal brand.</p>
+                            <h1 className=" font-semibold text-xl josefin">Session Length&#58; 1&#46;5 Hours per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format&#58; Interactive <span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest">Activities</span></h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience&#58; </h1>
+                            <p className="text-sm">Professionals and entrepreneurs looking to develop or refine their personal brand&#46;</p>
 
                         </div>
 
@@ -901,12 +902,12 @@ export default function About() {
                     <div className="bg-yellow-400 text-black">
                         <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                         <div className="px-6 py-8 space-y-4">
-                            <h1 className=" font-semibold text-xl josefin"> Duration: 4   <span className="great text-2xl tracking-widest">Days</span></h1>
+                            <h1 className=" font-semibold text-xl josefin"> Duration&#58; 4   <span className="great text-2xl tracking-widest">Days</span></h1>
 
-                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
-                            <h1 className=" font-semibold text-xl josefin">Format: Interactive<span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest"> Reflective</span> Activities</h1>
-                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
-                            <p className="text-sm">Individuals seeking to overcome feelings of loneliness and enhance their self-worth.</p>
+                            <h1 className=" font-semibold text-xl josefin">Session Length&#58; 1 Hour per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format&#58; Interactive<span className="great text-2xl tracking-widest">Workshops</span> and  <span className="great text-2xl tracking-widest"> Reflective</span> Activities</h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience&#58; </h1>
+                            <p className="text-sm">Individuals seeking to overcome feelings of loneliness and enhance their self-worth&#46;</p>
 
                         </div>
 
@@ -927,17 +928,17 @@ export default function About() {
                         <Image src={career} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 px-3">
-                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl lg:text-4xl tracking-widest">Career</span>:</h1>
+                            <h1 className="font-semibold">Elevate Your <span className="great text-3xl lg:text-4xl tracking-widest">Career</span>&#58;</h1>
                             <h1 className="josefin text-lg">3-Day Transformation Program</h1>
                             <p className="text-sm md:text-base">Unlock Your Potential and Become a Top Performer in Your Career</p>
                         </div>
 
                         <div className="px-6  space-y-4">
-                            <h1 className=" font-semibold text-xl josefin"> Duration: 3 <span className="great text-2xl tracking-widest">Days</span></h1>
+                            <h1 className=" font-semibold text-xl josefin"> Duration&#58; 3 <span className="great text-2xl tracking-widest">Days</span></h1>
 
-                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
-                            <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-2xl tracking-widest lg:text-4xl">Workshops</span></h1>
-                            <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
+                            <h1 className=" font-semibold text-xl josefin">Session Length&#58; 1 Hour per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Format&#58; Interactive <span className="great text-2xl tracking-widest lg:text-4xl">Workshops</span></h1>
+                            <h1 className=" font-semibold text-xl josefin">Target Audience&#58; </h1>
                             <p className="text-sm">Professionals aiming to boost their career performance</p>
 
                         </div>
@@ -956,7 +957,7 @@ export default function About() {
                     <div className="  md:w-1/2 text-center space-y-10">
                         <p className="text-sm md:text-base ">
 
-                            Welcome to our intensive <span className="font-semibold md:text-lg lg:text-xl">3-Day Transformation Program</span>, designed to equip you with the skills and strategies needed to excel in your career. In just one hour per day, we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence.
+                            Welcome to our intensive <span className="font-semibold md:text-lg lg:text-xl">3&#45;Day Transformation Program</span>&#44; designed to equip you with the skills and strategies needed to excel in your career&#46; In just one hour per day&#44; we&#39;ll provide you with actionable insights and practical tools to enhance your performance and achieve professional excellence&#46;
                         </p>
 
                         <div className="w-60 space-y-4 mx-auto ">
@@ -964,19 +965,19 @@ export default function About() {
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
                                     <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                 </svg>
-                                <li className="list-none"><span className="font-semibold">Day 1:</span> Mastering Performance Excellence</li>
+                                <li className="list-none"><span className="font-semibold">Day 1&#58;</span> Mastering Performance Excellence</li>
                             </div>
                             <div className="flex space-x-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
                                     <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                 </svg>
-                                <li className="list-none text-justify"><span className="font-semibold ">Day 2:</span> Enhancing Skills and Efficiency</li>
+                                <li className="list-none text-justify"><span className="font-semibold ">Day 2&#58;</span> Enhancing Skills and Efficiency</li>
                             </div>
                             <div className="flex space-x-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
                                     <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                 </svg>
-                                <li className="list-none text-justify"><span className="font-semibold">Day 3:</span> Building a High-Impact Personal Brand</li>
+                                <li className="list-none text-justify"><span className="font-semibold">Day 3&#58;</span> Building a High&#45;Impact Personal Brand</li>
                             </div>
                         </div>
                     </div>
@@ -987,16 +988,16 @@ export default function About() {
                         <Image src={branding} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
-                            <h1 className="font-semibold">Personal Branding <span className="great text-3xl lg:text-4xl tracking-widest">Mastery</span>:</h1>
-                            <h1 className="josefin text-lg">5-Day Intensive Program</h1>
+                            <h1 className="font-semibold">Personal Branding <span className="great text-3xl lg:text-4xl tracking-widest">Mastery</span>&#58;</h1>
+                            <h1 className="josefin text-lg">5&#45;Day Intensive Program</h1>
                             <p className="text-sm md:text-base">Elevate Your Professional Presence and Influence</p>
                         </div>
 
 
                         <div className="px-6 py-8 space-y-4">
-                            <h1 className=" font-semibold text-xl josefin"> Duration: 5  <span className="great text-2xl tracking-widest">Days</span></h1>
+                            <h1 className=" font-semibold text-xl josefin"> Duration&#58; 5  <span className="great text-2xl tracking-widest">Days</span></h1>
 
-                            <h1 className=" font-semibold text-xl josefin">Session Length: 1.5 Hours per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Session Length 1&#46;5 Hours per Day</h1>
 
                         </div>
 
@@ -1017,11 +1018,11 @@ export default function About() {
                     <div className="order-1 w-1/2 md:w-1/2 text-center space-y-8">
                         <p className=" md:text-base ">
 
-                            Welcome to our Personal Branding Mastery Program! This <span className="font-semibold md:text-lg lg:text-xl">5-day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths, values, and professional goals. Each day focuses on key aspects of personal branding to help you create a strong, authentic presence in your field.
+                            Welcome to our Personal Branding Mastery Program&#33; This <span className="font-semibold md:text-lg lg:text-xl">5-day intensive program</span> is designed to help you build a compelling personal brand that highlights your unique strengths&#44; values&#44; and professional goals&#46; Each day focuses on key aspects of personal branding to help you create a strong&#44; authentic presence in your field&#46;
                         </p>
-                        <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
-                        <p className="text-base">Professionals and entrepreneurs looking to develop or refine their personal brand.</p>
-                        <h1 className=" font-semibold text-xl josefin">Format: Interactive <span className="great text-3xl lg:text-4xl tracking-widest">Workshops</span> and  <span className="great text-3xl lg:text-4xl tracking-widest">Activities</span></h1>
+                        <h1 className=" font-semibold text-xl josefin">Target Audience&#58; </h1>
+                        <p className="text-base">Professionals and entrepreneurs looking to develop or refine their personal brand&#46;</p>
+                        <h1 className=" font-semibold text-xl josefin">Format&#58; Interactive <span className="great text-3xl lg:text-4xl tracking-widest">Workshops</span> and  <span className="great text-3xl lg:text-4xl tracking-widest">Activities</span></h1>
 
                     </div>
                 </div>
@@ -1031,13 +1032,13 @@ export default function About() {
                         <Image src={worth} className="w-96 mx-auto" alt="#" />
 
                         <div className="space-y-4 ">
-                            <h1 className="font-semibold"> Discovering Your <span className="great text-3xl lg:text-4xl tracking-widest"> Worth</span>:</h1>
-                            <p className="text-sm md:text-base">A Journey from Loneliness to Self-Value Reconnect with Yourself and Embrace Your True Value</p>
+                            <h1 className="font-semibold"> Discovering Your <span className="great text-3xl lg:text-4xl tracking-widest"> Worth</span>&#58;</h1>
+                            <p className="text-sm md:text-base">A Journey from Loneliness to Self&#45;Value Reconnect with Yourself and Embrace Your True Value</p>
                         </div>
                         <div className="px-6  space-y-4">
-                            <h1 className=" font-semibold text-xl josefin"> Duration: 4   <span className="great text-2xl tracking-widest">Days</span></h1>
+                            <h1 className=" font-semibold text-xl josefin"> Duration&#58; 4   <span className="great text-2xl tracking-widest">Days</span></h1>
 
-                            <h1 className=" font-semibold text-xl josefin">Session Length: 1 Hour per Day</h1>
+                            <h1 className=" font-semibold text-xl josefin">Session Length&#58; 1 Hour per Day</h1>
 
 
                         </div>
@@ -1060,11 +1061,11 @@ export default function About() {
                     <div className=" w-1/2 md:w-1/2 text-center relative top-10 space-y-5">
                         <p className="text-sm md:text-base ">
 
-                            Feeling lonely and undervalued can deeply impact your emotional well-being and self-esteem. Our <span className="font-semibold md:text-lg lg:text-xl">"Discovering Your Worth"</span> program is designed to guide you through a transformative journey, helping you overcome loneliness and recognize your inherent value. Through insightful exercises and supportive guidance, you'll learn to appreciate your worth and foster a more fulfilling connection with yourself.
+                            Feeling lonely and undervalued can deeply impact your emotional well&#45;being and self&#45;esteem&#46; Our <span className="font-semibold md:text-lg lg:text-xl">&#34;Discovering Your Worth&#34;</span> program is designed to guide you through a transformative journey&#44; helping you overcome loneliness and recognize your inherent value&#46; Through insightful exercises and supportive guidance&#44; you&#39;ll learn to appreciate your worth and foster a more fulfilling connection with yourself&#46;
                         </p>
-                        <h1 className=" font-semibold text-xl josefin">Format: Interactive<span className="great text-3xl lg:text-4xltracking-widest">Workshops</span> and  <span className="great text-3xl lg:text-4xl tracking-widest"> Reflective</span> Activities</h1>
-                        <h1 className=" font-semibold text-xl josefin">Target Audience: </h1>
-                        <p className="text-base">Individuals seeking to overcome feelings of loneliness and enhance their self-worth.</p>
+                        <h1 className=" font-semibold text-xl josefin">Format&#58; Interactive<span className="great text-3xl lg:text-4xltracking-widest">Workshops</span> and  <span className="great text-3xl lg:text-4xl tracking-widest"> Reflective</span> Activities</h1>
+                        <h1 className=" font-semibold text-xl josefin">Target Audience&#58; </h1>
+                        <p className="text-base">Individuals seeking to overcome feelings of loneliness and enhance their self&#45;worth&#46;</p>
                     </div>
                 </div>
             </div>
