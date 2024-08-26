@@ -22,8 +22,10 @@ const Gallery = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.4 }}
-                className='flex justify-center mt-5'>
-                <Image src={gbanner} className='w-60 sm:w-96' alt='#' />
+                className=" bg-fixed bg-left-bottom bg-cover bg-[url('../public/gallery/gallerybg.jpg')] overflow-hidden">
+                <h1 className='text-yellow-400 text-center mix-blend-screen relative top-2 md:top-5 lg:top-10 py-6 md:py-14 great text-4xl md:text-7xl -tracking-tighter font-semibold'>Gallery</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
+
             </motion.div>
             <motion.div
                 initial={{ opacity: 0 }}
@@ -75,7 +77,7 @@ const Gallery = () => {
                                 </motion.div>
                             </div>
                             <div className='flex justify-center items-center'>
-                                <Image src={bgicon} alt='#' className='absolute  w-44 md:w-72' />
+                                <Image src={bgicon} alt='#' className='pointer-events-none absolute  w-44 md:w-72' />
                             </div>
                             <div className='mt-4 sm:mt-8 flex gap-4 sm:gap-9 justify-center'>
                                 <motion.div
@@ -106,7 +108,7 @@ const Gallery = () => {
                                 transition={{ delay: 0.4 }}
                                 className='lg:w-1/2'
                             >
-                                <Image src={shineicon} className='absolute w-20' alt='#' />
+                                <Image src={shineicon} className='pointer-events-none absolute w-20' alt='#' />
                                 <Image src={p_8} className='rounded-tl-full mb-6 sm:mb-9 w-80 sm:w-96 lg:w-full lg:h-96 mx-auto lg:object-cover lg:object-top' alt='#' />
                             </motion.div>
                             <motion.div

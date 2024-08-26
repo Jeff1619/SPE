@@ -519,17 +519,17 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="">
+            <div >
                 <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                 <h1 className="text-center py-4 josefin text-lg md:text-xl font-semibold">Why <span className="great text-3xl md:text-5xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-yellow-400">Work</span> With Me&#63;</h1>
                 <div className="space-y-5">
-                    <p className="text-yellow-100 text-sm sm:text-base px-6 md:px-0 md:w-1/2 md:mx-auto md:text-center italic text-justify">My personal journey of overcoming obstacles has equipped me with unique insights and practical strategies that I&#39;m eager to share with you&#46; I&#39;m committed to helping you navigate your own challenges&#44; build resilience&#44; and achieve the success you envision&#46; My goal is to empower you with the tools and mindset necessary to transform difficulties into opportunities for growth&#46;
+                    <p className=" text-sm sm:text-base px-6 md:px-0 md:w-1/2 md:mx-auto md:text-center italic text-justify">My personal journey of overcoming obstacles has equipped me with unique insights and practical strategies that I&#39;m eager to share with you&#46; I&#39;m committed to helping you navigate your own challenges&#44; build resilience&#44; and achieve the success you envision&#46; My goal is to empower you with the tools and mindset necessary to transform difficulties into opportunities for growth&#46;
                     </p>
                     <div>
 
                     </div>
                     <p className="text-sm sm:text-base  text-center px-5 md:px-0 md:w-2/5 md:mx-auto md:text-center">Let&#39;s embark on this empowering journey together&#46; Contact me today to start transforming your obstacles into stepping stones for success and achieving the life you dream of&#46;</p>
-                    <Image src={arrow} className="w-28 md:w-36 mx-auto" alt="#" />
+                    <Image src={arrow} className="pointer-events-none w-28 md:w-36 mx-auto" alt="#" />
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>
@@ -550,7 +550,7 @@ export default function About() {
                     <p className="md:w-2/3 md:text-center md:mx-auto text-justify px-6 text-black text-sm md:text-base">
                         At <span className="text-base font-semibold italic md:text-lg">Surging Phoenix Enterprises</span>&#44; we understand that practicing consistency is one of the most significant challenges in personal and professional growth&#46; That&#39;s why we&#39;ve designed our 21&#45;Day Consistency Workshop to help you turn your desired skills into daily practices&#44; ensuring that you achieve your goals and maintain lasting progress&#46;
                     </p>
-                    <Image src={lotusIcon} className="pt-3 w-28 md:w-36 mx-auto" alt="#" />
+                    <Image src={lotusIcon} className="pointer-events-none pt-3 w-28 md:w-36 mx-auto" alt="#" />
                 </motion.div>
 
             </div>
@@ -729,7 +729,7 @@ export default function About() {
 
                         <p className="font-semibold text-sm md:text-base md:w-1/2 lg:w-2/5 md:text-center md:mx-auto text-center px-6 text-black">Contact Us for more information and to reserve your spot in the workshop&#46; Together&#44; we&#39;ll turn your skill into a powerful&#44; consistent practice&#33;</p>
                     </div>
-                    <Image src={butterfly} className="mx-auto w-28" alt="#" />
+                    <Image src={butterfly} className="pointer-events-none mx-auto w-28" alt="#" />
                 </motion.div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
             </div>

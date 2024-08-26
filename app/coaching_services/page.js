@@ -32,8 +32,8 @@ export default function Courses() {
                     <div className="bg-gradient-to-r from-black/75 to-black/25">
 
                         <div className="pt-5 md:pt-10 lg:pt-20">
-                            <h1 className="josefin pt-4 md:pt-0  text-center  font-semibold josefin text-lg md:text-3xl tracking-widest">what we</h1>
-                            <h1 className="text-center great great text-3xl md:text-5xl lg:text-6xl tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-100 to-yellow-400 object-cover py-2">Offer</h1>
+                            <h1 className="josefin pt-4 md:pt-0  text-center  font-semibold josefin text-lg md:text-3xl tracking-widest mix-blend-screen">what we</h1>
+                            <h1 className="text-center great great text-5xl md:text-7xl lg:text-8xl mix-blend-screen  tracking-widest  font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-100 to-yellow-400 object-cover py-2">Offer</h1>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#101820ff" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ export default function Courses() {
                                 At <span className="italic font-sans font-medium">Surging Phoenix Enterprises</span>&#44; we understand that guidance needs to be age&#45;appropriate and developmentally relevant&#46; Our coaching services are designed to support individuals at every stage of life&#44; from childhood through adulthood&#46; Here&#39;s how we cater to different age groups&#46;
 
                             </motion.p>
-                            <Image src={phoenix} className="mx-auto w-14 mt-3" alt="#" />
+                            <Image src={phoenix} className="pointer-events-none mx-auto w-14 mt-3" alt="#" />
                         </div>
                     </div>
 
@@ -301,10 +301,10 @@ export default function Courses() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 1 }}
                         className="space-y-7 my-5 md:my-0 md:mb-10">
-                        <Image src={phoenix2} className="w-24 md:w-32 mx-auto" alt="#" />
+                        <Image src={phoenix2} className="pointer-events-none w-24 md:w-32 mx-auto" alt="#" />
                         <p className="px-6 md:px-0 md:w-1/2 md:mx-auto text-center text-yellow-50 text-sm md:text-base">At <span className="animate-pulse font-semibold text-yellow-400">Surging Phoenix Enterprises</span>&#44; we are dedicated to providing targeted guidance that meets the needs of individuals at every stage of life&#46; Whether you&#39;re a child learning essential skills&#44; a teen navigating adolescence, a young adult establishing your path&#44; or an adult managing life&#39;s complexities&#44; our coaching services are designed to support and empower you&#46; </p>
                         {/* <p>Contact us to explore how we can help you or your family achieve growth and success.</p> */}
-                        <Image src={goldflower} className="w-14 md:w-20 mx-auto" alt="#" />
+                        <Image src={goldflower} className="pointer-events-none w-14 md:w-20 mx-auto" alt="#" />
                     </motion.div>
                 </div>
             </div>

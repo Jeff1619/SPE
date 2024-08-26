@@ -1,8 +1,6 @@
 
 
-import Image from "next/image";
-import logo1 from '@/public/logo/Sp-logo1.png'
-import logo2 from '@/public/logo/Sp-logo2.png'
+
 export default function Footer() {
 
 
@@ -11,16 +9,9 @@ export default function Footer() {
 
     return (
         <footer className=" h-max">
-            <div className="bg-slate-100 rounded-t-full w-full h-max py-3 border-t-8 border-yellow-400">
-                <div className="container mx-auto">
 
-                    <Image className='mx-auto w-20 sm:w-28 md:w-24' src={logo1} alt='#' />
-                    <Image className='mx-auto w-20 sm:w-28 md:w-32' src={logo2} alt='#' />
-                </div>
-            </div>
-            <div className="bg-yellow-400 py-9 pb-12">
-                <p className="text-black text-center   text-xs  ">Copyright &#169;{currentYear} <span className="font-semibold italic ">Surging Phoenix Enterprises&#46;</span> All Right Reserved&#46;</p>
-                <div className=" py-5 flex items-center justify-center gap-3">
+            <div className="bg-yellow-400 py-9 pb-12 ">
+                <div className="  flex items-center justify-center gap-3">
                     <span class="text-black w-3">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                             <path
@@ -45,7 +36,28 @@ export default function Footer() {
                         </svg>
                     </span>
 
+
+                    <span class="[&>svg]:h-5 [&>svg]:w-5 text-black">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor"
+                            viewBox="0 0 448 512">
+
+                            <path
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                        </svg>
+
+                    </span>
+
                 </div>
+                <div className="container mx-auto">
+
+                    <div className="border-black border-b-2 mx-9 my-3">
+
+                    </div>
+                </div>
+                <p className="text-black text-center px-10 text-xs">Copyright &#169;{currentYear} <span className="font-semibold italic animate-pulse ">Surging Phoenix Enterprises&#46;</span> All Right Reserved&#46;</p>
+
             </div>
         </footer>
     )

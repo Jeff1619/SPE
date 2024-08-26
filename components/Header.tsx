@@ -19,20 +19,22 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
     return (
         <>
 
-            <section className=' bg-slate-50 flex items-center sticky z-10 top-0  px-4 sm:px-10 md:px-12 h-20 sm:h-28 md:h-26 lg:h-24 justify-between shadow-xl'>
-                <div className='lg:container lg:mx-auto  flex  items-center justify-between'>
+            <section className=' bg-slate-50 flex items-center sticky z-10 top-0  pr-5 md:pr-0 sm:px-10 md:px-12 h-20 sm:h-28 md:h-26 lg:h-24 justify-between shadow-xl shadow-black/15 '>
+                <div className='lg:container lg:mx-auto  flex  items-center justify-between '>
                     <Link href='/' className='flex items-center'>
-                        <Image className='w-20 sm:w-28 md:w-24' src={logo1} alt='SP-logo' />
+                        <div className='h-36 md:h-48 rounded-b-full bg-slate-50 flex items-center '>
+                            <Image className='w-24 sm:w-28 md:w-32 relative top-5 md:top-7 left-1' src={logo1} alt='SP-logo' />
+                        </div>
                         <Image className='w-20 sm:w-28 md:w-32' src={logo2} alt='SP-logo' />
                     </Link>
                     <ul className='hidden lg:flex gap-10 items-center'>
-                        <Link href='/' className='active:bottom-2 uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Home</Link>
-                        <Link href='/about' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>About Us</Link>
-                        <Link href='/coaching_services' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Coaching Services</Link>
-                        <Link href='/gallery' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm'>Gallery</Link>
+                        <Link href='/' className='active:bottom-2 uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm font-sans'>Home</Link>
+                        <Link href='/about' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm font-sans'>About Us</Link>
+                        <Link href='/coaching_services' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm font-sans'>Coaching Services</Link>
+                        <Link href='/gallery' className='uppercase hover:text-yellow-400 ease duration-150 text-neutral-10 font-medium tracking-widest text-black text-sm font-sans'>Gallery</Link>
                     </ul>
                     <div className='flex gap-4'>
-                        <Link href='/contact' className='uppercase group active:bg-black ease duration-150 hidden lg:flex py-2 px-10 rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150 text-sm'>Contact</span></Link>
+                        <Link href='/contact' className='uppercase group active:bg-black ease duration-150 hidden lg:flex py-2 px-14 rounded-tr-full rounded-bl-full font-medium border bg-yellow-400  text-black tracking-widest shadow-md shadow-black/80 outline-none border-none'><span className='group-active:text-yellow-400 ease duration-150 text-sm font-sans'>Contact</span></Link>
 
                     </div>
                 </div>
@@ -73,7 +75,7 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
 
                             </ul>
                             <div>
-                                <Link onClick={() => setMenu(!menu)} href='/contact' className='uppercase block group text-center w-40 mx-auto active:bg-black ease duration-150  lg:flex py-2 text-sm md:text-base  rounded-md font-medium border bg-yellow-400  text-black tracking-widest shadow-lg'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
+                                <Link onClick={() => setMenu(!menu)} href='/contact' className='uppercase block group text-center w-40 mx-auto active:bg-black ease duration-150  lg:flex py-2 text-sm md:text-base  rounded-b-full font-medium bg-yellow-400  text-black tracking-widest shadow-lg shadow-black/15 outline-none border-none'><span className='group-active:text-yellow-400 ease duration-150'>Contact</span></Link>
 
                             </div>
                         </motion.div>
@@ -102,7 +104,7 @@ export default function Header({ handleToggle }: { handleToggle: () => void }) {
                 <a href="tel:++91-#" className="p-3 sm:p-5 fixed z-10 rounded-full bottom-32 sm:bottom-32 md:bottom-60 lg:bottom-32 right-4  md:right-5 bg-green-100 group active:bg-green-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7 sm:size-10 text-green-600 group-active:text-green-100">
                     <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
                 </svg></a>
-                <a href="https://wa.me/+91#" target='_blank' className="p-3 sm:p-5 fixed z-10 rounded-full bottom-16 sm:bottom-6 md:bottom-32 lg:bottom-8 right-4 md:right-5  bg-green-500 group active:bg-green-50">
+                <a href="https://wa.me/+91#" target='_blank' className="p-3 sm:p-5 fixed z-10 rounded-full bottom-16 sm:bottom-6 md:bottom-32 lg:bottom-8 right-4 md:right-5  bg-green-500 group active:bg-green-100">
                     <span className="[&>svg]:h-7 [&>svg]:w-7 sm:[&>svg]:h-10 sm:[&>svg]:w-10 text-green-50 group-active:text-green-500">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

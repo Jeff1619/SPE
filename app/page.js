@@ -61,7 +61,7 @@ export default function Home() {
 
             className="text-slate-100  text-lg cinzel uppercase sm:text-2xl md:text-3xl text-center mb-2 lg:mb-5  tracking-widest">Enterprises</motion.p>
 
-          <Image src={flowerIcon} className="mt-2 mb-6 sm:mt-5 w-36 sm:w-56 mx-auto" alt="#" />
+          <Image src={flowerIcon} className=" pointer-events-none mt-2 mb-6 sm:mt-5 w-36 sm:w-56 mx-auto" alt="#" />
 
           <div className="container mx-auto flex justify-center md:mt-10 lg:mt-10">
             <p className="text-justify md:text-center md:px-10 text-sm sm:text-base lg:w-1/2 lg:mx-auto">At <span className="text-yellow-400 font-bold font-sans italic animate-pulse">Surging Phoenix Enterprises</span>&#44; we believe that every individual has the potential to rise&#44; transform&#44; and achieve greatness&#46; Our mission is to guide you on a journey of personal evolution&#44; helping you navigate the complexities of life with clarity&#44; confidence&#44; and resilience&#46;
@@ -196,7 +196,7 @@ export default function Home() {
             <div className="px-5 py-5 md:py-10 border-slate-100 border-y-2">
               <p className=" text-center josefin text-xl mb-5 md:w-1/2 mx-auto">Life is a dynamic and multifaceted journey&#44; and we&#39;re here to help you master it&#46; As experienced life coaches&#46; we offer comprehensive support across a wide range of areas&#46;
               </p>
-              <Image src={leafIcon} className="w-48 mx-auto" alt="#" />
+              <Image src={leafIcon} className=" pointer-events-none w-48 mx-auto" alt="#" />
             </div>
 
           </motion.div>
@@ -303,7 +303,7 @@ export default function Home() {
 
 
 
-      <section className="bg-local bg-cover sm:bg-contain bg-no-repeat bg-[url('../public/home/goldenfire.png')]">
+      <section className="bg-fixed bg-cover  bg-no-repeat bg-[url('../public/home/goldenfire.png')]">
 
 
         <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path fill="#facc15" fill-opacity="1" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path></svg>
