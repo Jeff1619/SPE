@@ -8,7 +8,7 @@ export default function Footer() {
 
 
     return (
-        <footer className=" h-max">
+        <footer className="h-max">
 
             <div className="bg-yellow-400 py-9 pb-12 ">
                 <div className="  flex items-center justify-center gap-3">
